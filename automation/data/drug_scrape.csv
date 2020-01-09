@@ -1,0 +1,4392 @@
+medication,strength,form,units,price
+tegretol,100 mg,Chew Tablet,30,11
+tegretol,100 mg,Chew Tablet,60,22
+tegretol,100 mg,Chew Tablet,90,33
+tegretol,100 mg,Chew Tablet,120,44
+tegretol,100 mg,Chew Tablet,180,66
+tegretol,100 mg/5 ml/450 ml,Suspension,1,67
+tegretol,200 mg,Tablet,30,11
+tegretol,200 mg,Tablet,60,21
+tegretol,200 mg,Tablet,90,31
+tegretol,200 mg,Tablet,120,41
+tegretol,200 mg,Tablet,180,61
+tegretol,200 mg,Tablet,270,92
+fluocinolone-acetonide-dr-0-01-20ml,0.01%/20 ml,Solution Ear Drop,1,30
+nature-throid,65mg,Tablet,30,9
+nature-throid,65mg,Tablet,60,17
+nature-throid,65mg,Tablet,90,25
+nature-throid,32.5mg,Tablet,30,8
+nature-throid,32.5mg,Tablet,60,15
+nature-throid,32.5mg,Tablet,90,22
+nature-throid,48.75mg,Tablet,30,9
+nature-throid,48.75mg,Tablet,60,17
+nature-throid,48.75mg,Tablet,90,25
+nature-throid,97.5mg,Tablet,30,12
+nature-throid,97.5mg,Tablet,60,23
+nature-throid,97.5mg,Tablet,90,34
+nature-throid,130mg,Tablet,30,14
+nature-throid,130mg,Tablet,60,27
+nature-throid,130mg,Tablet,90,40
+azelastine-hcl-15-nasal-spray,0.15%/30 ml,Nasal Spray,1,36
+azelastine-hcl-15-nasal-spray,0.15%/30 ml,Nasal Spray,3,70
+cromolyn-sodium-drops,0.4%/10 ml,Solution Eye Drop,1,8
+cromolyn-sodium-drops,0.4%/10 ml,Solution Eye Drop,3,22
+lamivudine-zidovudine-combivir,150mg/300mg,Tablet,30,58
+lamivudine-zidovudine-combivir,150mg/300mg,Tablet,60,116
+lamivudine-zidovudine-combivir,150mg/300mg,Tablet,90,170
+solifenacin-succinate-vesicare,5 mg,Tablet,30,19
+solifenacin-succinate-vesicare,5 mg,Tablet,60,37
+solifenacin-succinate-vesicare,5 mg,Tablet,90,54
+solifenacin-succinate-vesicare,5 mg,Tablet,15,10
+solifenacin-succinate-vesicare,10 mg,Tablet,30,19
+solifenacin-succinate-vesicare,10 mg,Tablet,60,37
+solifenacin-succinate-vesicare,10 mg,Tablet,90,54
+solifenacin-succinate-vesicare,10 mg,Tablet,15,10
+isosorbide-dinitrate-isordil,10 mg,Tablet,30,15
+isosorbide-dinitrate-isordil,10 mg,Tablet,60,29
+isosorbide-dinitrate-isordil,10 mg,Tablet,90,42
+isosorbide-dinitrate-isordil,10 mg,Tablet,180,80
+isosorbide-dinitrate-isordil,20 mg,Tablet,30,15
+isosorbide-dinitrate-isordil,20 mg,Tablet,60,29
+isosorbide-dinitrate-isordil,20 mg,Tablet,90,42
+isosorbide-dinitrate-isordil,20 mg,Tablet,180,80
+norethindrone-acet-estradiol-activella,0.5/1mg,Tablet,28,69
+norethindrone-acet-estradiol-activella,0.5/1mg,Tablet,56,135
+norethindrone-acet-estradiol-activella,0.5/1mg,Tablet,84,200
+urogesic-blue,81.6mg/0.12mg,Tablet,30,122
+urogesic-blue,81.6mg/0.12mg,Tablet,60,240
+urogesic-blue,81.6mg/0.12mg,Tablet,90,355
+verapamil-calan,240 mg,Capsule,30,48
+verapamil-calan,240 mg,Capsule,60,94
+verapamil-calan,240 mg,Capsule,90,140
+brinzolamide-azopt,0.1%/10 ml,Suspension Eye Drop,1,330
+budesonide-pulmicort-flx-inhaler,180mcg,Inhaler,1,251
+amantadine-symadine,100 mg,Tablet,30,9
+amantadine-symadine,100 mg,Tablet,60,17
+amantadine-symadine,100 mg,Tablet,90,25
+chlorzoxazone-parafon-forte-dsc,500 mg,Tablet,30,9
+chlorzoxazone-parafon-forte-dsc,500 mg,Tablet,60,18
+chlorzoxazone-parafon-forte-dsc,500 mg,Tablet,90,26
+minocycline-minocin-tabs,50 mg,Tablet,30,49
+minocycline-minocin-tabs,50 mg,Tablet,60,96
+minocycline-minocin-tabs,50 mg,Tablet,90,143
+sodium-fluoride-prevident-5000pls,1.1%/51gm,Cream Tube,1,8
+sodium-fluoride-prevident-5000pls,1.1%/51gm,Cream Tube,3,22
+clindamycin-benzoyl-benzaclin,1/5% 50mg,Gel,1,140
+clindamycin-benzoyl-benzaclin,1/5% 50mg,Gel,3,410
+clobetasol-propionate,0.05%/60 gm,Ointment,1,20
+clobetasol-propionate,0.05%/60 gm,Ointment,3,58
+junel-fe-24,1 mg/20 mcg,Tablet,28,36
+junel-fe-24,1 mg/20 mcg,Tablet,84,102
+dilt-xr-diltiazem-er-dilacor-xr,120 mg,Capsule,30,14
+dilt-xr-diltiazem-er-dilacor-xr,120 mg,Capsule,90,40
+dilt-xr-diltiazem-er-dilacor-xr,180 mg,Capsule,30,15
+dilt-xr-diltiazem-er-dilacor-xr,180 mg,Capsule,90,42
+dilt-xr-diltiazem-er-dilacor-xr,240 mg,Capsule,30,21
+dilt-xr-diltiazem-er-dilacor-xr,240 mg,Capsule,90,60
+trospium-chloride-er,60 mg,Capsule Er,30,147
+albuterol-sulfate-inhalation-solution, 0.083% 2.5mg/3ml,Inhalation Solution,25,7
+albuterol-sulfate-inhalation-solution, 0.083% 2.5mg/3ml,Inhalation Solution,30,9
+nystatin-mycostatin-oral-suspension,100mu/473mls,Suspension,1,34
+proair-hfa-inhaler-brand,90 mcg/8.5 gm,Inhaler,1,70
+proair-hfa-inhaler-brand,90 mcg/8.5 gm,Inhaler,3,200
+albuterol-sulfate-hfa-inhaler-generic-for-proventil,90 mcg/6.7 gm,Inhaler,1,45
+albuterol-sulfate-hfa-inhaler-generic-for-proventil,90 mcg/6.7 gm,Inhaler,3,130
+albuterol-sulfate-hfa-inhaler-generic-for-ventolin,90 mcg/18 gm,Inhaler,1,48
+albuterol-sulfate-hfa-inhaler-generic-for-ventolin,90 mcg/18 gm,Inhaler,3,135
+albuterol-sulfate-hfa-inhaler-generic-for-proair,90 mcg/8.5 gm,Inhaler,1,40
+albuterol-sulfate-hfa-inhaler-generic-for-proair,90 mcg/8.5 gm,Inhaler,3,110
+lidocaine-prilocaine-elma,2.5/ 2.5mg,Cream,30,9
+lidocaine-prilocaine-elma,2.5/ 2.5mg,Cream,90,26
+midodrine-proamatine,2.5 mg,Tablet,30,13
+midodrine-proamatine,2.5 mg,Tablet,60,25
+midodrine-proamatine,2.5 mg,Tablet,90,37
+midodrine-proamatine,5 mg,Tablet,30,15
+midodrine-proamatine,5 mg,Tablet,60,29
+midodrine-proamatine,5 mg,Tablet,90,45
+midodrine-proamatine,10 mg,Tablet,30,27
+midodrine-proamatine,10 mg,Tablet,60,52
+midodrine-proamatine,10 mg,Tablet,90,78
+ranolazine-ranexa,500 mg,Tablet,30,40
+ranolazine-ranexa,500 mg,Tablet,60,78
+ranolazine-ranexa,500 mg,Tablet,90,115
+ranolazine-ranexa,1000 mg,Tablet,30,40
+ranolazine-ranexa,1000 mg,Tablet,60,78
+ranolazine-ranexa,1000 mg,Tablet,90,115
+pentoxifylline,400 mg,Tablet Er,30,6
+pentoxifylline,400 mg,Tablet Er,60,12
+pentoxifylline,400 mg,Tablet Er,90,17
+proctozone-hc-cream-2-5,2.5%/30 gm,Cream,1,14
+proctozone-hc-cream-2-5,2.5%/30 gm,Cream,3,40
+levonorgestrel-eth-estradiol,0.09-0.02mg,Tablet,28,29
+levonorgestrel-eth-estradiol,0.09-0.02mg,Tablet,84,84
+zyrtec-brand,10 mg,Tablet,30,22
+trilyte,4000ml,Solution,1,14
+ventolinhfa-brand,90 mcg/8 gm,Inhaler,1,29
+ventolinhfa-brand,90 mcg/8 gm,Inhaler,3,87
+ventolinhfa-brand,90 mcg/18 gm,Inhaler,1,63
+ventolinhfa-brand,90 mcg/18 gm,Inhaler,3,183
+zorvolex,50 mg,Tablet,30,10
+zorvolex,50 mg,Tablet,60,19
+zorvolex,50 mg,Tablet,90,28
+escitalopram-lexapro,5 mg,Tablet,30,3
+escitalopram-lexapro,5 mg,Tablet,60,5
+escitalopram-lexapro,5 mg,Tablet,90,7
+escitalopram-lexapro,10 mg,Tablet,30,3
+escitalopram-lexapro,10 mg,Tablet,60,5
+escitalopram-lexapro,10 mg,Tablet,90,7
+escitalopram-lexapro,20 mg,Tablet,30,3
+escitalopram-lexapro,20 mg,Tablet,60,5
+escitalopram-lexapro,20 mg,Tablet,90,7
+renvela,800 mg,Tablet,30,17
+renvela,800 mg,Tablet,60,32
+renvela,800 mg,Tablet,90,46
+dostinex,0.5 mg,Tablet,8,27
+dostinex,0.5 mg,Tablet,24,77
+dostinex,0.5 mg,Tablet,16,53
+entecavir-baraclude,0.5 mg,Tablet,30,38
+entecavir-baraclude,0.5 mg,Tablet,60,74
+entecavir-baraclude,0.5 mg,Tablet,90,106
+entecavir-baraclude,1 mg,Tablet,30,44
+entecavir-baraclude,1 mg,Tablet,60,84
+entecavir-baraclude,1 mg,Tablet,90,120
+hydroxyzine-pamoate-vistaril,25 mg,Capsule,30,6
+hydroxyzine-pamoate-vistaril,50 mg,Capsule,30,6
+hydroxyzine-pamoate-vistaril,100 mg,Capsule,30,6
+hydroxyzine-pamoate-vistaril,25 mg,Capsule,60,11
+hydroxyzine-pamoate-vistaril,50 mg,Capsule,60,11
+hydroxyzine-pamoate-vistaril,100 mg,Capsule,60,11
+hydroxyzine-pamoate-vistaril,25 mg,Capsule,90,16
+hydroxyzine-pamoate-vistaril,50 mg,Capsule,90,16
+hydroxyzine-pamoate-vistaril,100 mg,Capsule,90,16
+hydroxyzine-hcl-atarax,10 mg,Tablet,30,3
+hydroxyzine-hcl-atarax,25 mg,Tablet,30,3
+hydroxyzine-hcl-atarax,50 mg,Tablet,30,3
+hydroxyzine-hcl-atarax,10 mg,Tablet,60,6
+hydroxyzine-hcl-atarax,25 mg,Tablet,60,6
+hydroxyzine-hcl-atarax,50 mg,Tablet,60,6
+hydroxyzine-hcl-atarax,10 mg,Tablet,120,9
+hydroxyzine-hcl-atarax,25 mg,Tablet,120,9
+hydroxyzine-hcl-atarax,50 mg,Tablet,120,9
+hydroxyzine-hcl-atarax,10 mg,Tablet,90,8
+hydroxyzine-hcl-atarax,25 mg,Tablet,90,8
+hydroxyzine-hcl-atarax,50 mg,Tablet,90,8
+zpak,250 mg/6 tablets,Tablet,1,7
+zpak,250 mg/6 tablets,Tablet,3,14
+bactrim,400 mg/80 mg,Tablet,20,4
+bactrim,400 mg/80 mg,Tablet,30,5
+bactrim,400 mg/80 mg,Tablet,60,10
+bactrim,400 mg/80 mg,Tablet,100,16
+zomig,2.5 mg,Tablet,6,14
+zomig,2.5 mg,Tablet,12,27
+zomig,2.5 mg,Tablet,18,41
+zomig,5 mg,Tablet,3,14
+zomig,5 mg,Tablet,6,27
+zomig,5 mg,Tablet,9,41
+zomig,5 mg,Tablet,12,51
+zomig,2.5 mg,Tablet Odt,6,66.18
+zomig,2.5 mg,Tablet Odt,12,132.36
+zomig,2.5 mg,Tablet Odt,18,198.53
+zomig,5 mg,Tablet Odt,3,15.76
+zomig,5 mg,Tablet Odt,6,31.53
+zomig,5 mg,Tablet Odt,9,47.29
+zomig,2.5 mg,Tablet,9,20.25
+zomig,2.5 mg,Tablet Odt,9,99.3
+zoloft,25 mg,Tablet,30,4
+zoloft,25 mg,Tablet,45,5
+zoloft,25 mg,Tablet,60,7
+zoloft,25 mg,Tablet,90,9
+zoloft,50 mg,Tablet,30,5
+zoloft,50 mg,Tablet,45,6
+zoloft,50 mg,Tablet,60,7
+zoloft,50 mg,Tablet,90,10
+zoloft,50 mg,Tablet,180,16
+zoloft,100 mg,Tablet,30,5
+zoloft,100 mg,Tablet,45,6
+zoloft,100 mg,Tablet,60,5
+zoloft,100 mg,Tablet,90,7
+zoloft,100 mg,Tablet,180,12
+zofran,4 mg/5 ml/50 ml,Solution,1,16
+zofran,4 mg/5 ml/50 ml,Solution,3,47
+zofran,4 mg,Tablet,30,4
+zofran,4 mg,Tablet,60,7
+zofran,4 mg,Tablet,90,9
+zofran,8 mg,Tablet,30,4
+zofran,8 mg,Tablet,60,7
+zofran,8 mg,Tablet,90,9
+zofran,4 mg,Tablet Odt,30,4
+zofran,4 mg,Tablet Odt,90,10
+zofran,8 mg,Tablet Odt,30,4
+zofran,8 mg,Tablet Odt,90,10
+zocor,5 mg,Tablet,30,2
+zocor,5 mg,Tablet,45,3
+zocor,5 mg,Tablet,60,3
+zocor,5 mg,Tablet,90,4
+zocor,5 mg,Tablet,180,7
+zocor,10 mg,Tablet,30,2
+zocor,10 mg,Tablet,45,3
+zocor,10 mg,Tablet,60,3
+zocor,10 mg,Tablet,90,4
+zocor,20 mg,Tablet,30,2
+zocor,20 mg,Tablet,45,3
+zocor,20 mg,Tablet,60,3
+zocor,20 mg,Tablet,90,4
+zocor,20 mg,Tablet,180,7
+zocor,40 mg,Tablet,30,4
+zocor,40 mg,Tablet,45,6
+zocor,40 mg,Tablet,60,6
+zocor,40 mg,Tablet,90,8
+zocor,40 mg,Tablet,180,12
+zocor,80 mg,Tablet,30,4
+zocor,80 mg,Tablet,45,6
+zocor,80 mg,Tablet,60,6
+zocor,80 mg,Tablet,90,8
+zocor,80 mg,Tablet,180,12
+zocor,40 mg,Tablet,360,22
+ziana,1.2/0.025%/30 gm,Gel,1,314
+ziana,1.2/0.025%/30 gm,Gel,3,940
+ziana,1.2/0.025%/60 gm,Gel,1,565
+ziana,1.2/0.025%/60 gm,Gel,3,1694
+ziac,2.5 mg/6.25 mg,Tablet,30,14
+ziac,2.5 mg/6.25 mg,Tablet,60,26
+ziac,2.5 mg/6.25 mg,Tablet,90,38
+ziac,2.5 mg/6.25 mg,Tablet,180,74
+ziac,5 mg/6.25 mg,Tablet,30,15
+ziac,5 mg/6.25 mg,Tablet,60,28
+ziac,5 mg/6.25 mg,Tablet,90,41
+ziac,5 mg/6.25 mg,Tablet,180,81
+ziac,10 mg/6.25 mg,Tablet,30,19
+ziac,10 mg/6.25 mg,Tablet,60,37
+ziac,10 mg/6.25 mg,Tablet,90,55
+ziac,10 mg/6.25 mg,Tablet,180,108
+zetia,10 mg,Tablet,30,9
+zetia,10 mg,Tablet,60,17
+zetia,10 mg,Tablet,90,25
+zestril,2.5 mg,Tablet,30,2
+zestril,2.5 mg,Tablet,60,3
+zestril,2.5 mg,Tablet,90,4
+zestril,2.5 mg,Tablet,180,7
+zestril,5 mg,Tablet,30,2
+zestril,5 mg,Tablet,60,3
+zestril,5 mg,Tablet,90,4
+zestril,5 mg,Tablet,180,7
+zestril,10 mg,Tablet,30,2
+zestril,10 mg,Tablet,60,3
+zestril,10 mg,Tablet,90,4
+zestril,10 mg,Tablet,180,7
+zestril,20 mg,Tablet,30,4
+zestril,20 mg,Tablet,60,7
+zestril,20 mg,Tablet,90,9
+zestril,20 mg,Tablet,180,12
+zestril,30 mg,Tablet,30,4
+zestril,30 mg,Tablet,60,7
+zestril,30 mg,Tablet,90,9
+zestril,30 mg,Tablet,180,12
+zestril,40 mg,Tablet,30,4
+zestril,40 mg,Tablet,60,7
+zestril,40 mg,Tablet,90,9
+zestril,40 mg,Tablet,180,12
+zestoreticprinzide,10 mg/12.5 mg,Tablet,30,4
+zestoreticprinzide,10 mg/12.5 mg,Tablet,60,7
+zestoreticprinzide,10 mg/12.5 mg,Tablet,90,9
+zestoreticprinzide,10 mg/12.5 mg,Tablet,180,17
+zestoreticprinzide,20 mg/12.5 mg,Tablet,30,4
+zestoreticprinzide,20 mg/12.5 mg,Tablet,60,7
+zestoreticprinzide,20 mg/12.5 mg,Tablet,90,9
+zestoreticprinzide,20 mg/12.5 mg,Tablet,180,17
+zestoreticprinzide,20 mg/25 mg,Tablet,30,4
+zestoreticprinzide,20 mg/25 mg,Tablet,60,7
+zestoreticprinzide,20 mg/25 mg,Tablet,90,9
+zestoreticprinzide,20 mg/25 mg,Tablet,180,17
+zestoreticprinzide,10 mg/12.5 mg,Tablet,360,34
+zegerid,20 mg/1100 mg,Capsule,30,80
+zegerid,20 mg/1100 mg,Capsule,60,159
+zegerid,20 mg/1100 mg,Capsule,90,238
+zegerid,40 mg/1100 mg,Capsule,30,64
+zegerid,40 mg/1100 mg,Capsule,60,127
+zegerid,40 mg/1100 mg,Capsule,90,191
+zebeta,5 mg,Tablet,30,11
+zebeta,5 mg,Tablet,45,16
+zebeta,5 mg,Tablet,60,21
+zebeta,5 mg,Tablet,90,32
+zebeta,10 mg,Tablet,30,8
+zebeta,10 mg,Tablet,60,15
+zebeta,10 mg,Tablet,90,22
+zebeta,10 mg,Tablet,180,43
+zaroxolyn,2.5 mg,Tablet,30,32
+zaroxolyn,2.5 mg,Tablet,60,64
+zaroxolyn,2.5 mg,Tablet,90,96
+zaroxolyn,5 mg,Tablet,30,45
+zaroxolyn,5 mg,Tablet,60,89
+zaroxolyn,5 mg,Tablet,90,134
+zaroxolyn,10 mg,Tablet,30,47
+zaroxolyn,10 mg,Tablet,60,93
+zaroxolyn,10 mg,Tablet,90,140
+zaroxolyn,10 mg,Tablet,180,279
+zantac,150 mg,Capsule,30,14
+zantac,150 mg,Capsule,60,27
+zantac,150 mg,Capsule,90,41
+zantac,150 mg,Capsule,180,81
+zantac,300 mg,Capsule,30,39
+zantac,300 mg,Capsule,60,77
+zantac,300 mg,Capsule,90,115
+zantac,300 mg,Capsule,180,229
+zantac,15 mg/473 ml,Solution,1,16
+zantac,150 mg,Tablet,30,4
+zantac,150 mg,Tablet,60,7
+zantac,150 mg,Tablet,90,9
+zantac,150 mg,Tablet,180,17
+zantac,300 mg,Tablet,30,4
+zantac,300 mg,Tablet,60,7
+zantac,300 mg,Tablet,90,9
+zantac,300 mg,Tablet,180,17
+zanaflex,2 mg,Capsule,30,15
+zanaflex,2 mg,Capsule,60,29
+zanaflex,2 mg,Capsule,90,41
+zanaflex,2 mg,Capsule,120,48
+zanaflex,2 mg,Capsule,150,60
+zanaflex,4 mg,Capsule,30,21
+zanaflex,4 mg,Capsule,60,39
+zanaflex,4 mg,Capsule,90,54
+zanaflex,4 mg,Capsule,120,66
+zanaflex,4 mg,Capsule,150,83
+zanaflex,6 mg,Capsule,30,36
+zanaflex,6 mg,Capsule,60,66
+zanaflex,6 mg,Capsule,90,90
+zanaflex,6 mg,Capsule,120,108
+zanaflex,6 mg,Capsule,150,120
+zanaflex,2 mg,Tablet,30,4
+zanaflex,2 mg,Tablet,60,7
+zanaflex,2 mg,Tablet,90,10
+zanaflex,2 mg,Tablet,120,13
+zanaflex,2 mg,Tablet,150,16
+zanaflex,2 mg,Tablet,180,19
+zanaflex,4 mg,Tablet,30,4
+zanaflex,4 mg,Tablet,60,6
+zanaflex,4 mg,Tablet,90,8
+zanaflex,4 mg,Tablet,120,10
+zanaflex,4 mg,Tablet,150,11
+zanaflex,4 mg,Tablet,180,12
+zanaflex,4 mg,Tablet,270,18
+xyzal,2.5 mg/5 ml/118 ml,Solution,1,55
+xyzal,2.5 mg/5 ml/118 ml,Solution,3,164
+xyzal,2.5 mg/5 ml/148 ml,Solution,1,83
+xyzal,2.5 mg/5 ml/148 ml,Solution,3,248
+xyzal,5 mg,Tablet,30,4
+xyzal,5 mg,Tablet,60,7
+xyzal,5 mg,Tablet,90,10
+xylocaine,5%/35.44 gm,Ointment,1,15
+xylocaine,5%/35.44 gm,Ointment,3,45
+xylocaine,5%/50 gm,Ointment,1,20
+xylocaine,5%/50 gm,Ointment,3,59
+xopenexhfa,45 mcg/15 gm,Inhaler,1,69
+xopenexhfa,45 mcg/15 gm,Inhaler,3,205
+xopenex,0.31 mg/3 ml,Inhalation Solution,24,39
+xopenex,0.31 mg/3 ml,Inhalation Solution,48,77
+xopenex,0.31 mg/3 ml,Inhalation Solution,72,116
+xopenex,0.63 mg/3 ml,Inhalation Solution,24,24
+xopenex,0.63 mg/3 ml,Inhalation Solution,48,48
+xopenex,0.63 mg/3 ml,Inhalation Solution,72,72
+xopenex,1.25 mg/3 ml,Inhalation Solution,24,27
+xopenex,1.25 mg/3 ml,Inhalation Solution,48,54
+xopenex,1.25 mg/3 ml,Inhalation Solution,72,81
+xalatan,0.005%/2.5 ml,Solution,1,6
+xalatan,0.005%/2.5 ml,Solution,3,18
+westcort,0.2%/15 gm,Cream,1,26
+westcort,0.2%/15 gm,Cream,3,78
+westcort,0.2%/45 gm,Cream,1,52
+westcort,0.2%/45 gm,Cream,3,156
+westcort,0.2%/60 gm,Cream,1,65
+westcort,0.2%/60 gm,Cream,3,195
+westcort,0.2%/15 gm,Ointment,1,81
+westcort,0.2%/15 gm,Ointment,3,242
+westcort,0.2%/45 gm,Ointment,1,153
+westcort,0.2%/45 gm,Ointment,3,459
+westcort,0.2%/60 gm,Ointment,1,204
+westcort,0.2%/60 gm,Ointment,3,610
+wellbutrinxl,150 mg,Tablet Er,30,7
+wellbutrinxl,150 mg,Tablet Er,60,13
+wellbutrinxl,150 mg,Tablet Er,90,19
+wellbutrinxl,150 mg,Tablet Er,180,38
+wellbutrinxl,150 mg,Tablet Er,270,57
+wellbutrinxl,300 mg,Tablet Er,30,6
+wellbutrinxl,300 mg,Tablet Er,60,12
+wellbutrinxl,300 mg,Tablet Er,90,18
+wellbutrinxl,300 mg,Tablet Er,180,36
+wellbutrinxl,300 mg,Tablet Er,270,54
+wellbutrinsr,100 mg,Tablet Sr,30,4
+wellbutrinsr,100 mg,Tablet Sr,60,8
+wellbutrinsr,100 mg,Tablet Sr,90,11
+wellbutrinsr,100 mg,Tablet Sr,120,15
+wellbutrinsr,100 mg,Tablet Sr,180,22
+wellbutrinsr,150 mg,Tablet Sr,30,4
+wellbutrinsr,150 mg,Tablet Sr,60,8
+wellbutrinsr,150 mg,Tablet Sr,90,12
+wellbutrinsr,150 mg,Tablet Sr,180,23
+wellbutrinsr,150 mg,Tablet Sr,270,35
+wellbutrinsr,200 mg,Tablet Sr,30,5
+wellbutrinsr,200 mg,Tablet Sr,60,9
+wellbutrinsr,200 mg,Tablet Sr,90,13
+wellbutrinsr,200 mg,Tablet Sr,180,25
+wellbutrin,75 mg,Tablet,30,6
+wellbutrin,75 mg,Tablet,60,12
+wellbutrin,75 mg,Tablet,90,18
+wellbutrin,75 mg,Tablet,120,23
+wellbutrin,75 mg,Tablet,180,35
+wellbutrin,100 mg,Tablet,30,6
+wellbutrin,100 mg,Tablet,60,12
+wellbutrin,100 mg,Tablet,90,18
+wellbutrin,100 mg,Tablet,120,23
+wellbutrin,100 mg,Tablet,180,35
+vytorin,10 mg/10 mg,Tablet,30,51
+vytorin,10 mg/10 mg,Tablet,90,153
+vytorin,10 mg/20 mg,Tablet,30,51
+vytorin,10 mg/20 mg,Tablet,60,102
+vytorin,10 mg/20 mg,Tablet,90,153
+vytorin,10 mg/40 mg,Tablet,30,51
+vytorin,10 mg/40 mg,Tablet,45,77
+vytorin,10 mg/40 mg,Tablet,60,102
+vytorin,10 mg/40 mg,Tablet,90,153
+vytorin,10 mg/80 mg,Tablet,30,51
+vytorin,10 mg/80 mg,Tablet,60,102
+vytorin,10 mg/80 mg,Tablet,90,153
+voltarenxr,100 mg,Tablet Er,30,51
+voltarenxr,100 mg,Tablet Er,60,102
+voltarenxr,100 mg,Tablet Er,90,153
+voltarenophthalmic,0.1%/2.5 ml,Solution,1,8
+voltarenophthalmic,0.1%/2.5 ml,Solution,3,23
+voltarenophthalmic,0.1%/5 ml,Solution,1,10
+voltarenophthalmic,0.1%/5 ml,Solution,3,30
+voltarengel,1%/100 gm,Gel,1,18
+voltarengel,1%/100 gm,Gel,3,54
+voltarengel,3%/100 gm,Gel,1,61
+voltarengel,3%/100 gm,Gel,3,183
+voltaren,50 mg,Tablet Dr,30,4
+voltaren,50 mg,Tablet Dr,60,7
+voltaren,50 mg,Tablet Dr,90,9
+voltaren,50 mg,Tablet Dr,120,11
+voltaren,50 mg,Tablet Dr,180,15
+voltaren,75 mg,Tablet Dr,30,4
+voltaren,75 mg,Tablet Dr,60,7
+voltaren,75 mg,Tablet Dr,90,9
+voltaren,75 mg,Tablet Dr,180,17
+vivelledot,0.025 mg/24h,Patch,8,75
+vivelledot,0.025 mg/24h,Patch,24,223
+vivelledot,0.0375 mg/24h,Patch,8,73
+vivelledot,0.0375 mg/24h,Patch,24,219
+vivelledot,0.05 mg/24h,Patch,8,73
+vivelledot,0.05 mg/24h,Patch,24,219
+vivelledot,0.075 mg/24h,Patch,8,75
+vivelledot,0.075 mg/24h,Patch,24,225
+vivelledot,0.1 mg/24h,Patch,8,64
+vivelledot,0.1 mg/24h,Patch,24,190
+vigamox,0.5%/3 ml,Solution,1,25
+vigamox,0.5%/3 ml,Solution,3,75
+vibramycin,50 mg,Capsule,30,11
+vibramycin,50 mg,Capsule,50,17
+vibramycin,50 mg,Capsule,60,21
+vibramycin,50 mg,Capsule,90,31
+vibramycin,50 mg,Capsule,180,61
+vibramycin,100 mg,Capsule,30,7
+vibramycin,100 mg,Capsule,50,12
+vibramycin,100 mg,Capsule,60,14
+vibramycin,100 mg,Capsule,90,21
+vibramycin,20 mg,Tablet,30,11
+vibramycin,20 mg,Tablet,60,22
+vibramycin,20 mg,Tablet,90,33
+vibramycin,20 mg,Tablet,180,65
+vibramycin,75 mg,Tablet,30,216
+vibramycin,75 mg,Tablet,60,431
+vibramycin,75 mg,Tablet,90,646
+vibramycin,75 mg,Tablet,120,861
+vibramycin,100 mg,Tablet,30,6
+vibramycin,100 mg,Tablet,60,11
+vibramycin,100 mg,Tablet,100,17
+vibramycin,150 mg,Tablet,30,127
+vibramycin,150 mg,Tablet,60,254
+vibramycin,150 mg,Tablet,100,424
+vfend,50 mg,Tablet,30,115
+vfend,50 mg,Tablet,60,229
+vfend,50 mg,Tablet,120,457
+vfend,200 mg,Tablet,30,161
+vfend,200 mg,Tablet,60,322
+vfend,200 mg,Tablet,120,644
+velivet,0.1 mg-0.125 mg-0.15 mg/25 mcg,Tablet,28,15
+velivet,0.1 mg-0.125 mg-0.15 mg/25 mcg,Tablet,84,42
+vasotec,2.5 mg,Tablet,30,8
+vasotec,2.5 mg,Tablet,60,16
+vasotec,2.5 mg,Tablet,90,24
+vasotec,2.5 mg,Tablet,120,31
+vasotec,2.5 mg,Tablet,180,47
+vasotec,5 mg,Tablet,30,6
+vasotec,5 mg,Tablet,60,11
+vasotec,5 mg,Tablet,90,17
+vasotec,5 mg,Tablet,120,22
+vasotec,5 mg,Tablet,180,33
+vasotec,10 mg,Tablet,30,6
+vasotec,10 mg,Tablet,60,11
+vasotec,10 mg,Tablet,90,17
+vasotec,10 mg,Tablet,120,22
+vasotec,10 mg,Tablet,180,33
+vasotec,20 mg,Tablet,30,7
+vasotec,20 mg,Tablet,60,14
+vasotec,20 mg,Tablet,90,21
+vasotec,20 mg,Tablet,120,27
+vasotec,20 mg,Tablet,180,41
+vaseretic,5 mg/12.5 mg,Tablet,30,6
+vaseretic,5 mg/12.5 mg,Tablet,60,11
+vaseretic,5 mg/12.5 mg,Tablet,90,16
+vaseretic,5 mg/12.5 mg,Tablet,180,32
+vaseretic,10 mg/25 mg,Tablet,30,5
+vaseretic,10 mg/25 mg,Tablet,60,10
+vaseretic,10 mg/25 mg,Tablet,90,15
+vaseretic,10 mg/25 mg,Tablet,180,30
+valtrex,1 gm,Tablet,30,17
+valtrex,1 gm,Tablet,60,33
+valtrex,1 gm,Tablet,90,48
+valtrex,500 mg,Tablet,1,0.5
+valtrex,500 mg,Tablet,5,2
+valtrex,500 mg,Tablet,45,16
+valtrex,500 mg,Tablet,60,21
+valtrex,500 mg,Tablet,90,28
+valtrex,500 mg,Tablet,30,11
+valisone,0.1%/15 gm,Cream,1,21
+valisone,0.1%/15 gm,Cream,3,61
+valisone,0.1%/45 gm,Cream,1,43
+valisone,0.1%/45 gm,Cream,3,127
+valisone,0.12%/50 gm,Foam,1,156
+valisone,0.12%/50 gm,Foam,3,467
+valisone,0.12%/100 gm,Foam,1,205
+valisone,0.12%/100 gm,Foam,3,614
+valisone,0.1%/60 gm,Lotion,1,61
+valisone,0.1%/60 gm,Lotion,3,181
+valisone,0.1%/15 gm,Ointment,1,13
+valisone,0.1%/15 gm,Ointment,3,38
+valisone,0.1%/45 gm,Ointment,1,26
+valisone,0.1%/45 gm,Ointment,3,77
+vagifem,10 mcg,Vaginal Tablet,8,93
+vagifem,10 mcg,Vaginal Tablet,18,209
+urso,250 mg,Tablet,30,25
+urso,250 mg,Tablet,60,50
+urso,250 mg,Tablet,90,75
+urso,250 mg,Tablet,150,125
+urso,250 mg,Tablet,180,150
+urso,500 mg,Tablet,30,49
+urso,500 mg,Tablet,60,98
+urso,500 mg,Tablet,90,147
+urso,500 mg,Tablet,180,293
+urso,500 mg,Tablet,270,439
+uroxatral,10 mg,Tablet Er,30,5
+uroxatral,10 mg,Tablet Er,60,10
+uroxatral,10 mg,Tablet Er,90,14
+uroxatral,10 mg,Tablet Er,180,28
+urocitk,5 meq,Tablet Er,30,29
+urocitk,5 meq,Tablet Er,60,57
+urocitk,5 meq,Tablet Er,90,85
+urocitk,5 meq,Tablet Er,120,113
+urocitk,5 meq,Tablet Er,180,169
+urocitk,10 meq,Tablet Er,30,26
+urocitk,10 meq,Tablet Er,60,52
+urocitk,10 meq,Tablet Er,90,78
+urocitk,10 meq,Tablet Er,120,103
+urocitk,10 meq,Tablet Er,180,155
+urocitk,15 meq,Tablet Er,30,56
+urocitk,15 meq,Tablet Er,60,111
+urocitk,15 meq,Tablet Er,90,167
+urocitk,15 meq,Tablet Er,120,222
+urocitk,15 meq,Tablet Er,180,333
+urecholine,5 mg,Tablet,30,10
+urecholine,5 mg,Tablet,45,14
+urecholine,5 mg,Tablet,60,19
+urecholine,5 mg,Tablet,90,28
+urecholine,10 mg,Tablet,30,17
+urecholine,10 mg,Tablet,60,34
+urecholine,10 mg,Tablet,90,51
+urecholine,10 mg,Tablet,120,68
+urecholine,10 mg,Tablet,180,101
+urecholine,25 mg,Tablet,30,12
+urecholine,25 mg,Tablet,60,23
+urecholine,25 mg,Tablet,90,35
+urecholine,25 mg,Tablet,120,46
+urecholine,25 mg,Tablet,180,69
+urecholine,25 mg,Tablet,270,104
+urecholine,50 mg,Tablet,30,24
+urecholine,50 mg,Tablet,60,48
+urecholine,50 mg,Tablet,90,72
+urecholine,50 mg,Tablet,120,95
+urecholine,50 mg,Tablet,270,214
+univasc,7.5 mg,Tablet,30,24
+univasc,7.5 mg,Tablet,60,47
+univasc,7.5 mg,Tablet,90,70
+univasc,7.5 mg,Tablet,120,94
+univasc,15 mg,Tablet,30,27
+univasc,15 mg,Tablet,60,53
+univasc,15 mg,Tablet,90,79
+univasc,15 mg,Tablet,180,158
+uniretic,7.5 mg/12.5 mg,Tablet,30,28
+uniretic,7.5 mg/12.5 mg,Tablet,90,84
+uniretic,7.5 mg/12.5 mg,Tablet,180,167
+uniretic,15 mg/12.5 mg,Tablet,30,28
+uniretic,15 mg/12.5 mg,Tablet,60,56
+uniretic,15 mg/12.5 mg,Tablet,90,84
+uniretic,15 mg/12.5 mg,Tablet,180,167
+uniretic,15 mg/25 mg,Tablet,30,28
+uniretic,15 mg/25 mg,Tablet,60,56
+uniretic,15 mg/25 mg,Tablet,90,84
+tylenol,160 mg/5 ml,Elixer,120,3
+tylenol,160 mg/5 ml,Elixer,480,11
+tylenol,500 mg,Gel Cap,24,2.71
+tylenol,500 mg,Gel Cap,50,3.63
+tylenol,500 mg,Gel Cap,100,3
+tylenol,650 mg,Suppository,12,1
+tylenol,325 mg,Tablet,100,3
+tylenol,325 mg,Tablet,1000,21
+tylenol,500 mg,Tablet,100,3
+tylenol,500 mg,Tablet,1000,21
+tylenol,650 mg,Tablet,100,3
+twynsta,40 mg/5 mg,Tablet,30,116
+twynsta,40 mg/5 mg,Tablet,60,231
+twynsta,40 mg/5 mg,Tablet,90,346
+twynsta,40 mg/10 mg,Tablet,30,122
+twynsta,40 mg/10 mg,Tablet,60,244
+twynsta,40 mg/10 mg,Tablet,90,366
+twynsta,80 mg/5 mg,Tablet,30,116
+twynsta,80 mg/5 mg,Tablet,60,231
+twynsta,80 mg/5 mg,Tablet,90,346
+twynsta,80 mg/10 mg,Tablet,30,127
+twynsta,80 mg/10 mg,Tablet,60,253
+twynsta,80 mg/10 mg,Tablet,90,379
+trusopt,2%/10 ml,Solution,1,18
+trusopt,2%/10 ml,Solution,3,52
+trilomariza,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,28,14
+trilomariza,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,84,41
+trilosprintec,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,28,12
+trilosprintec,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,84,35
+trilipix,45 mg,Capsule Dr,30,24
+trilipix,45 mg,Capsule Dr,60,47
+trilipix,45 mg,Capsule Dr,90,71
+trilipix,45 mg,Capsule Dr,180,141
+trilipix,135 mg,Capsule Dr,30,30
+trilipix,135 mg,Capsule Dr,60,60
+trilipix,135 mg,Capsule Dr,90,90
+transdermscop,1 mg/72 hr,Patch,4,76
+transdermscop,1 mg/72 hr,Patch,10,210
+toprolxl,25 mg,Tablet Er,30,4
+toprolxl,25 mg,Tablet Er,60,8
+toprolxl,25 mg,Tablet Er,90,11
+toprolxl,25 mg,Tablet Er,180,22
+toprolxl,50 mg,Tablet Er,30,4
+toprolxl,50 mg,Tablet Er,45,6
+toprolxl,50 mg,Tablet Er,60,8
+toprolxl,50 mg,Tablet Er,90,11
+toprolxl,50 mg,Tablet Er,180,22
+toprolxl,100 mg,Tablet Er,30,8
+toprolxl,100 mg,Tablet Er,45,11
+toprolxl,100 mg,Tablet Er,60,14
+toprolxl,100 mg,Tablet Er,90,20
+toprolxl,100 mg,Tablet Er,180,38
+toprolxl,200 mg,Tablet Er,30,14
+toprolxl,200 mg,Tablet Er,60,28
+toprolxl,200 mg,Tablet Er,90,42
+toprolxl,200 mg,Tablet Er,180,83
+topicort,0.05%/60 gm,Cream,1,306
+topicort,0.05%/60 gm,Cream,3,916
+topicort,0.05%/100 gm,Cream,1,454
+topicort,0.05%/100 gm,Cream,3,1360
+topicort,0.25%/15 gm,Cream,1,28
+topicort,0.25%/15 gm,Cream,3,83
+topicort,0.25%/60 gm,Cream,1,47
+topicort,0.25%/60 gm,Cream,3,140
+topicort,0.05%/15 gm,Gel,1,45
+topicort,0.05%/15 gm,Gel,3,135
+topicort,0.05%/60 gm,Gel,1,209
+topicort,0.05%/60 gm,Gel,3,625
+topicort,0.05%/60 gm,Ointment,1,331
+topicort,0.05%/60 gm,Ointment,3,991
+topicort,0.05%/100 gm,Ointment,1,489
+topicort,0.05%/100 gm,Ointment,3,1467
+topicort,0.25%/15 gm,Ointment,1,71
+topicort,0.25%/15 gm,Ointment,3,213
+topicort,0.25%/60 gm,Ointment,1,154
+topicort,0.25%/60 gm,Ointment,3,460
+topicort,0.25%/100 gm,Ointment,1,328
+topicort,0.25%/100 gm,Ointment,3,983
+topamax,25 mg,Tablet,30,4
+topamax,25 mg,Tablet,60,7
+topamax,25 mg,Tablet,90,9
+topamax,25 mg,Tablet,120,11
+topamax,25 mg,Tablet,180,15
+topamax,50 mg,Tablet,30,4
+topamax,50 mg,Tablet,60,7
+topamax,50 mg,Tablet,90,9
+topamax,50 mg,Tablet,120,11
+topamax,50 mg,Tablet,180,15
+topamax,100 mg,Tablet,30,4
+topamax,100 mg,Tablet,60,7
+topamax,100 mg,Tablet,90,9
+topamax,100 mg,Tablet,120,11
+topamax,100 mg,Tablet,180,15
+topamax,200 mg,Tablet,30,4
+topamax,200 mg,Tablet,60,7
+topamax,200 mg,Tablet,90,9
+topamax,200 mg,Tablet,120,11
+topamax,200 mg,Tablet,180,15
+tofranil,10 mg,Tablet,30,4
+tofranil,10 mg,Tablet,60,7
+tofranil,10 mg,Tablet,90,10
+tofranil,10 mg,Tablet,120,13
+tofranil,10 mg,Tablet,180,19
+tofranil,25 mg,Tablet,30,4
+tofranil,25 mg,Tablet,60,7
+tofranil,25 mg,Tablet,90,11
+tofranil,25 mg,Tablet,120,14
+tofranil,25 mg,Tablet,180,21
+tofranil,25 mg,Tablet,270,31
+tofranil,50 mg,Tablet,30,5
+tofranil,50 mg,Tablet,60,10
+tofranil,50 mg,Tablet,90,15
+tofranil,50 mg,Tablet,120,20
+tofranil,50 mg,Tablet,180,30
+timoptic,0.25%/5 ml,Solution,1,2.55
+timoptic,0.25%/5 ml,Solution,3,7.65
+timoptic,0.25%/10 ml,Solution,1,5.84
+timoptic,0.25%/10 ml,Solution,3,17.52
+timoptic,0.25%/15 ml,Solution,1,7.12
+timoptic,0.25%/15 ml,Solution,3,21.36
+timoptic,0.5%/5 ml,Solution,1,5.1
+timoptic,0.5%/5 ml,Solution,3,15.3
+timoptic,0.5%/10 ml,Solution,1,7.07
+timoptic,0.5%/10 ml,Solution,3,21.21
+timoptic,0.5%/15 ml,Solution,1,9.52
+timoptic,0.5%/15 ml,Solution,3,28.56
+timoptic,0.25%/5 ml,Solution,1,4
+timoptic,0.25%/5 ml,Solution,3,11
+timoptic,0.25%/10 ml,Solution,1,7
+timoptic,0.25%/10 ml,Solution,3,20
+timoptic,0.25%/15 ml,Solution,1,8
+timoptic,0.25%/15 ml,Solution,3,22
+timoptic,0.5%/5 ml,Solution,1,5
+timoptic,0.5%/5 ml,Solution,3,13
+timoptic,0.5%/10 ml,Solution,1,8
+timoptic,0.5%/10 ml,Solution,3,22
+timoptic,0.5%/15 ml,Solution,1,10
+timoptic,0.5%/15 ml,Solution,3,29
+tiazac,120 mg,Capsule Er,30,8
+tiazac,120 mg,Capsule Er,60,15
+tiazac,120 mg,Capsule Er,90,22
+tiazac,120 mg,Capsule Er,180,43
+tiazac,180 mg,Capsule Er,30,11
+tiazac,180 mg,Capsule Er,60,21
+tiazac,180 mg,Capsule Er,90,31
+tiazac,180 mg,Capsule Er,180,61
+tiazac,240 mg,Capsule Er,30,10
+tiazac,240 mg,Capsule Er,60,20
+tiazac,240 mg,Capsule Er,90,30
+tiazac,240 mg,Capsule Er,180,59
+tiazac,300 mg,Capsule Er,30,20
+tiazac,300 mg,Capsule Er,60,39
+tiazac,300 mg,Capsule Er,90,58
+tiazac,360 mg,Capsule Er,30,29
+tiazac,360 mg,Capsule Er,60,58
+tiazac,360 mg,Capsule Er,90,87
+tiazac,420 mg,Capsule Er,30,41
+tiazac,420 mg,Capsule Er,60,82
+tiazac,420 mg,Capsule Er,90,123
+thorazine,10 mg,Tablet,30,64
+thorazine,10 mg,Tablet,60,127
+thorazine,10 mg,Tablet,90,190
+thorazine,10 mg,Tablet,120,253
+thorazine,25 mg,Tablet,30,60
+thorazine,25 mg,Tablet,60,120
+thorazine,25 mg,Tablet,90,180
+thorazine,50 mg,Tablet,30,82
+thorazine,50 mg,Tablet,60,164
+thorazine,50 mg,Tablet,90,246
+thorazine,50 mg,Tablet,120,328
+thorazine,100 mg,Tablet,30,174
+thorazine,100 mg,Tablet,60,348
+thorazine,100 mg,Tablet,90,522
+thorazine,200 mg,Tablet,30,213
+thorazine,200 mg,Tablet,60,425
+thorazine,200 mg,Tablet,90,637
+thorazine,200 mg,Tablet,180,1274
+thalitonehygroton,25 mg,Tablet,30,16
+thalitonehygroton,25 mg,Tablet,45,24
+thalitonehygroton,25 mg,Tablet,60,32
+thalitonehygroton,25 mg,Tablet,90,47
+thalitonehygroton,50 mg,Tablet,30,30
+thalitonehygroton,50 mg,Tablet,45,45
+thalitonehygroton,50 mg,Tablet,60,60
+thalitonehygroton,50 mg,Tablet,90,89
+thalitonehygroton,50 mg,Tablet,180,178
+tessalon,100 mg,Capsule,30,5
+tessalon,100 mg,Capsule,60,9
+tessalon,100 mg,Capsule,90,13
+tessalon,200 mg,Capsule,30,8
+tessalon,200 mg,Capsule,60,16
+tessalon,200 mg,Capsule,90,24
+terazol7,0.4%/45 mg,Vaginal Cream,1,29
+terazol7,0.4%/45 mg,Vaginal Cream,3,86
+terazol,0.8%/20 gm,Vaginal Cream,1,31
+terazol,0.8%/20 gm,Vaginal Cream,3,92
+tenormin,25 mg,Tablet,30,4
+tenormin,25 mg,Tablet,45,5
+tenormin,25 mg,Tablet,60,6
+tenormin,25 mg,Tablet,90,9
+tenormin,25 mg,Tablet,180,15
+tenormin,50 mg,Tablet,30,4
+tenormin,50 mg,Tablet,45,5
+tenormin,50 mg,Tablet,60,6
+tenormin,50 mg,Tablet,90,9
+tenormin,50 mg,Tablet,180,15
+tenormin,100 mg,Tablet,30,4
+tenormin,100 mg,Tablet,45,5
+tenormin,100 mg,Tablet,60,6
+tenormin,100 mg,Tablet,90,9
+tenormin,100 mg,Tablet,180,15
+tenoretic,50 mg/25 mg,Tablet,30,12
+tenoretic,50 mg/25 mg,Tablet,45,17
+tenoretic,50 mg/25 mg,Tablet,60,23
+tenoretic,50 mg/25 mg,Tablet,90,34
+tenoretic,100 mg/25 mg,Tablet,30,18
+tenoretic,100 mg/25 mg,Tablet,45,26
+tenoretic,100 mg/25 mg,Tablet,60,35
+tenoretic,100 mg/25 mg,Tablet,90,52
+tenex,1 mg,Tablet,30,18
+tenex,1 mg,Tablet,45,27
+tenex,1 mg,Tablet,60,35
+tenex,1 mg,Tablet,90,52
+tenex,1 mg,Tablet,120,69
+tenex,1 mg,Tablet,180,100
+tenex,2 mg,Tablet,30,18
+tenex,2 mg,Tablet,45,27
+tenex,2 mg,Tablet,60,35
+tenex,2 mg,Tablet,90,52
+tenex,2 mg,Tablet,120,69
+tenex,2 mg,Tablet,180,100
+temovatee,0.05%/15 gm,Cream,1,38
+temovatee,0.05%/15 gm,Cream,3,112
+temovatee,0.05%/30 gm,Cream,1,71
+temovatee,0.05%/30 gm,Cream,3,212
+temovatee,0.05%/45 gm,Cream,1,112
+temovatee,0.05%/45 gm,Cream,3,335
+temovatee,0.05%/60 gm,Cream,1,132
+temovatee,0.05%/60 gm,Cream,3,396
+tegretolxr,100 mg,Tablet Er,30,29
+tegretolxr,100 mg,Tablet Er,60,58
+tegretolxr,100 mg,Tablet Er,90,87
+tegretolxr,100 mg,Tablet Er,120,116
+tegretolxr,100 mg,Tablet Er,180,174
+tegretolxr,200 mg,Tablet Er,30,45
+tegretolxr,200 mg,Tablet Er,60,90
+tegretolxr,200 mg,Tablet Er,90,134
+tegretolxr,200 mg,Tablet Er,120,179
+tegretolxr,200 mg,Tablet Er,180,268
+tegretolxr,400 mg,Tablet Er,30,72
+tegretolxr,400 mg,Tablet Er,60,144
+tegretolxr,400 mg,Tablet Er,90,216
+tegretolxr,400 mg,Tablet Er,120,288
+tegretolxr,400 mg,Tablet Er,180,432
+tapazole,5 mg,Tablet,30,4
+tapazole,5 mg,Tablet,45,5
+tapazole,5 mg,Tablet,60,7
+tapazole,5 mg,Tablet,90,10
+tapazole,5 mg,Tablet,180,19
+tapazole,10 mg,Tablet,30,6
+tapazole,10 mg,Tablet,60,12
+tapazole,10 mg,Tablet,90,18
+tapazole,10 mg,Tablet,120,23
+tapazole,10 mg,Tablet,180,35
+tamiflu,30 mg,Capsule,10,43
+tamiflu,45 mg,Capsule,10,44
+tamiflu,75 mg,Capsule,10,46
+tambocor,50 mg,Tablet,30,10
+tambocor,50 mg,Tablet,60,19
+tambocor,50 mg,Tablet,90,28
+tambocor,50 mg,Tablet,120,37
+tambocor,50 mg,Tablet,180,55
+tambocor,100 mg,Tablet,30,10
+tambocor,100 mg,Tablet,60,20
+tambocor,100 mg,Tablet,90,30
+tambocor,100 mg,Tablet,180,60
+tambocor,150 mg,Tablet,30,21
+tambocor,150 mg,Tablet,60,42
+tambocor,150 mg,Tablet,90,63
+tambocor,150 mg,Tablet,180,126
+tagamet,200 mg,Tablet,30,9
+tagamet,200 mg,Tablet,60,17
+tagamet,200 mg,Tablet,90,26
+tagamet,200 mg,Tablet,120,34
+tagamet,200 mg,Tablet,180,51
+tagamet,300 mg,Tablet,30,11
+tagamet,300 mg,Tablet,60,22
+tagamet,300 mg,Tablet,90,32
+tagamet,300 mg,Tablet,120,43
+tagamet,400 mg,Tablet,30,18
+tagamet,400 mg,Tablet,60,35
+tagamet,400 mg,Tablet,90,52
+tagamet,400 mg,Tablet,120,69
+tagamet,400 mg,Tablet,180,103
+tagamet,800 mg,Tablet,30,23
+tagamet,800 mg,Tablet,60,46
+tagamet,800 mg,Tablet,90,69
+tagamet,800 mg,Tablet,120,91
+tagamet,800 mg,Tablet,180,137
+taclonex,0.005%/0.064%/60 gm,Ointment,1,391
+taclonex,0.005%/0.064%/60 gm,Ointment,3,1172
+taclonex,0.005%/0.064%/100 gm,Ointment,1,639
+taclonex,0.005%/0.064%/100 gm,Ointment,3,1917
+synthroid,25 mcg,Tablet,30,5
+synthroid,25 mcg,Tablet,45,6
+synthroid,25 mcg,Tablet,60,7
+synthroid,25 mcg,Tablet,90,8
+synthroid,50 mcg,Tablet,30,5
+synthroid,50 mcg,Tablet,45,6
+synthroid,50 mcg,Tablet,60,7
+synthroid,50 mcg,Tablet,90,8
+synthroid,75 mcg,Tablet,30,6
+synthroid,75 mcg,Tablet,45,9
+synthroid,75 mcg,Tablet,60,12
+synthroid,75 mcg,Tablet,90,18
+synthroid,88 mcg,Tablet,30,7
+synthroid,88 mcg,Tablet,45,11
+synthroid,88 mcg,Tablet,60,14
+synthroid,88 mcg,Tablet,90,21
+synthroid,100 mcg,Tablet,30,8
+synthroid,100 mcg,Tablet,60,15
+synthroid,100 mcg,Tablet,90,22
+synthroid,100 mcg,Tablet,180,44
+synthroid,112 mcg,Tablet,30,8
+synthroid,112 mcg,Tablet,60,15
+synthroid,112 mcg,Tablet,90,22
+synthroid,112 mcg,Tablet,180,44
+synthroid,125 mcg,Tablet,30,8
+synthroid,125 mcg,Tablet,60,15
+synthroid,125 mcg,Tablet,90,22
+synthroid,125 mcg,Tablet,180,44
+synthroid,137 mcg,Tablet,30,10
+synthroid,137 mcg,Tablet,45,15
+synthroid,137 mcg,Tablet,60,20
+synthroid,137 mcg,Tablet,90,30
+synthroid,150 mcg,Tablet,30,10
+synthroid,150 mcg,Tablet,60,19
+synthroid,150 mcg,Tablet,90,28
+synthroid,150 mcg,Tablet,180,56
+synthroid,175 mcg,Tablet,30,10
+synthroid,175 mcg,Tablet,60,20
+synthroid,175 mcg,Tablet,90,30
+synthroid,175 mcg,Tablet,180,60
+synthroid,200 mcg,Tablet,30,12
+synthroid,200 mcg,Tablet,60,24
+synthroid,200 mcg,Tablet,90,36
+synthroid,200 mcg,Tablet,180,72
+synthroid,300 mcg,Tablet,30,14
+synthroid,300 mcg,Tablet,60,27
+synthroid,300 mcg,Tablet,90,40
+synthroid,300 mcg,Tablet,120,53
+synthroid,300 mcg,Tablet,180,80
+starlix,60 mg,Tablet,30,19
+starlix,60 mg,Tablet,60,37
+starlix,60 mg,Tablet,90,56
+starlix,60 mg,Tablet,180,111
+starlix,60 mg,Tablet,270,167
+starlix,120 mg,Tablet,30,18
+starlix,120 mg,Tablet,60,35
+starlix,120 mg,Tablet,90,53
+starlix,120 mg,Tablet,180,105
+starlix,120 mg,Tablet,270,158
+stalevo,12.5 mg/50 mg/200 mg,Tablet,30,49
+stalevo,12.5 mg/50 mg/200 mg,Tablet,42,69
+stalevo,12.5 mg/50 mg/200 mg,Tablet,75,123
+stalevo,12.5 mg/50 mg/200 mg,Tablet,90,147
+stalevo,12.5 mg/50 mg/200 mg,Tablet,270,441
+stalevo,18.75 mg/75 mg/200 mg,Tablet,30,54
+stalevo,18.75 mg/75 mg/200 mg,Tablet,70,125
+stalevo,18.75 mg/75 mg/200 mg,Tablet,84,150
+stalevo,18.75 mg/75 mg/200 mg,Tablet,90,161
+stalevo,18.75 mg/75 mg/200 mg,Tablet,120,214
+stalevo,25 mg/100 mg/200 mg,Tablet,30,53
+stalevo,25 mg/100 mg/200 mg,Tablet,60,105
+stalevo,25 mg/100 mg/200 mg,Tablet,90,157
+stalevo,25 mg/100 mg/200 mg,Tablet,120,209
+stalevo,25 mg/100 mg/200 mg,Tablet,270,469
+stalevo,25 mg/100 mg/200 mg,Tablet,450,781
+stalevo,31.25 mg/125 mg/200 mg,Tablet,30,36
+stalevo,31.25 mg/125 mg/200 mg,Tablet,60,71
+stalevo,31.25 mg/125 mg/200 mg,Tablet,90,107
+stalevo,31.25 mg/125 mg/200 mg,Tablet,120,142
+stalevo,31.25 mg/125 mg/200 mg,Tablet,150,178
+stalevo,31.25 mg/125 mg/200 mg,Tablet,270,320
+stalevo,37.5 mg/150 mg/200 mg,Tablet,30,52
+stalevo,37.5 mg/150 mg/200 mg,Tablet,60,103
+stalevo,37.5 mg/150 mg/200 mg,Tablet,90,155
+stalevo,37.5 mg/150 mg/200 mg,Tablet,120,206
+stalevo,37.5 mg/150 mg/200 mg,Tablet,150,258
+stalevo,37.5 mg/150 mg/200 mg,Tablet,360,618
+stalevo,50 mg/200 mg/200 mg,Tablet,30,32
+stalevo,50 mg/200 mg/200 mg,Tablet,60,64
+stalevo,50 mg/200 mg/200 mg,Tablet,90,95
+stalevo,50 mg/200 mg/200 mg,Tablet,120,127
+stalevo,50 mg/200 mg/200 mg,Tablet,150,158
+solaraze,3%/100 gm,Gel,1,113
+solaraze,3%/100 gm,Gel,3,338
+skelaxin,400 mg,Tablet,30,143
+skelaxin,400 mg,Tablet,60,285
+skelaxin,400 mg,Tablet,90,427
+skelaxin,800 mg,Tablet,30,30
+skelaxin,800 mg,Tablet,60,60
+skelaxin,800 mg,Tablet,90,90
+singulair,4 mg,Chew Tablet,30,6
+singulair,4 mg,Chew Tablet,60,9
+singulair,4 mg,Chew Tablet,90,12
+singulair,5 mg,Chew Tablet,30,6
+singulair,5 mg,Chew Tablet,60,9
+singulair,5 mg,Chew Tablet,90,12
+singulair,4 mg/packet/30 packets,Granule,1,58
+singulair,4 mg/packet/30 packets,Granule,3,174
+singulair,10 mg,Tablet,30,5
+singulair,10 mg,Tablet,60,8
+singulair,10 mg,Tablet,90,11
+sinequan,10 mg,Capsule,30,13
+sinequan,10 mg,Capsule,60,26
+sinequan,10 mg,Capsule,90,38
+sinequan,10 mg,Capsule,120,51
+sinequan,10 mg,Capsule,180,76
+sinequan,25 mg,Capsule,30,16
+sinequan,25 mg,Capsule,60,32
+sinequan,25 mg,Capsule,90,48
+sinequan,25 mg,Capsule,120,64
+sinequan,25 mg,Capsule,180,96
+sinequan,50 mg,Capsule,30,25
+sinequan,50 mg,Capsule,60,50
+sinequan,50 mg,Capsule,90,74
+sinequan,50 mg,Capsule,120,99
+sinequan,50 mg,Capsule,180,148
+sinequan,75 mg,Capsule,30,29
+sinequan,75 mg,Capsule,60,57
+sinequan,75 mg,Capsule,90,85
+sinequan,75 mg,Capsule,120,114
+sinequan,75 mg,Capsule,180,170
+sinequan,100 mg,Capsule,30,37
+sinequan,100 mg,Capsule,60,73
+sinequan,100 mg,Capsule,90,110
+sinequan,100 mg,Capsule,120,146
+sinequan,100 mg,Capsule,180,219
+sinequan,150 mg,Capsule,30,22
+sinequan,150 mg,Capsule,60,44
+sinequan,150 mg,Capsule,90,66
+sinequan,150 mg,Capsule,120,87
+sinequan,150 mg,Capsule,180,131
+sinequan,10 mg/mL/120 ml,Solution,1,8
+sinequan,10 mg/mL/120 ml,Solution,2,16
+sinequan,10 mg/mL/120 ml,Solution,3,23
+sinemetcr,25 mg/100 mg,Tablet Er,30,14
+sinemetcr,25 mg/100 mg,Tablet Er,60,27
+sinemetcr,25 mg/100 mg,Tablet Er,90,41
+sinemetcr,25 mg/100 mg,Tablet Er,120,54
+sinemetcr,25 mg/100 mg,Tablet Er,360,162
+sinemetcr,50 mg/200 mg,Tablet Er,30,10
+sinemetcr,50 mg/200 mg,Tablet Er,60,19
+sinemetcr,50 mg/200 mg,Tablet Er,90,28
+sinemetcr,50 mg/200 mg,Tablet Er,120,37
+sinemetcr,50 mg/200 mg,Tablet Er,270,83
+sinemet,10 mg/100 mg,Tablet,30,4
+sinemet,10 mg/100 mg,Tablet,60,7
+sinemet,10 mg/100 mg,Tablet,90,10
+sinemet,10 mg/100 mg,Tablet,120,13
+sinemet,10 mg/100 mg,Tablet,180,19
+sinemet,10 mg/100 mg,Tablet,270,28
+sinemet,25 mg/100 mg,Tablet,30,4
+sinemet,25 mg/100 mg,Tablet,60,7
+sinemet,25 mg/100 mg,Tablet,90,10
+sinemet,25 mg/100 mg,Tablet,120,13
+sinemet,25 mg/100 mg,Tablet,180,19
+sinemet,25 mg/100 mg,Tablet,270,28
+sinemet,25 mg/250 mg,Tablet,30,6
+sinemet,25 mg/250 mg,Tablet,60,11
+sinemet,25 mg/250 mg,Tablet,90,17
+sinemet,25 mg/250 mg,Tablet,120,22
+sinemet,25 mg/250 mg,Tablet,180,33
+sinemet,25 mg/250 mg,Tablet,270,50
+silvadene,1%/50 gm,Cream Jar,1,10
+silvadene,1%/50 gm,Cream Jar,3,29
+silvadene,1%/400 gm,Cream Jar,1,37
+silvadene,1%/400 gm,Cream Jar,3,111
+silvadene,1%/20 gm,Cream Tube,1,9
+silvadene,1%/20 gm,Cream Tube,3,25
+silvadene,1%/25 gm,Cream Tube,1,7
+silvadene,1%/25 gm,Cream Tube,3,19
+silvadene,1%/85 gm,Cream Tube,1,14
+silvadene,1%/85 gm,Cream Tube,3,40
+seroquelxr,50 mg,Tablet Er,30,21
+seroquelxr,50 mg,Tablet Er,60,42
+seroquelxr,50 mg,Tablet Er,90,62
+seroquelxr,150 mg,Tablet Er,30,15
+seroquelxr,150 mg,Tablet Er,60,29
+seroquelxr,150 mg,Tablet Er,90,43
+seroquelxr,200 mg,Tablet Er,30,25
+seroquelxr,200 mg,Tablet Er,60,49
+seroquelxr,200 mg,Tablet Er,90,73
+seroquelxr,300 mg,Tablet Er,30,39
+seroquelxr,300 mg,Tablet Er,60,78
+seroquelxr,300 mg,Tablet Er,90,116
+seroquelxr,400 mg,Tablet Er,30,37
+seroquelxr,400 mg,Tablet Er,60,74
+seroquelxr,400 mg,Tablet Er,90,111
+seroquel,25 mg,Tablet,30,5
+seroquel,25 mg,Tablet,60,8
+seroquel,25 mg,Tablet,90,10
+seroquel,25 mg,Tablet,120,12
+seroquel,25 mg,Tablet,180,16
+seroquel,50 mg,Tablet,30,5
+seroquel,50 mg,Tablet,45,6
+seroquel,50 mg,Tablet,60,7
+seroquel,50 mg,Tablet,90,10
+seroquel,50 mg,Tablet,180,16
+seroquel,100 mg,Tablet,30,5
+seroquel,100 mg,Tablet,45,6
+seroquel,100 mg,Tablet,60,7
+seroquel,100 mg,Tablet,90,10
+seroquel,100 mg,Tablet,120,11
+seroquel,100 mg,Tablet,180,16
+seroquel,200 mg,Tablet,30,4
+seroquel,200 mg,Tablet,45,5
+seroquel,200 mg,Tablet,60,6
+seroquel,200 mg,Tablet,90,9
+seroquel,200 mg,Tablet,180,15
+seroquel,300 mg,Tablet,30,7
+seroquel,300 mg,Tablet,45,9
+seroquel,300 mg,Tablet,60,11
+seroquel,300 mg,Tablet,90,16
+seroquel,300 mg,Tablet,180,31
+seroquel,400 mg,Tablet,30,7
+seroquel,400 mg,Tablet,45,9
+seroquel,400 mg,Tablet,60,11
+seroquel,400 mg,Tablet,90,16
+seroquel,400 mg,Tablet,180,31
+senokot,8.6 mg,Tablet,30,3
+senokot,8.6 mg,Tablet,60,5
+senokot,8.6 mg,Tablet,90,6
+senokot,8.6 mg,Tablet,120,7
+senokot,8.6 mg,Tablet,180,10
+rowasa,4 gm/60 mL/7 bottles,Enema Carton,1,77
+rowasa,4 gm/60 mL/7 bottles,Enema Carton,3,229
+rowasa,4 gm/60 mL /7 bottles + wipes,Enema Kit,1,163
+rowasa,4 gm/60 mL /7 bottles + wipes,Enema Kit,3,487
+rowasa,4 gm/60 mL /28 bottles + wipes,Enema Kit,1,628
+rowasa,4 gm/60 mL /28 bottles + wipes,Enema Kit,3,1883
+robinul,1 mg,Tablet,30,8
+robinul,1 mg,Tablet,60,15
+robinul,1 mg,Tablet,90,22
+robinul,1 mg,Tablet,120,29
+robinul,1 mg,Tablet,180,43
+robinul,2 mg,Tablet,30,13
+robinul,2 mg,Tablet,60,25
+robinul,2 mg,Tablet,90,37
+robinul,2 mg,Tablet,120,49
+robinul,2 mg,Tablet,180,73
+robaxin,500 mg,Tablet,30,5
+robaxin,500 mg,Tablet,60,8
+robaxin,500 mg,Tablet,90,10
+robaxin,500 mg,Tablet,120,12
+robaxin,750 mg,Tablet,30,5
+robaxin,750 mg,Tablet,60,8
+robaxin,750 mg,Tablet,90,10
+robaxin,750 mg,Tablet,120,12
+robaxin,750 mg,Tablet,180,16
+robaxin,750 mg,Tablet,270,21
+risperdalmtab,0.25 mg,Tablet Odt,30,86
+risperdalmtab,0.25 mg,Tablet Odt,60,172
+risperdalmtab,0.25 mg,Tablet Odt,90,258
+risperdalmtab,0.5 mg,Tablet Odt,30,20
+risperdalmtab,0.5 mg,Tablet Odt,60,39
+risperdalmtab,0.5 mg,Tablet Odt,90,59
+risperdalmtab,1 mg,Tablet Odt,30,48
+risperdalmtab,1 mg,Tablet Odt,60,95
+risperdalmtab,1 mg,Tablet Odt,90,142
+risperdalmtab,2 mg,Tablet Odt,30,37
+risperdalmtab,2 mg,Tablet Odt,60,74
+risperdalmtab,2 mg,Tablet Odt,90,111
+risperdalmtab,3 mg,Tablet Odt,30,117
+risperdalmtab,3 mg,Tablet Odt,60,233
+risperdalmtab,3 mg,Tablet Odt,90,350
+risperdalmtab,4 mg,Tablet Odt,30,144
+risperdalmtab,4 mg,Tablet Odt,60,288
+risperdalmtab,4 mg,Tablet Odt,90,432
+risperdal,1 mg/ml/30 ml,Solution,1,13
+risperdal,1 mg/ml/30 ml,Solution,3,38
+risperdal,0.25 mg,Tablet,30,4
+risperdal,0.25 mg,Tablet,60,7
+risperdal,0.25 mg,Tablet,90,9
+risperdal,0.25 mg,Tablet,120,11
+risperdal,0.25 mg,Tablet,180,15
+risperdal,0.5 mg,Tablet,30,4
+risperdal,0.5 mg,Tablet,45,5
+risperdal,0.5 mg,Tablet,60,6
+risperdal,0.5 mg,Tablet,90,9
+risperdal,0.5 mg,Tablet,180,15
+risperdal,1 mg,Tablet,30,4
+risperdal,1 mg,Tablet,45,5
+risperdal,1 mg,Tablet,60,6
+risperdal,1 mg,Tablet,90,9
+risperdal,1 mg,Tablet,180,15
+risperdal,2 mg,Tablet,30,4
+risperdal,2 mg,Tablet,45,5
+risperdal,2 mg,Tablet,60,6
+risperdal,2 mg,Tablet,90,9
+risperdal,2 mg,Tablet,180,15
+risperdal,3 mg,Tablet,30,4
+risperdal,3 mg,Tablet,45,5
+risperdal,3 mg,Tablet,60,6
+risperdal,3 mg,Tablet,90,9
+risperdal,3 mg,Tablet,180,15
+risperdal,4 mg,Tablet,30,4
+risperdal,4 mg,Tablet,45,5
+risperdal,4 mg,Tablet,60,6
+risperdal,4 mg,Tablet,90,9
+risperdal,4 mg,Tablet,180,15
+rhinocort,32 mcg/5 ml,Nasal Spray,1,13
+rhinocort,32 mcg/5 ml,Nasal Spray,3,38
+rhinocort,32 mcg/8.43 ml,Nasal Spray,1,16
+rhinocort,32 mcg/8.43 ml,Nasal Spray,3,46
+rheumatrex,2.5 mg,Tablet,28,18
+rheumatrex,2.5 mg,Tablet,30,19
+rheumatrex,2.5 mg,Tablet,40,26
+rheumatrex,2.5 mg,Tablet,100,63
+revia,50 mg,Tablet,30,24
+revia,50 mg,Tablet,60,47
+revia,50 mg,Tablet,100,78
+revatio,20 mg,Tablet,30,8
+revatio,20 mg,Tablet,60,16
+revatio,20 mg,Tablet,90,20
+retina,0.025%/20 gm,Cream,1,78
+retina,0.025%/20 gm,Cream,3,233
+retina,0.025%/45 gm,Cream,1,124
+retina,0.025%/45 gm,Cream,3,372
+retina,0.05%/20 gm,Cream,1,99
+retina,0.05%/20 gm,Cream,3,296
+retina,0.05%/40 gm,Cream,1,120
+retina,0.05%/40 gm,Cream,3,360
+retina,0.05%/45 gm,Cream,1,119
+retina,0.05%/45 gm,Cream,3,357
+retina,0.1%/20 gm,Cream,1,109
+retina,0.1%/20 gm,Cream,3,327
+retina,0.1%/45 gm,Cream,1,186
+retina,0.1%/45 gm,Cream,3,556
+retina,0.01%/15 gm,Gel,1,63
+retina,0.01%/15 gm,Gel,3,187
+retina,0.01%/45 gm,Gel,1,137
+retina,0.01%/45 gm,Gel,3,411
+retina,0.025%/15 gm,Gel,1,62
+retina,0.025%/15 gm,Gel,3,185
+retina,0.025%/45 gm,Gel,1,147
+retina,0.025%/45 gm,Gel,3,439
+retina,0.05%/45 gm,Gel,1,261
+retina,0.05%/45 gm,Gel,3,781
+retina,0.1%/20 gm,Gel,1,232
+retina,0.1%/20 gm,Gel,3,695
+requipxl,2 mg,Tablet Er,30,45
+requipxl,2 mg,Tablet Er,60,90
+requipxl,2 mg,Tablet Er,90,134
+requipxl,2 mg,Tablet Er,120,179
+requipxl,2 mg,Tablet Er,180,268
+requipxl,4 mg,Tablet Er,30,100
+requipxl,4 mg,Tablet Er,60,200
+requipxl,4 mg,Tablet Er,90,299
+requipxl,4 mg,Tablet Er,120,399
+requipxl,4 mg,Tablet Er,180,598
+requipxl,6 mg,Tablet Er,30,120
+requipxl,6 mg,Tablet Er,60,240
+requipxl,6 mg,Tablet Er,90,360
+requipxl,6 mg,Tablet Er,120,479
+requipxl,6 mg,Tablet Er,180,719
+requipxl,8 mg,Tablet Er,30,141
+requipxl,8 mg,Tablet Er,60,281
+requipxl,8 mg,Tablet Er,90,421
+requipxl,8 mg,Tablet Er,120,561
+requipxl,8 mg,Tablet Er,180,841
+requipxl,12 mg,Tablet Er,30,159
+requipxl,12 mg,Tablet Er,60,317
+requipxl,12 mg,Tablet Er,90,475
+requipxl,12 mg,Tablet Er,120,633
+requipxl,12 mg,Tablet Er,180,950
+requip,0.25 mg,Tablet,30,4
+requip,0.25 mg,Tablet,60,7
+requip,0.25 mg,Tablet,90,9
+requip,0.25 mg,Tablet,120,11
+requip,0.25 mg,Tablet,180,15
+requip,0.5 mg,Tablet,30,4
+requip,0.5 mg,Tablet,60,7
+requip,0.5 mg,Tablet,90,9
+requip,0.5 mg,Tablet,120,11
+requip,0.5 mg,Tablet,180,15
+requip,0.5 mg,Tablet,270,19
+requip,1 mg,Tablet,30,4
+requip,1 mg,Tablet,60,7
+requip,1 mg,Tablet,90,9
+requip,1 mg,Tablet,120,11
+requip,1 mg,Tablet,180,15
+requip,2 mg,Tablet,30,4
+requip,2 mg,Tablet,60,7
+requip,2 mg,Tablet,90,9
+requip,2 mg,Tablet,120,11
+requip,2 mg,Tablet,180,15
+requip,3 mg,Tablet,30,4
+requip,3 mg,Tablet,60,7
+requip,3 mg,Tablet,90,9
+requip,3 mg,Tablet,120,11
+requip,3 mg,Tablet,180,15
+requip,4 mg,Tablet,30,4
+requip,4 mg,Tablet,60,7
+requip,4 mg,Tablet,90,9
+requip,4 mg,Tablet,120,11
+requip,4 mg,Tablet,180,15
+requip,5 mg,Tablet,30,4
+requip,5 mg,Tablet,60,7
+requip,5 mg,Tablet,90,9
+requip,5 mg,Tablet,120,11
+requip,5 mg,Tablet,180,15
+requip,5 mg,Tablet,270,19
+remeron,7.5 mg,Tablet,30,21
+remeron,7.5 mg,Tablet,60,42
+remeron,7.5 mg,Tablet,90,63
+remeron,15 mg,Tablet,30,4
+remeron,15 mg,Tablet,45,5
+remeron,15 mg,Tablet,60,7
+remeron,15 mg,Tablet,90,10
+remeron,30 mg,Tablet,30,5
+remeron,30 mg,Tablet,45,7
+remeron,30 mg,Tablet,60,9
+remeron,30 mg,Tablet,90,14
+remeron,45 mg,Tablet,30,7
+remeron,45 mg,Tablet,60,13
+remeron,45 mg,Tablet,90,20
+remeron,15 mg,Tablet Odt,30,33
+remeron,15 mg,Tablet Odt,60,66
+remeron,15 mg,Tablet Odt,90,99
+remeron,30 mg,Tablet Odt,30,28
+remeron,30 mg,Tablet Odt,60,55
+remeron,30 mg,Tablet Odt,90,82
+remeron,45 mg,Tablet Odt,30,33
+remeron,45 mg,Tablet Odt,60,65
+remeron,45 mg,Tablet Odt,90,98
+relafen,500 mg,Tablet,30,6
+relafen,500 mg,Tablet,60,11
+relafen,500 mg,Tablet,90,16
+relafen,500 mg,Tablet,120,21
+relafen,500 mg,Tablet,180,31
+relafen,750 mg,Tablet,30,7
+relafen,750 mg,Tablet,60,14
+relafen,750 mg,Tablet,90,21
+relafen,750 mg,Tablet,180,41
+reglan,5 mg/5 mL/473 ml,Solution,1,23
+reglan,5 mg/5 mL/473 ml,Solution,3,67
+reglan,5 mg,Tablet,30,4
+reglan,5 mg,Tablet,60,7
+reglan,5 mg,Tablet,90,9
+reglan,5 mg,Tablet,120,11
+reglan,10 mg,Tablet,30,4
+reglan,10 mg,Tablet,60,7
+reglan,10 mg,Tablet,90,9
+reglan,10 mg,Tablet,120,11
+reglan,5 mg,Tablet Odt,10,77
+reglan,5 mg,Tablet Odt,30,229
+reglan,5 mg,Tablet Odt,60,458
+reglan,5 mg,Tablet Odt,90,687
+reglan,10 mg,Tablet Odt,10,77
+reglan,10 mg,Tablet Odt,30,229
+reglan,10 mg,Tablet Odt,60,458
+reglan,10 mg,Tablet Odt,90,687
+razadyneer,8 mg,Capsule Er,30,68
+razadyneer,8 mg,Capsule Er,60,135
+razadyneer,8 mg,Capsule Er,90,203
+razadyneer,16 mg,Capsule Er,30,67
+razadyneer,16 mg,Capsule Er,60,134
+razadyneer,16 mg,Capsule Er,90,201
+razadyneer,24 mg,Capsule Er,30,59
+razadyneer,24 mg,Capsule Er,60,118
+razadyneer,24 mg,Capsule Er,90,176
+razadyne,4 mg,Tablet,30,23
+razadyne,4 mg,Tablet,60,46
+razadyne,4 mg,Tablet,90,69
+razadyne,4 mg,Tablet,180,137
+razadyne,8 mg,Tablet,30,23
+razadyne,8 mg,Tablet,60,46
+razadyne,8 mg,Tablet,90,69
+razadyne,8 mg,Tablet,120,91
+razadyne,8 mg,Tablet,180,137
+razadyne,12 mg,Tablet,30,23
+razadyne,12 mg,Tablet,60,46
+razadyne,12 mg,Tablet,90,69
+razadyne,12 mg,Tablet,180,137
+quixin,0.5%/5 ml,Solution,1,43
+quixin,0.5%/5 ml,Solution,3,129
+questranlight,4 g/pkt/210 gm,Powder,1,70
+questranlight,4 g/pkt/210 gm,Powder,3,208
+questranlight,4 g/pkt/240 gm,Powder,1,59
+questranlight,4 g/pkt/240 gm,Powder,3,177
+questranlight,4 g/pkt/60 packets,Ud Packet,1,168
+questranlight,4 g/pkt/60 packets,Ud Packet,3,503
+questran,4 g/scoop/378 gm,Powder,1,74
+questran,4 g/scoop/378 gm,Powder,3,220
+questran,4 g/pkt/60 packets,Ud Packet,1,99
+questran,4 g/pkt/60 packets,Ud Packet,2,197
+questran,4 g/pkt/60 packets,Ud Packet,3,296
+pyridiumazostandard,100 mg,Tablet,30,24
+pyridiumazostandard,100 mg,Tablet,100,79
+pyridiumazostandard,200 mg,Tablet,30,27
+pyridiumazostandard,200 mg,Tablet,100,88
+pulmicortrespules,0.25 mg/2 mL/30 Amplues,Ampules,1,61
+pulmicortrespules,0.25 mg/2 mL/30 Amplues,Ampules,3,181
+pulmicortrespules,0.5 mg/2 mL/30 Ampules,Ampules,1,61
+pulmicortrespules,0.5 mg/2 mL/30 Ampules,Ampules,3,181
+pulmicortrespules,1 mg/2 mL/30 Ampules,Ampules,1,414
+pulmicortrespules,1 mg/2 mL/30 Ampules,Ampules,3,1242
+prozac,10 mg,Capsule,30,3
+prozac,10 mg,Capsule,60,6
+prozac,10 mg,Capsule,90,9
+prozac,10 mg,Capsule,180,17
+prozac,10 mg,Capsule,270,19
+prozac,20 mg,Capsule,30,4
+prozac,20 mg,Capsule,60,7
+prozac,20 mg,Capsule,90,9
+prozac,20 mg,Capsule,180,17
+prozac,20 mg,Capsule,270,22
+prozac,40 mg,Capsule,30,4
+prozac,40 mg,Capsule,60,7
+prozac,40 mg,Capsule,90,9
+prozac,40 mg,Capsule,180,17
+prozac,10 mg,Tablet,30,16
+prozac,10 mg,Tablet,45,24
+prozac,10 mg,Tablet,60,31
+prozac,10 mg,Tablet,90,46
+prozac,20 mg,Tablet,30,26
+prozac,20 mg,Tablet,45,38
+prozac,20 mg,Tablet,60,51
+prozac,20 mg,Tablet,90,75
+prozac,20 mg,Tablet,180,149
+prozac,10 mg,Tablets,30,16
+prozac,10 mg,Tablets,45,24
+prozac,10 mg,Tablets,60,31
+prozac,10 mg,Tablets,90,46
+prozac,20 mg,Tablets,30,26
+prozac,20 mg,Tablets,45,38
+prozac,20 mg,Tablets,60,51
+prozac,20 mg,Tablets,90,75
+prozac,20 mg,Tablets,180,149
+provera,2.5 mg,Tablet,30,4
+provera,2.5 mg,Tablet,45,5
+provera,2.5 mg,Tablet,60,6
+provera,2.5 mg,Tablet,90,9
+provera,5 mg,Tablet,30,4
+provera,5 mg,Tablet,60,7
+provera,5 mg,Tablet,90,9
+provera,10 mg,Tablet,30,5
+provera,10 mg,Tablet,60,10
+provera,10 mg,Tablet,90,15
+provera,150 mg/1 ml,Multi Dose Vial,1,59
+proventilhfa,90 mcg/6.7 gm,Inhaler,1,88
+proventilhfa,90 mcg/6.7 gm,Inhaler,3,240
+protonix,20 mg,Tablet,30,5
+protonix,20 mg,Tablet,60,8
+protonix,20 mg,Tablet,90,10
+protonix,20 mg,Tablet,180,18
+protonix,40 mg,Tablet,30,5
+protonix,40 mg,Tablet,60,8
+protonix,40 mg,Tablet,90,10
+protonix,40 mg,Tablet,180,18
+propecia,1 mg,Tablet,30,4
+propecia,1 mg,Tablet,60,7
+propecia,1 mg,Tablet,90,9
+prometrium,100 mg,Capsule,30,14
+prometrium,100 mg,Capsule,60,27
+prometrium,100 mg,Capsule,90,41
+prometrium,100 mg,Capsule,180,81
+prometrium,200 mg,Capsule,30,15
+prometrium,200 mg,Capsule,60,30
+prometrium,200 mg,Capsule,90,45
+procardiaxl,30 mg,Tablet Er,30,8
+procardiaxl,30 mg,Tablet Er,60,15
+procardiaxl,30 mg,Tablet Er,90,22
+procardiaxl,30 mg,Tablet Er,180,43
+procardiaxl,60 mg,Tablet Er,30,8
+procardiaxl,60 mg,Tablet Er,60,15
+procardiaxl,60 mg,Tablet Er,90,23
+procardiaxl,60 mg,Tablet Er,180,45
+procardiaxl,90 mg,Tablet Er,30,13
+procardiaxl,90 mg,Tablet Er,60,25
+procardiaxl,90 mg,Tablet Er,90,38
+procardiaxl,90 mg,Tablet Er,180,75
+procardiaadalat,10 mg,Capsule,30,21
+procardiaadalat,10 mg,Capsule,60,42
+procardiaadalat,10 mg,Capsule,90,63
+procardiaadalat,10 mg,Capsule,120,84
+procardiaadalat,10 mg,Capsule,180,125
+procardiaadalat,20 mg,Capsule,30,50
+procardiaadalat,20 mg,Capsule,60,99
+procardiaadalat,20 mg,Capsule,90,148
+procardiaadalat,20 mg,Capsule,120,197
+procardiaadalat,20 mg,Capsule,180,295
+proairrespiclick,90 mcg,Inhaler,1,65
+proairrespiclick,90 mcg,Inhaler,3,163
+pristiq,25 mg,Tablet Er,30,31
+pristiq,25 mg,Tablet Er,60,62
+pristiq,25 mg,Tablet Er,90,92
+pristiq,50 mg,Tablet Er,30,28
+pristiq,50 mg,Tablet Er,60,56
+pristiq,50 mg,Tablet Er,90,84
+pristiq,100 mg,Tablet Er,30,26
+pristiq,100 mg,Tablet Er,60,51
+pristiq,100 mg,Tablet Er,90,77
+prilosec,10 mg,Capsule Dr,30,7
+prilosec,10 mg,Capsule Dr,60,13
+prilosec,10 mg,Capsule Dr,90,20
+prilosec,10 mg,Capsule Dr,180,39
+prilosec,20 mg,Capsule Dr,30,5
+prilosec,20 mg,Capsule Dr,60,8
+prilosec,20 mg,Capsule Dr,90,10
+prilosec,20 mg,Capsule Dr,180,18
+prilosec,40 mg,Capsule Dr,30,5
+prilosec,40 mg,Capsule Dr,60,8
+prilosec,40 mg,Capsule Dr,90,10
+prilosec,40 mg,Capsule Dr,180,18
+prilosec,20 mg,Capsule Dr,270,27
+prevpac,30 mg/500 mg/500 mg,Convenience Pack (14 Day),112,239
+prevpac,30 mg/500 mg/500 mg,Convenience Pack (14 Day),224,478
+prevpac,31 mg/500 mg/500 mg,Convenience Pack (14 Day),224,765.03
+prevacid,15 mg,Capsule Dr,30,17
+prevacid,15 mg,Capsule Dr,60,33
+prevacid,15 mg,Capsule Dr,90,50
+prevacid,15 mg,Capsule Dr,180,99
+prevacid,30 mg,Capsule Dr,30,7
+prevacid,30 mg,Capsule Dr,60,14
+prevacid,30 mg,Capsule Dr,90,21
+prevacid,30 mg,Capsule Dr,180,42
+precose,25 mg,Tablet,30,4
+precose,25 mg,Tablet,60,7
+precose,25 mg,Tablet,90,9
+precose,25 mg,Tablet,180,17
+precose,25 mg,Tablet,270,22
+precose,50 mg,Tablet,30,5
+precose,50 mg,Tablet,60,9
+precose,50 mg,Tablet,90,13
+precose,50 mg,Tablet,180,25
+precose,50 mg,Tablet,270,38
+precose,100 mg,Tablet,30,9
+precose,100 mg,Tablet,60,18
+precose,100 mg,Tablet,90,27
+precose,100 mg,Tablet,180,54
+precose,100 mg,Tablet,270,81
+pravachol,10 mg,Tablet,30,4
+pravachol,10 mg,Tablet,45,5
+pravachol,10 mg,Tablet,60,6
+pravachol,10 mg,Tablet,90,9
+pravachol,20 mg,Tablet,30,4
+pravachol,20 mg,Tablet,45,5
+pravachol,20 mg,Tablet,60,6
+pravachol,20 mg,Tablet,90,9
+pravachol,40 mg,Tablet,30,4
+pravachol,40 mg,Tablet,60,7
+pravachol,40 mg,Tablet,90,9
+pravachol,40 mg,Tablet,180,17
+pravachol,80 mg,Tablet,30,4
+pravachol,80 mg,Tablet,45,5
+pravachol,80 mg,Tablet,60,6
+pravachol,80 mg,Tablet,90,9
+prandin,0.5 mg,Tablet,30,7
+prandin,0.5 mg,Tablet,60,13
+prandin,0.5 mg,Tablet,90,20
+prandin,0.5 mg,Tablet,180,39
+prandin,0.5 mg,Tablet,270,59
+prandin,1 mg,Tablet,30,8
+prandin,1 mg,Tablet,60,15
+prandin,1 mg,Tablet,90,22
+prandin,1 mg,Tablet,180,44
+prandin,1 mg,Tablet,270,66
+prandin,2 mg,Tablet,30,7
+prandin,2 mg,Tablet,60,13
+prandin,2 mg,Tablet,90,20
+prandin,2 mg,Tablet,180,39
+prandin,2 mg,Tablet,270,58
+polytrim,10000 units-1 mg/mL/10 ml,Solution,1,7
+polytrim,10000 units-1 mg/mL/10 ml,Solution,3,21
+plendil,2.5 mg,Tablet Er,30,6
+plendil,2.5 mg,Tablet Er,60,12
+plendil,2.5 mg,Tablet Er,90,18
+plendil,2.5 mg,Tablet Er,120,24
+plendil,2.5 mg,Tablet Er,180,36
+plendil,5 mg,Tablet Er,30,8
+plendil,5 mg,Tablet Er,60,15
+plendil,5 mg,Tablet Er,90,23
+plendil,5 mg,Tablet Er,180,45
+plendil,10 mg,Tablet Er,30,10
+plendil,10 mg,Tablet Er,60,19
+plendil,10 mg,Tablet Er,90,28
+plavix,75 mg,Tablet,30,4
+plavix,75 mg,Tablet,60,6
+plavix,75 mg,Tablet,90,9
+plavix,300 mg,Tablet,30,410
+plavix,300 mg,Tablet,100,1367
+plaquenil,200 mg,Tablet,30,8
+plaquenil,200 mg,Tablet,45,12
+plaquenil,200 mg,Tablet,60,16
+plaquenil,200 mg,Tablet,90,24
+plaquenil,200 mg,Tablet,180,48
+phenytek,200 mg,Capsule Er,30,38
+phenytek,200 mg,Capsule Er,60,76
+phenytek,200 mg,Capsule Er,90,127
+phenytek,200 mg,Capsule Er,120,169
+phenytek,200 mg,Capsule Er,180,254
+phenytek,300 mg,Capsule Er,30,57
+phenytek,300 mg,Capsule Er,60,113
+phenytek,300 mg,Capsule Er,90,170
+phenytek,300 mg,Capsule Er,120,226
+phenytek,300 mg,Capsule Er,180,339
+phenergan,12.5 mg,Rectal Suppositories,12,108
+phenergan,12.5 mg,Rectal Suppositories,24,216
+phenergan,25 mg,Rectal Suppositories,12,82
+phenergan,25 mg,Rectal Suppositories,24,164
+phenergan,50 mg,Rectal Suppositories,12,337
+phenergan,50 mg,Rectal Suppositories,24,674
+phenergan,6.25 mg/5 mL/473 ml,Solution,1,8
+phenergan,6.25 mg/5 mL/473 ml,Solution,2,15
+phenergan,6.25 mg/5 mL/473 ml,Solution,3,23
+phenergan,6.25 mg/5 mL/480 ml,Solution,1,10.39
+phenergan,6.25 mg/5 mL/480 ml,Solution,2,20.78
+phenergan,6.25 mg/5 mL/480 ml,Solution,3,31.16
+phenergan,12.5 mg,Tablet,30,4
+phenergan,12.5 mg,Tablet,60,8
+phenergan,12.5 mg,Tablet,90,10
+phenergan,25 mg,Tablet,30,5
+phenergan,25 mg,Tablet,60,8
+phenergan,25 mg,Tablet,90,11
+phenergan,50 mg,Tablet,30,6
+phenergan,50 mg,Tablet,60,11
+phenergan,50 mg,Tablet,90,15
+phenergan,50 mg,Tablet,120,18
+peridex,0.12%/473 ml,Suspension,1,4
+peridex,0.12%/473 ml,Suspension,3,11
+pepcid,20 mg,Tablet,30,4
+pepcid,20 mg,Tablet,60,7
+pepcid,20 mg,Tablet,90,9
+pepcid,20 mg,Tablet,180,17
+pepcid,40 mg,Tablet,30,4
+pepcid,40 mg,Tablet,60,7
+pepcid,40 mg,Tablet,90,9
+pepcid,40 mg,Tablet,180,17
+penlacnaillacquer,8%/6.6 ml,Solution,1,19
+penlacnaillacquer,8%/6.6 ml,Solution,3,55
+pediapred,6.7 mg/5 mL,Solution,120,82
+pediapred,6.7 mg/5 mL,Solution,240,164
+pediapred,15 mg/5 mL,Solution,240,19
+pediapred,15 mg/5 mL,Solution,480,23
+paxilcr,12.5 mg,Tablet,30,51
+paxilcr,12.5 mg,Tablet,60,101
+paxilcr,12.5 mg,Tablet,90,151
+paxilcr,25 mg,Tablet,30,77
+paxilcr,25 mg,Tablet,60,153
+paxilcr,25 mg,Tablet,90,229
+paxilcr,25 mg,Tablet,180,457
+paxilcr,37.5 mg,Tablet,30,82
+paxilcr,37.5 mg,Tablet,60,163
+paxilcr,37.5 mg,Tablet,90,245
+paxil,10 mg,Tablet,30,4
+paxil,10 mg,Tablet,45,5
+paxil,10 mg,Tablet,60,6
+paxil,10 mg,Tablet,90,9
+paxil,20 mg,Tablet,30,4
+paxil,20 mg,Tablet,45,5
+paxil,20 mg,Tablet,60,6
+paxil,20 mg,Tablet,90,9
+paxil,20 mg,Tablet,180,15
+paxil,30 mg,Tablet,30,4
+paxil,30 mg,Tablet,45,5
+paxil,30 mg,Tablet,60,6
+paxil,30 mg,Tablet,90,9
+paxil,30 mg,Tablet,180,15
+paxil,40 mg,Tablet,30,4
+paxil,40 mg,Tablet,45,5
+paxil,40 mg,Tablet,60,6
+paxil,40 mg,Tablet,90,9
+paxil,40 mg,Tablet,180,15
+paxil,10 mg,Tablet,180,17
+paxil,30 mg,Tablet,118,11.5
+patanol,0.1%/5 ml,Solution,1,22
+patanol,0.1%/5 ml,Solution,3,64
+patanase,665 mcg/30.5 gm,Solution,1,120
+patanase,665 mcg/30.5 gm,Solution,3,359
+pataday,0.2%/2.5 ml,Solution,1,26
+pataday,0.2%/2.5 ml,Solution,3,77
+parcopa,10 mg/100 mg,Tablet Odt,30,19
+parcopa,10 mg/100 mg,Tablet Odt,60,37
+parcopa,10 mg/100 mg,Tablet Odt,90,56
+parcopa,10 mg/100 mg,Tablet Odt,120,74
+parcopa,25 mg/100 mg,Tablet Odt,30,28
+parcopa,25 mg/100 mg,Tablet Odt,60,55
+parcopa,25 mg/100 mg,Tablet Odt,90,82
+parcopa,25 mg/100 mg,Tablet Odt,120,109
+parcopa,25 mg/100 mg,Tablet Odt,180,164
+parcopa,25 mg/100 mg,Tablet Odt,240,218
+parcopa,25 mg/100 mg,Tablet Odt,270,245
+parcopa,25 mg/250 mg,Tablet Odt,30,30
+parcopa,25 mg/250 mg,Tablet Odt,60,60
+parcopa,25 mg/250 mg,Tablet Odt,90,90
+parcopa,25 mg/250 mg,Tablet Odt,120,120
+parcopa,25 mg/250 mg,Tablet Odt,180,179
+orthotricyclenlo,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,28,14
+orthotricyclenlo,0.18 mg-0.215 mg-0.25 mg/25 mcg,Tablet,84,42
+optivar,0.05%/6 ml,Solution,1,11
+optivar,0.05%/6 ml,Solution,2,21
+optivar,0.05%/6 ml,Solution,3,31
+ocuflox,0.3%/5 ml,Solution,1,14
+ocuflox,0.3%/5 ml,Solution,2,28
+ocuflox,0.3%/5 ml,Solution,3,41
+ocuflox,0.3%/10 ml,Solution,1,29
+ocuflox,0.3%/10 ml,Solution,2,57
+ocuflox,0.3%/10 ml,Solution,3,86
+ocuflox,300 mg,Tablet,20,199
+ocuflox,300 mg,Tablet,30,298
+ocuflox,300 mg,Tablet,50,496
+ocuflox,400 mg,Tablet,20,278
+ocuflox,400 mg,Tablet,30,417
+ocuflox,400 mg,Tablet,60,834
+norpramin,10 mg,Tablet,30,38
+norpramin,10 mg,Tablet,60,76
+norpramin,10 mg,Tablet,90,113
+norpramin,10 mg,Tablet,120,151
+norpramin,10 mg,Tablet,180,226
+norpramin,25 mg,Tablet,30,33
+norpramin,25 mg,Tablet,60,65
+norpramin,25 mg,Tablet,90,97
+norpramin,25 mg,Tablet,120,129
+norpramin,25 mg,Tablet,180,193
+norpramin,50 mg,Tablet,30,50
+norpramin,50 mg,Tablet,60,99
+norpramin,50 mg,Tablet,90,148
+norpramin,50 mg,Tablet,180,296
+norpramin,50 mg,Tablet,270,444
+norpramin,75 mg,Tablet,30,76
+norpramin,75 mg,Tablet,60,152
+norpramin,75 mg,Tablet,90,228
+norpramin,75 mg,Tablet,120,304
+norpramin,75 mg,Tablet,180,456
+norpramin,100 mg,Tablet,30,106
+norpramin,100 mg,Tablet,60,211
+norpramin,100 mg,Tablet,90,317
+norpramin,100 mg,Tablet,120,422
+norpramin,100 mg,Tablet,180,633
+norpramin,150 mg,Tablet,30,159
+norpramin,150 mg,Tablet,40,211
+norpramin,150 mg,Tablet,60,317
+norpramin,150 mg,Tablet,90,475
+norpramin,150 mg,Tablet,120,633
+normodyne,100 mg,Tablet,30,6
+normodyne,100 mg,Tablet,60,11
+normodyne,100 mg,Tablet,90,16
+normodyne,100 mg,Tablet,120,21
+normodyne,100 mg,Tablet,180,32
+normodyne,200 mg,Tablet,30,8
+normodyne,200 mg,Tablet,60,15
+normodyne,200 mg,Tablet,90,22
+normodyne,200 mg,Tablet,120,29
+normodyne,200 mg,Tablet,180,44
+normodyne,300 mg,Tablet,30,11
+normodyne,300 mg,Tablet,60,22
+normodyne,300 mg,Tablet,90,33
+normodyne,300 mg,Tablet,120,44
+normodyne,300 mg,Tablet,180,65
+nolvadex,10 mg,Tablet,30,9
+nolvadex,10 mg,Tablet,60,18
+nolvadex,10 mg,Tablet,90,26
+nolvadex,10 mg,Tablet,120,35
+nolvadex,10 mg,Tablet,180,52
+nolvadex,20 mg,Tablet,30,18
+nolvadex,20 mg,Tablet,60,36
+nolvadex,20 mg,Tablet,90,54
+nizoral,2%/15 gm,Cream,1,21
+nizoral,2%/15 gm,Cream,3,63
+nizoral,2%/30 gm,Cream,1,36
+nizoral,2%/30 gm,Cream,3,107
+nizoral,2%/60 gm,Cream,1,35
+nizoral,2%/60 gm,Cream,3,104
+nizoral,2%/50 ml,Foam,1,387
+nizoral,2%/50 ml,Foam,3,1161
+nizoral,2%/100 ml,Foam,1,512
+nizoral,2%/100 ml,Foam,3,1536
+nizoral,2%/120 ml,Shampoo,1,9
+nizoral,2%/120 ml,Shampoo,3,26
+nizoral,200 mg,Tablet,30,42
+nizoral,200 mg,Tablet,60,83
+nizoral,200 mg,Tablet,100,138
+nitrolingual,400 mcg/spray/4.9 gm,Lingual Aerosol,1,156
+nitrolingual,400 mcg/spray/4.9 gm,Lingual Aerosol,3,468
+nitrolingual,400 mcg/spray/12 gm,Lingual Aerosol,1,156
+nitrolingual,400 mcg/spray/12 gm,Lingual Aerosol,3,466
+niaspan,500 mg,Tablet Er,30,18
+niaspan,500 mg,Tablet Er,60,35
+niaspan,500 mg,Tablet Er,90,52
+niaspan,500 mg,Tablet Er,180,104
+niaspan,750 mg,Tablet Er,30,44
+niaspan,750 mg,Tablet Er,60,88
+niaspan,750 mg,Tablet Er,90,131
+niaspan,750 mg,Tablet Er,180,262
+niaspan,1000 mg,Tablet Er,30,29
+niaspan,1000 mg,Tablet Er,60,58
+niaspan,1000 mg,Tablet Er,90,87
+niaspan,1000 mg,Tablet Er,180,174
+neurontin,100 mg,Capsule,30,4
+neurontin,100 mg,Capsule,60,7
+neurontin,100 mg,Capsule,90,9
+neurontin,100 mg,Capsule,120,12
+neurontin,100 mg,Capsule,180,18
+neurontin,100 mg,Capsule,500,50
+neurontin,300 mg,Capsule,30,4
+neurontin,300 mg,Capsule,60,7
+neurontin,300 mg,Capsule,90,9
+neurontin,300 mg,Capsule,120,12
+neurontin,300 mg,Capsule,180,18
+neurontin,300 mg,Capsule,270,26
+neurontin,300 mg,Capsule,500,50
+neurontin,400 mg,Capsule,30,4
+neurontin,400 mg,Capsule,60,7
+neurontin,400 mg,Capsule,90,9
+neurontin,400 mg,Capsule,120,12
+neurontin,400 mg,Capsule,180,18
+neurontin,400 mg,Capsule,500,50
+neurontin,600 mg,Tablet,30,4
+neurontin,600 mg,Tablet,60,7
+neurontin,600 mg,Tablet,90,9
+neurontin,600 mg,Tablet,120,12
+neurontin,600 mg,Tablet,180,18
+neurontin,600 mg,Tablet,500,50
+neurontin,800 mg,Tablet,30,4
+neurontin,800 mg,Tablet,60,7
+neurontin,800 mg,Tablet,90,9
+neurontin,800 mg,Tablet,120,12
+neurontin,800 mg,Tablet,180,18
+neurontin,800 mg,Tablet,270,27
+nasonex,50 mcg/17 gm,Nasal Spray,1,62
+nasonex,50 mcg/17 gm,Nasal Spray,3,184
+naprosyn,250 mg,Tablet,30,4
+naprosyn,250 mg,Tablet,60,7
+naprosyn,250 mg,Tablet,100,10
+naprosyn,275 mg,Tablet,30,37
+naprosyn,275 mg,Tablet,60,74
+naprosyn,275 mg,Tablet,100,124
+naprosyn,375 mg,Tablet,30,4
+naprosyn,375 mg,Tablet,60,7
+naprosyn,375 mg,Tablet,90,9
+naprosyn,375 mg,Tablet,180,18
+naprosyn,500 mg,Tablet,30,4
+naprosyn,500 mg,Tablet,60,7
+naprosyn,500 mg,Tablet,90,9
+naprosyn,500 mg,Tablet,180,18
+naprosyn,550 mg,Tablet,30,25
+naprosyn,550 mg,Tablet,60,49
+naprosyn,550 mg,Tablet,100,82
+myfortic,180 mg,Tablet,30,41
+myfortic,180 mg,Tablet,60,81
+myfortic,180 mg,Tablet,90,122
+myfortic,180 mg,Tablet,120,162
+myfortic,180 mg,Tablet,180,312
+myfortic,180 mg,Tablet,240,523
+myfortic,360 mg,Tablet,30,128
+myfortic,360 mg,Tablet,60,256
+myfortic,360 mg,Tablet,90,384
+myfortic,360 mg,Tablet,120,512
+myfortic,360 mg,Tablet,180,768
+myfortic,360 mg,Tablet,360,1536
+mycostatin,100000 U/gm/15 gm,Cream,1,7
+mycostatin,100000 U/gm/15 gm,Cream,3,19
+mycostatin,100000 U/gm/30 gm,Cream,1,10
+mycostatin,100000 U/gm/30 gm,Cream,3,28
+mycostatin,100000 U/gm/15 gm,Ointment,1,13
+mycostatin,100000 U/gm/15 gm,Ointment,3,39
+mycostatin,100000 U/gm/30 gm,Ointment,1,18
+mycostatin,100000 U/gm/30 gm,Ointment,3,52
+mycostatin,500000 U,Tablets,30,18
+mycostatin,500000 U,Tablets,60,35
+mycostatin,500000 U,Tablets,90,53
+mycostatin,500000 U,Tablets,120,70
+mycostatin,500000 U,Tablets,180,105
+mycostatin,500000 U,Tablets,360,209
+mycostatin,100000U/gm/15 gm,Topical Powder,1,6
+mycostatin,100000U/gm/15 gm,Topical Powder,3,18
+mycostatin,100000U/gm/30 gm,Topical Powder,1,12
+mycostatin,100000U/gm/30 gm,Topical Powder,3,35
+mycostatin,100000U/gm/60 gm,Topical Powder,1,20
+mycostatin,100000U/gm/60 gm,Topical Powder,3,58
+mycologii,100000 U-1 mg/gm/15 gm,Cream,1,55
+mycologii,100000 U-1 mg/gm/15 gm,Cream,3,165
+mycologii,100000 U-1 mg/gm/30 gm,Cream,1,77
+mycologii,100000 U-1 mg/gm/30 gm,Cream,3,229
+mycologii,100000 U-1 mg/gm/60 gm,Cream,1,88
+mycologii,100000 U-1 mg/gm/60 gm,Cream,3,263
+mycologii,100000 U-1 mg/gm/15 gm,Ointment,1,20
+mycologii,100000 U-1 mg/gm/15 gm,Ointment,3,60
+mycologii,100000 U-1 mg/gm/30 gm,Ointment,1,38
+mycologii,100000 U-1 mg/gm/30 gm,Ointment,3,114
+mycologii,100000 U-1 mg/gm/60 gm,Ointment,1,75
+mycologii,100000 U-1 mg/gm/60 gm,Ointment,3,223
+motrin,400 mg,Tablet,30,4
+motrin,400 mg,Tablet,60,7
+motrin,400 mg,Tablet,90,9
+motrin,600 mg,Tablet,30,4
+motrin,600 mg,Tablet,40,5
+motrin,600 mg,Tablet,60,6
+motrin,600 mg,Tablet,90,9
+motrin,800 mg,Tablet,30,4
+motrin,800 mg,Tablet,60,7
+motrin,800 mg,Tablet,90,9
+monoprilhct,10 mg/12.5 mg,Tablet,30,38
+monoprilhct,10 mg/12.5 mg,Tablet,60,75
+monoprilhct,10 mg/12.5 mg,Tablet,90,113
+monoprilhct,20 mg/12.5 mg,Tablet,30,26
+monoprilhct,20 mg/12.5 mg,Tablet,60,51
+monoprilhct,20 mg/12.5 mg,Tablet,90,76
+monoprilhct,20 mg/12.5 mg,Tablet,180,151
+monopril,10 mg,Tablet,30,5
+monopril,10 mg,Tablet,45,8
+monopril,10 mg,Tablet,60,10
+monopril,10 mg,Tablet,90,15
+monopril,20 mg,Tablet,30,4
+monopril,20 mg,Tablet,60,8
+monopril,20 mg,Tablet,90,12
+monopril,20 mg,Tablet,135,18
+monopril,20 mg,Tablet,180,23
+monopril,40 mg,Tablet,30,7
+monopril,40 mg,Tablet,60,13
+monopril,40 mg,Tablet,90,20
+monopril,40 mg,Tablet,180,39
+monoket,10 mg,Tablet,30,9
+monoket,10 mg,Tablet,60,17
+monoket,10 mg,Tablet,90,24
+monoket,10 mg,Tablet,180,45
+monoket,10 mg,Tablet,270,65
+monoket,20 mg,Tablet,30,9
+monoket,20 mg,Tablet,60,17
+monoket,20 mg,Tablet,90,24
+monoket,20 mg,Tablet,180,45
+monoket,20 mg,Tablet,270,65
+monodox,50 mg,Capsule,30,11
+monodox,50 mg,Capsule,60,22
+monodox,50 mg,Capsule,90,33
+monodox,50 mg,Capsule,180,66
+monodox,75 mg,Capsule,30,362
+monodox,75 mg,Capsule,60,724
+monodox,75 mg,Capsule,90,1086
+monodox,100 mg,Capsule,30,11
+monodox,100 mg,Capsule,60,22
+monodox,150 mg,Capsule,30,507
+monodox,150 mg,Capsule,60,1013
+monodox,150 mg,Tablet,30,133
+monodox,150 mg,Tablet,60,266
+moduretic,5 mg/50 mg,Tablet,30,12
+moduretic,5 mg/50 mg,Tablet,45,17
+moduretic,5 mg/50 mg,Tablet,60,23
+moduretic,5 mg/50 mg,Tablet,90,34
+mobic,7.5 mg,Tablet,30,4
+mobic,7.5 mg,Tablet,60,7
+mobic,7.5 mg,Tablet,90,9
+mobic,7.5 mg,Tablet,180,17
+mobic,15 mg,Tablet,30,4
+mobic,15 mg,Tablet,60,7
+mobic,15 mg,Tablet,90,9
+mirapex,0.125 mg,Tablet,30,8
+mirapex,0.125 mg,Tablet,60,15
+mirapex,0.125 mg,Tablet,90,23
+mirapex,0.125 mg,Tablet,180,45
+mirapex,0.125 mg,Tablet,270,68
+mirapex,0.25 mg,Tablet,30,8
+mirapex,0.25 mg,Tablet,60,15
+mirapex,0.25 mg,Tablet,90,23
+mirapex,0.25 mg,Tablet,120,30
+mirapex,0.25 mg,Tablet,180,45
+mirapex,0.5 mg,Tablet,30,8
+mirapex,0.5 mg,Tablet,60,15
+mirapex,0.5 mg,Tablet,90,23
+mirapex,0.5 mg,Tablet,120,30
+mirapex,0.5 mg,Tablet,180,45
+mirapex,0.75 mg,Tablet,30,8
+mirapex,0.75 mg,Tablet,60,15
+mirapex,0.75 mg,Tablet,90,23
+mirapex,0.75 mg,Tablet,120,30
+mirapex,0.75 mg,Tablet,180,45
+mirapex,1 mg,Tablet,30,8
+mirapex,1 mg,Tablet,60,15
+mirapex,1 mg,Tablet,90,23
+mirapex,1 mg,Tablet,120,30
+mirapex,1 mg,Tablet,180,45
+mirapex,1.5 mg,Tablet,30,8
+mirapex,1.5 mg,Tablet,60,15
+mirapex,1.5 mg,Tablet,90,23
+mirapex,1.5 mg,Tablet,120,30
+mirapex,1.5 mg,Tablet,180,45
+nitrodur,0.1 mg/30 patches,Patch,1,20
+nitrodur,0.1 mg/30 patches,Patch,3,58
+nitrodur,0.2 mg/30 patches,Patch,1,16
+nitrodur,0.2 mg/30 patches,Patch,3,47
+nitrodur,0.4 mg/30 patches,Patch,1,21
+nitrodur,0.4 mg/30 patches,Patch,3,61
+nitrodur,0.6 mg/30 patches,Patch,1,25
+nitrodur,0.6 mg/30 patches,Patch,3,73
+nitrodur,0.3 mg,Sublingual Tablet,25,9
+nitrodur,0.3 mg,Sublingual Tablet,30,11
+nitrodur,0.3 mg,Sublingual Tablet,50,18
+nitrodur,0.3 mg,Sublingual Tablet,90,32
+nitrodur,0.3 mg,Sublingual Tablet,100,36
+nitrodur,0.4 mg,Sublingual Tablet,25,7
+nitrodur,0.4 mg,Sublingual Tablet,30,9
+nitrodur,0.4 mg,Sublingual Tablet,50,14
+nitrodur,0.4 mg,Sublingual Tablet,90,26
+nitrodur,0.4 mg,Sublingual Tablet,100,28
+nitrodur,0.6 mg,Sublingual Tablet,25,9
+nitrodur,0.6 mg,Sublingual Tablet,30,11
+nitrodur,0.6 mg,Sublingual Tablet,50,18
+nitrodur,0.6 mg,Sublingual Tablet,90,33
+nitrodur,0.6 mg,Sublingual Tablet,100,36
+minipress,1 mg,Capsule,30,9
+minipress,1 mg,Capsule,60,18
+minipress,1 mg,Capsule,90,26
+minipress,1 mg,Capsule,120,35
+minipress,1 mg,Capsule,180,52
+minipress,2 mg,Capsule,30,22
+minipress,2 mg,Capsule,60,44
+minipress,2 mg,Capsule,90,65
+minipress,2 mg,Capsule,120,87
+minipress,2 mg,Capsule,180,130
+minipress,5 mg,Capsule,30,36
+minipress,5 mg,Capsule,60,72
+minipress,5 mg,Capsule,90,107
+minipress,5 mg,Capsule,120,143
+minipress,5 mg,Capsule,180,214
+micardishct,40 mg/12.5 mg,Tablet,30,86
+micardishct,40 mg/12.5 mg,Tablet,60,172
+micardishct,40 mg/12.5 mg,Tablet,90,257
+micardishct,80 mg/12.5 mg,Tablet,30,54
+micardishct,80 mg/12.5 mg,Tablet,60,107
+micardishct,80 mg/12.5 mg,Tablet,90,160
+micardishct,80 mg/25 mg,Tablet,30,65
+micardishct,80 mg/25 mg,Tablet,60,129
+micardishct,80 mg/25 mg,Tablet,90,194
+micardis,20 mg,Tablet,30,22
+micardis,20 mg,Tablet,45,33
+micardis,20 mg,Tablet,60,43
+micardis,20 mg,Tablet,90,62
+micardis,40 mg,Tablet,30,22
+micardis,40 mg,Tablet,60,43
+micardis,40 mg,Tablet,90,62
+micardis,80 mg,Tablet,30,23
+micardis,80 mg,Tablet,90,63
+micardis,80 mg,Tablet,180,90
+mevacor,10 mg,Tablet,30,4
+mevacor,10 mg,Tablet,60,7
+mevacor,10 mg,Tablet,90,9
+mevacor,10 mg,Tablet,180,17
+mevacor,20 mg,Tablet,30,4
+mevacor,20 mg,Tablet,60,7
+mevacor,20 mg,Tablet,90,9
+mevacor,20 mg,Tablet,180,17
+mevacor,40 mg,Tablet,30,4
+mevacor,40 mg,Tablet,60,7
+mevacor,40 mg,Tablet,90,9
+mevacor,40 mg,Tablet,180,17
+metrolotion,0.75%/59 ml,Lotion,1,191
+metrolotion,0.75%/59 ml,Lotion,3,572
+metrogelvaginal,0.75%/70 gm,Gel,1,46
+metrogelvaginal,0.75%/70 gm,Gel,3,136
+metrogel,0.75%/45 gm,Gel,1,41
+metrogel,0.75%/45 gm,Gel,3,123
+metrogel,1%/60 gm,Gel,1,106
+metrogel,1%/60 gm,Gel,3,310
+metrogel,1%/55 gm,Gel Pump,1,68
+metrogel,1%/55 gm,Gel Pump,3,200
+metrogel,0.75%/70 gm,Gel,1,46
+metrogel,0.75%/70 gm,Gel,3,138
+metrocream,0.75%/45 gm,Cream,1,59
+metrocream,0.75%/45 gm,Cream,3,177
+metaglip,2.5 mg/250 mg,Tablet,30,17
+metaglip,2.5 mg/250 mg,Tablet,60,33
+metaglip,2.5 mg/250 mg,Tablet,70,38
+metaglip,2.5 mg/250 mg,Tablet,120,65
+metaglip,2.5 mg/250 mg,Tablet,180,97
+metaglip,2.5 mg/500 mg,Tablet,30,11
+metaglip,2.5 mg/500 mg,Tablet,60,21
+metaglip,2.5 mg/500 mg,Tablet,120,41
+metaglip,2.5 mg/500 mg,Tablet,180,61
+metaglip,2.5 mg/500 mg,Tablet,360,121
+metaglip,5 mg/500 mg,Tablet,30,8
+metaglip,5 mg/500 mg,Tablet,60,16
+metaglip,5 mg/500 mg,Tablet,90,24
+metaglip,5 mg/500 mg,Tablet,120,32
+metaglip,5 mg/500 mg,Tablet,180,48
+metaglip,5 mg/500 mg,Tablet,360,95
+megace,20 mg,Tablet,30,8
+megace,20 mg,Tablet,60,16
+megace,20 mg,Tablet,90,24
+megace,20 mg,Tablet,120,32
+megace,20 mg,Tablet,180,48
+megace,40 mg,Tablet,30,5
+megace,40 mg,Tablet,60,10
+megace,40 mg,Tablet,90,15
+megace,40 mg,Tablet,120,20
+megace,40 mg,Tablet,180,30
+medrol,4 mg,Dose Pack,21,6
+medrol,4 mg,Dose Pack,63,17
+medrol,4 mg,Tablet,30,12
+medrol,4 mg,Tablet,60,23
+medrol,4 mg,Tablet,90,34
+medrol,8 mg,Tablet,25,45
+medrol,8 mg,Tablet,50,89
+medrol,16 mg,Tablet,50,116
+medrol,32 mg,Tablet,25,99
+maxzide,37.5 mg/25 mg,Tablet,30,4
+maxzide,37.5 mg/25 mg,Tablet,45,6
+maxzide,37.5 mg/25 mg,Tablet,60,8
+maxzide,37.5 mg/25 mg,Tablet,90,12
+maxzide,75 mg/50 mg,Tablet,30,4
+maxzide,75 mg/50 mg,Tablet,45,6
+maxzide,75 mg/50 mg,Tablet,60,7
+maxzide,75 mg/50 mg,Tablet,90,11
+maxitrol,0.1%/3.5 gm,Ointment,1,14
+maxitrol,0.1%/3.5 gm,Ointment,3,40
+maxitrol,0.1%/5 ml,Suspension,1,18
+maxitrol,0.1%/5 ml,Suspension,3,53
+maxaltmlt,5 mg,Tablet Odt,9,14
+maxaltmlt,5 mg,Tablet Odt,18,28
+maxaltmlt,5 mg,Tablet Odt,30,47
+maxaltmlt,10 mg,Tablet Odt,9,11
+maxaltmlt,10 mg,Tablet Odt,18,22
+maxaltmlt,10 mg,Tablet Odt,30,36
+maxalt,5 mg,Tablet,9,11
+maxalt,5 mg,Tablet,18,21
+maxalt,5 mg,Tablet,30,35
+maxalt,10 mg,Tablet,9,9
+maxalt,10 mg,Tablet,18,17
+maxalt,10 mg,Tablet,30,28
+malarone,62.5 mg/25 mg,Tablet,30,57
+malarone,62.5 mg/25 mg,Tablet,60,113
+malarone,62.5 mg/25 mg,Tablet,90,169
+malarone,62.5 mg/25 mg,Tablet,180,338
+malarone,250 mg/100 mg,Tablet,30,67
+malarone,250 mg/100 mg,Tablet,60,133
+malarone,250 mg/100 mg,Tablet,90,199
+malarone,250 mg/100 mg,Tablet,180,397
+malarone,250 mg/100 mg,Tablet,22,49
+macrodantin,25 mg,Capsule,30,163
+macrodantin,25 mg,Capsule,60,326
+macrodantin,25 mg,Capsule,90,489
+macrodantin,50 mg,Capsule,30,26
+macrodantin,50 mg,Capsule,40,34
+macrodantin,50 mg,Capsule,60,51
+macrodantin,50 mg,Capsule,90,76
+macrodantin,100 mg,Capsule,30,32
+macrodantin,100 mg,Capsule,60,64
+macrodantin,100 mg,Capsule,100,106
+macrobid,100 mg,Capsule,20,15
+macrobid,100 mg,Capsule,30,23
+macrobid,100 mg,Capsule,60,45
+macrobid,100 mg,Capsule,100,75
+macrobid,100 mg,Capsule,10,8
+luvoxcr,100 mg,Capsule Er,30,210
+luvoxcr,100 mg,Capsule Er,60,419
+luvoxcr,100 mg,Capsule Er,90,629
+luvoxcr,100 mg,Capsule Er,180,1257
+luvoxcr,150 mg,Capsule Er,30,225
+luvoxcr,150 mg,Capsule Er,60,450
+luvoxcr,150 mg,Capsule Er,90,675
+luvoxcr,150 mg,Capsule Er,180,1349
+luvox,25 mg,Tablet,30,7
+luvox,25 mg,Tablet,45,10
+luvox,25 mg,Tablet,60,13
+luvox,25 mg,Tablet,90,19
+luvox,25 mg,Tablet,180,38
+luvox,50 mg,Tablet,30,10
+luvox,50 mg,Tablet,45,15
+luvox,50 mg,Tablet,60,20
+luvox,50 mg,Tablet,90,29
+luvox,50 mg,Tablet,120,39
+luvox,100 mg,Tablet,30,11
+luvox,100 mg,Tablet,45,16
+luvox,100 mg,Tablet,60,21
+luvox,100 mg,Tablet,90,31
+luvox,100 mg,Tablet,180,62
+lustraeldoquinforte,4%/28.35 gm,Cream,1,96
+lustraeldoquinforte,4%/28.35 gm,Cream,3,286
+lustraeldoquinforte,4%/30 gm,Cream,1,85
+lustraeldoquinforte,4%/30 gm,Cream,3,254
+lovenox,30 mg/0.3 ml,Syringe,10,47
+lovenox,30 mg/0.3 ml,Syringe,30,139
+lovenox,30 mg/0.3 ml,Syringe,60,278
+lovenox,40 mg/0.4 ml,Syringe,10,55
+lovenox,40 mg/0.4 ml,Syringe,30,165
+lovenox,40 mg/0.4 ml,Syringe,60,329
+lovenox,60 mg/0.6 ml,Syringe,10,58
+lovenox,60 mg/0.6 ml,Syringe,30,174
+lovenox,60 mg/0.6 ml,Syringe,60,348
+lovenox,60 mg/0.8 ml,Syringe,10,69.99
+lovenox,60 mg/0.8 ml,Syringe,30,209.97
+lovenox,60 mg/0.8 ml,Syringe,60,419.94
+lovenox,80 mg/0.8 ml,Syringe,10,83
+lovenox,80 mg/0.8 ml,Syringe,30,247
+lovenox,80 mg/0.8 ml,Syringe,60,494
+lovenox,100 mg/ml,Syringe,10,107
+lovenox,120 mg/0.8 ml,Syringe,10,102
+lovenox,150 mg/ml,Syringe,10,115
+lovenox,150 mg/ml,Syringe,30,345
+lovenox,150 mg/ml,Syringe,60,689
+lovaza,1 gm,Capsule,120,36
+lovaza,1 gm,Capsule,240,71
+lovaza,1 gm,Capsule,360,107
+lotrisone,1%-0.05%/15 gm,Cream,1,7
+lotrisone,1%-0.05%/15 gm,Cream,3,20
+lotrisone,1%-0.05%/45 gm,Cream,1,20
+lotrisone,1%-0.05%/45 gm,Cream,3,58
+lotriminaf,1%/15 gm,Cream,1,7
+lotriminaf,1%/15 gm,Cream,2,12
+lotriminaf,1%/15 gm,Cream,3,17
+lotriminaf,1%/15 mg,Cream,1,7.56
+lotriminaf,1%/15 mg,Cream,2,14.04
+lotriminaf,1%/15 mg,Cream,3,16.2
+lotriminaf,1%/30 gm,Cream,1,7
+lotriminaf,1%/30 gm,Cream,2,12
+lotriminaf,1%/30 gm,Cream,3,15
+lotriminaf,1%/30 gm,Cream,1,2
+lotriminaf,1%/30 mg,Cream,2,7.83
+lotriminaf,1%/30 mg,Cream,3,9.03
+lotriminaf,1%/45 gm,Cream,1,25
+lotriminaf,1%/45 gm,Cream,2,49
+lotriminaf,1%/45 gm,Cream,3,74
+lotrel,2.5 mg/10 mg,Capsule,30,6
+lotrel,2.5 mg/10 mg,Capsule,60,12
+lotrel,2.5 mg/10 mg,Capsule,90,18
+lotrel,5 mg/10 mg,Capsule,30,7
+lotrel,5 mg/10 mg,Capsule,60,13
+lotrel,5 mg/10 mg,Capsule,90,19
+lotrel,5 mg/10 mg,Capsule,180,38
+lotrel,5 mg/20 mg,Capsule,30,7
+lotrel,5 mg/20 mg,Capsule,60,14
+lotrel,5 mg/20 mg,Capsule,90,20
+lotrel,5 mg/20 mg,Capsule,180,40
+lotrel,5 mg/40 mg,Capsule,30,6
+lotrel,5 mg/40 mg,Capsule,60,11
+lotrel,5 mg/40 mg,Capsule,90,16
+lotrel,10 mg/20 mg,Capsule,30,7
+lotrel,10 mg/20 mg,Capsule,60,13
+lotrel,10 mg/20 mg,Capsule,90,20
+lotrel,10 mg/40 mg,Capsule,30,6
+lotrel,10 mg/40 mg,Capsule,60,11
+lotrel,10 mg/40 mg,Capsule,90,17
+lotensinhct,5 mg/6.25 mg,Tablet,30,32
+lotensinhct,5 mg/6.25 mg,Tablet,60,63
+lotensinhct,5 mg/6.25 mg,Tablet,90,94
+lotensinhct,5 mg/6.25 mg,Tablet,180,187
+lotensinhct,10 mg/12.5 mg,Tablet,30,32
+lotensinhct,10 mg/12.5 mg,Tablet,45,47
+lotensinhct,10 mg/12.5 mg,Tablet,60,63
+lotensinhct,10 mg/12.5 mg,Tablet,90,94
+lotensinhct,20 mg/12.5 mg,Tablet,30,28
+lotensinhct,20 mg/12.5 mg,Tablet,60,56
+lotensinhct,20 mg/12.5 mg,Tablet,90,84
+lotensinhct,20 mg/12.5 mg,Tablet,180,168
+lotensinhct,20 mg/25 mg,Tablet,30,32
+lotensinhct,20 mg/25 mg,Tablet,60,63
+lotensinhct,20 mg/25 mg,Tablet,90,94
+lotensinhct,20 mg/25 mg,Tablet,180,187
+lotensin,5 mg,Tablet,30,4
+lotensin,5 mg,Tablet,45,5
+lotensin,5 mg,Tablet,60,6
+lotensin,5 mg,Tablet,90,9
+lotensin,10 mg,Tablet,30,4
+lotensin,10 mg,Tablet,45,5
+lotensin,10 mg,Tablet,60,6
+lotensin,10 mg,Tablet,90,9
+lotensin,10 mg,Tablet,180,17
+lotensin,20 mg,Tablet,30,4
+lotensin,20 mg,Tablet,60,7
+lotensin,20 mg,Tablet,90,9
+lotensin,20 mg,Tablet,180,17
+lotensin,40 mg,Tablet,30,4
+lotensin,40 mg,Tablet,60,6
+lotensin,40 mg,Tablet,90,8
+lotensin,40 mg,Tablet,180,14
+loproxshampoo,1%/120 ml,Shampoo,1,60
+loproxshampoo,1%/120 ml,Shampoo,3,180
+loprox,0.77%/15 gm,Cream,1,12
+loprox,0.77%/15 gm,Cream,3,35
+loprox,0.77%/30 gm,Cream,1,12
+loprox,0.77%/30 gm,Cream,3,35
+loprox,0.77%/90 gm,Cream,1,20
+loprox,0.77%/90 gm,Cream,3,58
+loprox,0.77%/30 gm,Gel,1,28
+loprox,0.77%/30 gm,Gel,3,83
+loprox,0.77%/45 gm,Gel,1,42
+loprox,0.77%/45 gm,Gel,3,125
+loprox,0.77%/100 gm,Gel,1,93
+loprox,0.77%/100 gm,Gel,3,277
+lopressorhct,50 mg/25 mg,Tablet,30,32
+lopressorhct,50 mg/25 mg,Tablet,60,63
+lopressorhct,50 mg/25 mg,Tablet,90,94
+lopressorhct,50 mg/25 mg,Tablet,180,187
+lopressorhct,100 mg/25 mg,Tablet,30,53
+lopressorhct,100 mg/25 mg,Tablet,60,106
+lopressorhct,100 mg/25 mg,Tablet,90,159
+lopressorhct,100 mg/50 mg,Tablet,30,44
+lopressorhct,100 mg/50 mg,Tablet,45,66
+lopressorhct,100 mg/50 mg,Tablet,60,88
+lopressorhct,100 mg/50 mg,Tablet,90,132
+lopressor,25 mg,Tablet,30,4
+lopressor,25 mg,Tablet,60,7
+lopressor,25 mg,Tablet,90,9
+lopressor,25 mg,Tablet,180,17
+lopressor,50 mg,Tablet,30,4
+lopressor,50 mg,Tablet,60,7
+lopressor,50 mg,Tablet,90,9
+lopressor,50 mg,Tablet,180,17
+lopressor,100 mg,Tablet,30,4
+lopressor,100 mg,Tablet,60,7
+lopressor,100 mg,Tablet,90,9
+lopressor,100 mg,Tablet,120,11
+lopressor,100 mg,Tablet,180,15
+lopid,600 mg,Tablet,30,5
+lopid,600 mg,Tablet,60,9
+lopid,600 mg,Tablet,90,13
+lopid,600 mg,Tablet,180,25
+loniten,2.5 mg,Tablet,30,5
+loniten,2.5 mg,Tablet,60,10
+loniten,2.5 mg,Tablet,90,14
+loniten,2.5 mg,Tablet,120,19
+loniten,2.5 mg,Tablet,180,28
+loniten,10 mg,Tablet,30,8
+loniten,10 mg,Tablet,60,15
+loniten,10 mg,Tablet,90,22
+loniten,10 mg,Tablet,120,30
+loniten,10 mg,Tablet,180,44
+lodosyn,25 mg,Tablet,60,282
+lodosyn,25 mg,Tablet,90,423
+lodosyn,25 mg,Tablet,120,563
+lodosyn,25 mg,Tablet,150,704
+lodosyn,25 mg,Tablet,180,845
+lodosyn,25 mg,Tablet,360,1689
+lodinexl,400 mg,Tablet Er,30,62
+lodinexl,400 mg,Tablet Er,60,124
+lodinexl,400 mg,Tablet Er,90,186
+lodinexl,400 mg,Tablet Er,180,372
+lodinexl,500 mg,Tablet Er,30,59
+lodinexl,500 mg,Tablet Er,60,118
+lodinexl,500 mg,Tablet Er,90,177
+lodinexl,500 mg,Tablet Er,180,353
+lodinexl,600 mg,Tablet Er,30,73
+lodinexl,600 mg,Tablet Er,60,146
+lodinexl,600 mg,Tablet Er,90,219
+lodinexl,600 mg,Tablet Er,180,437
+lodine,200 mg,Capsule,30,27
+lodine,200 mg,Capsule,60,54
+lodine,200 mg,Capsule,90,80
+lodine,200 mg,Capsule,180,160
+lodine,300 mg,Capsule,30,38
+lodine,300 mg,Capsule,60,75
+lodine,300 mg,Capsule,90,113
+lodine,300 mg,Capsule,180,225
+lodine,400 mg,Tablet,30,16
+lodine,400 mg,Tablet,60,31
+lodine,400 mg,Tablet,90,46
+lodine,400 mg,Tablet,180,91
+lodine,500 mg,Tablet,30,17
+lodine,500 mg,Tablet,60,33
+lodine,500 mg,Tablet,90,49
+lodine,500 mg,Tablet,180,97
+lithobid,300 mg,Tablet Er,30,6
+lithobid,300 mg,Tablet Er,60,11
+lithobid,300 mg,Tablet Er,90,16
+lithobid,300 mg,Tablet Er,120,21
+lithobid,300 mg,Tablet Er,180,32
+lithobid,450 mg,Tablet Er,30,11
+lithobid,450 mg,Tablet Er,60,22
+lithobid,450 mg,Tablet Er,90,33
+lithobid,450 mg,Tablet Er,120,43
+lithobid,450 mg,Tablet Er,180,65
+lipitor,10 mg,Tablet,30,5
+lipitor,10 mg,Tablet,45,6
+lipitor,10 mg,Tablet,60,8
+lipitor,10 mg,Tablet,90,9
+lipitor,20 mg,Tablet,30,5
+lipitor,20 mg,Tablet,45,7
+lipitor,20 mg,Tablet,60,8
+lipitor,20 mg,Tablet,90,9
+lipitor,40 mg,Tablet,30,5
+lipitor,40 mg,Tablet,45,6
+lipitor,40 mg,Tablet,60,8
+lipitor,40 mg,Tablet,90,12
+lipitor,80 mg,Tablet,30,5
+lipitor,80 mg,Tablet,45,7
+lipitor,80 mg,Tablet,60,9
+lipitor,80 mg,Tablet,90,13
+lidoderm,5%/30 patches,Patch,1,65
+lidoderm,5%/30 patches,Patch,3,195
+levsin,0.125 mg,Tablet,30,6
+levsin,0.125 mg,Tablet,60,12
+levsin,0.125 mg,Tablet,90,17
+levsin,0.125 mg,Tablet,120,23
+levsin,0.125 mg,Tablet Odt,30,9
+levsin,0.125 mg,Tablet Odt,60,17
+levsin,0.125 mg,Tablet Odt,90,26
+levsin,0.125 mg,Tablet Odt,120,34
+levsin,0.125 mg,Tablet Odt,180,51
+levbidsymaxsrhyomaxsr,0.375 mg,Tablet Er,30,17
+levbidsymaxsrhyomaxsr,0.375 mg,Tablet Er,40,22
+levbidsymaxsrhyomaxsr,0.375 mg,Tablet Er,60,33
+levbidsymaxsrhyomaxsr,0.375 mg,Tablet Er,90,49
+levbidsymaxsrhyomaxsr,0.375 mg,Tablet Er,180,98
+levaquin,250 mg,Tablet,10,4
+levaquin,250 mg,Tablet,20,8
+levaquin,250 mg,Tablet,50,20
+levaquin,500 mg,Tablet,10,4
+levaquin,500 mg,Tablet,20,8
+levaquin,500 mg,Tablet,50,12
+levaquin,750 mg,Tablet,10,7
+levaquin,750 mg,Tablet,20,13
+levaquin,750 mg,Tablet,50,33
+levaquin,500 mg,Tablet,5,2
+lescolxl,80 mg,Tablet Er,30,180
+lescolxl,80 mg,Tablet Er,45,269
+lescolxl,80 mg,Tablet Er,90,538
+lescol,20 mg,Capsule,30,127
+lescol,20 mg,Capsule,60,253
+lescol,20 mg,Capsule,90,379
+lescol,20 mg,Capsule,180,757
+lescol,40 mg,Capsule,30,114
+lescol,40 mg,Capsule,60,228
+lescol,40 mg,Capsule,90,341
+lescol,40 mg,Capsule,180,682
+lasix,20 mg,Tablet,30,4
+lasix,20 mg,Tablet,60,7
+lasix,20 mg,Tablet,90,9
+lasix,20 mg,Tablet,180,17
+lasix,40 mg,Tablet,30,4
+lasix,40 mg,Tablet,60,7
+lasix,40 mg,Tablet,90,9
+lasix,40 mg,Tablet,180,17
+lasix,80 mg,Tablet,30,4
+lasix,80 mg,Tablet,60,7
+lasix,80 mg,Tablet,90,9
+lasix,80 mg,Tablet,180,17
+lariam,250 mg,Tablet,25,170
+lanoxin,125 mcg,Tablet,30,11
+lanoxin,125 mcg,Tablet,45,16
+lanoxin,125 mcg,Tablet,60,22
+lanoxin,125 mcg,Tablet,90,32
+lanoxin,250 mcg,Tablet,30,15
+lanoxin,250 mcg,Tablet,45,23
+lanoxin,250 mcg,Tablet,60,30
+lanoxin,250 mcg,Tablet,90,45
+lamisil,250 mg,Tablet,30,5
+lamisil,250 mg,Tablet,42,7
+lamisil,250 mg,Tablet,84,13
+lamisil,250 mg,Tablet,90,14
+lamictalxr,25 mg,Tablet Er,30,144
+lamictalxr,25 mg,Tablet Er,60,287
+lamictalxr,25 mg,Tablet Er,90,430
+lamictalxr,25 mg,Tablet Er,120,573
+lamictalxr,50 mg,Tablet Er,30,155
+lamictalxr,50 mg,Tablet Er,60,309
+lamictalxr,50 mg,Tablet Er,90,463
+lamictalxr,50 mg,Tablet Er,120,617
+lamictalxr,100 mg,Tablet Er,30,135
+lamictalxr,100 mg,Tablet Er,60,269
+lamictalxr,100 mg,Tablet Er,90,404
+lamictalxr,200 mg,Tablet Er,30,134
+lamictalxr,200 mg,Tablet Er,60,268
+lamictalxr,200 mg,Tablet Er,90,401
+lamictalxr,200 mg,Tablet Er,120,535
+lamictalxr,200 mg,Tablet Er,180,802
+lamictalxr,250 mg,Tablet Er,30,329
+lamictalxr,250 mg,Tablet Er,60,658
+lamictalxr,250 mg,Tablet Er,90,986
+lamictalxr,250 mg,Tablet Er,120,1315
+lamictalxr,250 mg,Tablet Er,180,1972
+lamictalxr,300 mg,Tablet Er,30,321
+lamictalxr,300 mg,Tablet Er,60,641
+lamictalxr,300 mg,Tablet Er,90,961
+lamictal,25 mg,Tablet,30,4
+lamictal,25 mg,Tablet,60,7
+lamictal,25 mg,Tablet,90,9
+lamictal,25 mg,Tablet,120,11
+lamictal,100 mg,Tablet,30,3
+lamictal,100 mg,Tablet,60,8
+lamictal,100 mg,Tablet,90,10
+lamictal,100 mg,Tablet,120,12
+lamictal,100 mg,Tablet,180,17
+lamictal,150 mg,Tablet,30,4
+lamictal,150 mg,Tablet,60,7
+lamictal,150 mg,Tablet,90,9
+lamictal,150 mg,Tablet,120,11
+lamictal,150 mg,Tablet,180,15
+lamictal,200 mg,Tablet,30,4
+lamictal,200 mg,Tablet,60,7
+lamictal,200 mg,Tablet,90,9
+lamictal,200 mg,Tablet,120,11
+lamictal,200 mg,Tablet,180,15
+lamictal,5 mg,Tablet Chewable,30,4
+lamictal,5 mg,Tablet Chewable,60,7
+lamictal,5 mg,Tablet Chewable,90,9
+lamictal,5 mg,Tablet Chewable,120,11
+lamictal,5 mg,Tablet Chewable,240,22
+lamictal,5 mg,Tablet Chewable,300,27
+lamictal,25 mg,Tablet Chewable,30,4
+lamictal,25 mg,Tablet Chewable,60,7
+lamictal,25 mg,Tablet Chewable,90,9
+lamictal,25 mg,Tablet Chewable,120,11
+lamictal,25 mg,Tablet Chewable,180,17
+lamictal,25 mg,Tablet Chewable,240,22
+keppraxr,500 mg,Tablet Er,30,16
+keppraxr,500 mg,Tablet Er,60,31
+keppraxr,500 mg,Tablet Er,90,45
+keppraxr,500 mg,Tablet Er,120,60
+keppraxr,500 mg,Tablet Er,180,88
+keppraxr,500 mg,Tablet Er,240,110
+keppraxr,750 mg,Tablet Er,30,18
+keppraxr,750 mg,Tablet Er,60,37
+keppraxr,750 mg,Tablet Er,90,54
+keppraxr,750 mg,Tablet Er,120,73
+keppraxr,750 mg,Tablet Er,180,105
+kenalog,0.025%/15 gm,Cream,1,7
+kenalog,0.025%/15 gm,Cream,3,18
+kenalog,0.025%/80 gm,Cream,1,6
+kenalog,0.025%/80 gm,Cream,3,18
+kenalog,0.025%/454 gm,Cream,1,16
+kenalog,0.025%/454 gm,Cream,3,48
+kenalog,0.1%/15 gm,Cream,1,7
+kenalog,0.1%/15 gm,Cream,3,18
+kenalog,0.1%/30 gm,Cream,1,7
+kenalog,0.1%/30 gm,Cream,3,18
+kenalog,0.1%/80 gm,Cream,1,7
+kenalog,0.1%/80 gm,Cream,3,18
+kenalog,0.1%/454 gm,Cream,1,17
+kenalog,0.1%/454 gm,Cream,3,51
+kenalog,0.5%/15 gm,Cream,1,7
+kenalog,0.5%/15 gm,Cream,3,18
+kenalog,0.025%/60 ml,Lotion,1,33
+kenalog,0.025%/60 ml,Lotion,3,99
+kenalog,0.1%/60 ml,Lotion,1,21
+kenalog,0.1%/60 ml,Lotion,3,63
+kenalog,0.025%/15 gm,Ointment,1,7
+kenalog,0.025%/15 gm,Ointment,3,18
+kenalog,0.025%/80 gm,Ointment,1,8
+kenalog,0.025%/80 gm,Ointment,3,22
+kenalog,0.025%/454 gm,Ointment,1,22
+kenalog,0.025%/454 gm,Ointment,3,66
+kenalog,0.1%/15 gm,Ointment,1,7
+kenalog,0.1%/15 gm,Ointment,3,18
+kenalog,0.1%/30 gm,Ointment,1,7
+kenalog,0.1%/30 gm,Ointment,3,18
+kenalog,0.1%/80 gm,Ointment,1,7
+kenalog,0.1%/80 gm,Ointment,3,21
+kenalog,0.1%/454 gm,Ointment,1,20
+kenalog,0.1%/454 gm,Ointment,3,60
+kenalog,0.5%/15 gm,Ointment,1,7
+kenalog,0.5%/15 gm,Ointment,3,21
+kenalog,0.1%/5 gm,Paste,1,28
+kenalog,0.1%/5 gm,Paste,3,84
+kenalog,0.147 mg/g/63 gm,Topical Aerosol,1,154
+kenalog,0.147 mg/g/63 gm,Topical Aerosol,3,462
+kenalog,0.147 mg/g/100 gm,Topical Aerosol,1,170
+kenalog,0.147 mg/g/100 gm,Topical Aerosol,3,510
+keflex,250 mg,Capsule,30,4
+keflex,250 mg,Capsule,40,5
+keflex,250 mg,Capsule,100,10
+keflex,500 mg,Capsule,21,3
+keflex,500 mg,Capsule,30,4
+keflex,500 mg,Capsule,40,5
+keflex,500 mg,Capsule,100,10
+kdurklorconktabmicrok,8 mEq,Capsule Er,30,10
+kdurklorconktabmicrok,8 mEq,Capsule Er,60,20
+kdurklorconktabmicrok,8 mEq,Capsule Er,90,29
+kdurklorconktabmicrok,8 mEq,Capsule Er,120,39
+kdurklorconktabmicrok,8 mEq,Capsule Er,180,58
+kdurklorconktabmicrok,10 meq,Capsule Er,30,7
+kdurklorconktabmicrok,10 meq,Capsule Er,60,14
+kdurklorconktabmicrok,10 meq,Capsule Er,90,21
+kdurklorconktabmicrok,10 meq,Capsule Er,120,28
+kdurklorconktabmicrok,10 meq,Capsule Er,180,42
+kdurklorconktabmicrok,20 mEq/30 packets,Powder,1,223
+kdurklorconktabmicrok,20 mEq/30 packets,Powder,2,446
+kdurklorconktabmicrok,20 mEq/30 packets,Powder,3,669
+kdurklorconktabmicrok,20 mEq/100 packets,Powder,1,743
+kdurklorconktabmicrok,20 mEq/100 packets,Powder,2,1485
+kdurklorconktabmicrok,20 mEq/100 packets,Powder,3,2227
+kdurklorconktabmicrok,8 mEq,Tablet Er,30,9
+kdurklorconktabmicrok,8 mEq,Tablet Er,60,18
+kdurklorconktabmicrok,8 mEq,Tablet Er,90,26
+kdurklorconktabmicrok,8 mEq,Tablet Er,120,35
+kdurklorconktabmicrok,8 mEq,Tablet Er,180,52
+kdurklorconktabmicrok,10 meq,Tablet Er,30,5
+kdurklorconktabmicrok,10 meq,Tablet Er,60,10
+kdurklorconktabmicrok,10 meq,Tablet Er,90,15
+kdurklorconktabmicrok,10 meq,Tablet Er,120,20
+kdurklorconktabmicrok,10 meq,Tablet Er,180,30
+kdurklorconktabmicrok,20 mEq,Tablet Er,30,7
+kdurklorconktabmicrok,20 mEq,Tablet Er,60,14
+kdurklorconktabmicrok,20 mEq,Tablet Er,90,20
+kdurklorconktabmicrok,20 mEq,Tablet Er,120,27
+kdurklorconktabmicrok,20 mEq,Tablet Er,180,40
+kayexalate,454 gm,Powder,1,64
+jalyn,0.5 mg/0.4 mg,Capsule Er,30,95
+jalyn,0.5 mg/0.4 mg,Capsule Er,60,190
+jalyn,0.5 mg/0.4 mg,Capsule Er,90,285
+isoptoatropine,1%/3.5 gm,Ointment,1,17
+isoptoatropine,1%/3.5 gm,Ointment,3,49
+isoptoatropine,1%/2 ml,Solution,1,24
+isoptoatropine,1%/2 ml,Solution,3,72
+isoptoatropine,1%/5 ml,Solution,1,46
+isoptoatropine,1%/5 ml,Solution,3,136
+isoptoatropine,1%/15 ml,Solution,1,74
+isoptoatropine,1%/15 ml,Solution,3,221
+intuniv,1 mg,Tablet Er,30,21
+intuniv,1 mg,Tablet Er,60,41
+intuniv,1 mg,Tablet Er,90,62
+intuniv,2 mg,Tablet Er,30,17
+intuniv,2 mg,Tablet Er,60,34
+intuniv,2 mg,Tablet Er,90,51
+intuniv,3 mg,Tablet Er,30,21
+intuniv,3 mg,Tablet Er,60,41
+intuniv,3 mg,Tablet Er,90,62
+intuniv,4 mg,Tablet Er,30,21
+intuniv,4 mg,Tablet Er,60,41
+intuniv,4 mg,Tablet Er,90,62
+indocinsr,75 mg,Capsule Er,30,11
+indocinsr,75 mg,Capsule Er,60,21
+indocinsr,75 mg,Capsule Er,90,31
+indocin,25 mg,Capsule,30,8
+indocin,25 mg,Capsule,60,15
+indocin,25 mg,Capsule,90,22
+indocin,50 mg,Capsule,30,5
+indocin,50 mg,Capsule,60,9
+indocin,50 mg,Capsule,90,14
+inderide,40 mg/25 mg,Tablet,30,29
+inderide,40 mg/25 mg,Tablet,60,57
+inderide,40 mg/25 mg,Tablet,90,85
+inderide,40 mg/25 mg,Tablet,180,169
+inderide,80 mg/25 mg,Tablet,30,35
+inderide,80 mg/25 mg,Tablet,60,70
+inderide,80 mg/25 mg,Tablet,90,104
+inderide,80 mg/25 mg,Tablet,180,208
+inderalla,60 mg,Capsule Er,30,24
+inderalla,60 mg,Capsule Er,60,47
+inderalla,60 mg,Capsule Er,90,71
+inderalla,60 mg,Capsule Er,180,141
+inderalla,80 mg,Capsule Er,30,29
+inderalla,80 mg,Capsule Er,60,57
+inderalla,80 mg,Capsule Er,90,85
+inderalla,80 mg,Capsule Er,180,169
+inderalla,120 mg,Capsule Er,30,23
+inderalla,120 mg,Capsule Er,60,46
+inderalla,120 mg,Capsule Er,90,69
+inderalla,120 mg,Capsule Er,180,138
+inderalla,160 mg,Capsule Er,30,37
+inderalla,160 mg,Capsule Er,60,73
+inderalla,160 mg,Capsule Er,90,109
+inderalla,160 mg,Capsule Er,180,217
+inderal,10 mg,Tablet,30,4
+inderal,10 mg,Tablet,60,7
+inderal,10 mg,Tablet,90,9
+inderal,10 mg,Tablet,100,10
+inderal,10 mg,Tablet,120,12
+inderal,10 mg,Tablet,180,18
+inderal,20 mg,Tablet,30,5
+inderal,20 mg,Tablet,60,9
+inderal,20 mg,Tablet,90,13
+inderal,20 mg,Tablet,100,15
+inderal,20 mg,Tablet,120,17
+inderal,20 mg,Tablet,180,25
+inderal,40 mg,Tablet,30,8
+inderal,40 mg,Tablet,60,15
+inderal,40 mg,Tablet,90,22
+inderal,40 mg,Tablet,100,24
+inderal,40 mg,Tablet,120,29
+inderal,40 mg,Tablet,270,64
+inderal,60 mg,Tablet,30,25
+inderal,60 mg,Tablet,60,49
+inderal,60 mg,Tablet,90,73
+inderal,60 mg,Tablet,120,97
+inderal,80 mg,Tablet,30,12
+inderal,80 mg,Tablet,60,23
+inderal,80 mg,Tablet,90,35
+inderal,80 mg,Tablet,120,46
+inderal,80 mg,Tablet,180,69
+inderal,80 mg,Tablet,270,104
+inderal,10 mg,Tablet,48,5.75
+imuran,50 mg,Tablet,30,11
+imuran,50 mg,Tablet,60,21
+imuran,50 mg,Tablet,90,31
+imuran,50 mg,Tablet,120,41
+imuran,50 mg,Tablet,180,61
+imodium,2 mg,Capsule,30,10
+imodium,2 mg,Capsule,60,20
+imodium,2 mg,Capsule,120,39
+imodium,2 mg,Capsule,240,77
+imodium,2 mg,Tablet,24,4
+imodium,2 mg,Tablet,48,7
+imodium,2 mg,Tablet,72,9
+imodium,2 mg,Tablet,96,10
+imitrex,6 mg/0.5 ml,Injector Pen,2,103
+imitrex,5 mg/6 unit doses,Nasal Spray,1,269
+imitrex,5 mg/6 unit doses,Nasal Spray,3,807
+imitrex,20 mg/6 unit doses,Nasal Spray,1,292
+imitrex,20 mg/6 unit doses,Nasal Spray,3,875
+imitrex,25 mg,Tablet,9,6
+imitrex,25 mg,Tablet,18,11
+imitrex,25 mg,Tablet,20,12
+imitrex,25 mg,Tablet,30,18
+imitrex,50 mg,Tablet,9,6
+imitrex,50 mg,Tablet,18,11
+imitrex,50 mg,Tablet,20,12
+imitrex,50 mg,Tablet,30,18
+imitrex,100 mg,Tablet,9,11
+imitrex,100 mg,Tablet,18,20
+imitrex,100 mg,Tablet,27,27
+imitrex,100 mg,Tablet,54,49
+imdur,30 mg,Tablet Er,30,4
+imdur,30 mg,Tablet Er,60,7
+imdur,30 mg,Tablet Er,90,10
+imdur,30 mg,Tablet Er,180,18
+imdur,60 mg,Tablet Er,30,6
+imdur,60 mg,Tablet Er,60,11
+imdur,60 mg,Tablet Er,90,16
+imdur,60 mg,Tablet Er,180,31
+imdur,120 mg,Tablet Er,30,17
+imdur,120 mg,Tablet Er,60,33
+imdur,120 mg,Tablet Er,90,49
+imdur,120 mg,Tablet Er,180,98
+hytrin,1 mg,Capsule,30,6
+hytrin,1 mg,Capsule,60,11
+hytrin,1 mg,Capsule,90,16
+hytrin,1 mg,Capsule,180,30
+hytrin,2 mg,Capsule,30,6
+hytrin,2 mg,Capsule,60,11
+hytrin,2 mg,Capsule,90,16
+hytrin,2 mg,Capsule,180,31
+hytrin,5 mg,Capsule,30,6
+hytrin,5 mg,Capsule,60,11
+hytrin,5 mg,Capsule,90,16
+hytrin,5 mg,Capsule,180,31
+hytrin,10 mg,Capsule,30,7
+hytrin,10 mg,Capsule,60,13
+hytrin,10 mg,Capsule,90,19
+hytrin,10 mg,Capsule,180,37
+hytone,2.5%/28.34 gm,Cream,1,3.45
+hytone,2.5%/28.34 gm,Cream,3,10.35
+hytone,2.5%/30 gm,Cream,1,6
+hytone,2.5%/30 gm,Cream,3,12
+hytone,2.5%/454 gm,Cream,1,69
+hytone,2.5%/59 ml,Lotion,1,13
+hytone,2.5%/59 ml,Lotion,3,38
+hytone,2.5%/118 ml,Lotion,1,28
+hytone,2.5%/118 ml,Lotion,3,83
+hytone,2.5%/20 gm,Ointment,1,6
+hytone,2.5%/20 gm,Ointment,3,12
+hytone,2.5%/28.34 gm,Ointment,1,6
+hytone,2.5%/28.34 gm,Ointment,3,12
+hytone,2.5%/454 gm,Ointment,1,38
+haldol,5 mg,Tablet,30,16
+haldol,5 mg,Tablet,45,24
+haldol,5 mg,Tablet,60,31
+haldol,5 mg,Tablet,90,46
+haldol,5 mg,Tablet,120,60
+haldol,5 mg,Tablet,180,90
+haldol,10 mg,Tablet,30,14
+haldol,10 mg,Tablet,45,20
+haldol,10 mg,Tablet,60,26
+haldol,10 mg,Tablet,90,38
+haldol,10 mg,Tablet,120,50
+haldol,20 mg,Tablet,30,33
+haldol,20 mg,Tablet,60,65
+haldol,20 mg,Tablet,90,97
+haldol,20 mg,Tablet,120,129
+haldol,20 mg,Tablet,135,145
+gynelotrimin,1% /45 gm,Cream,1,6
+gynelotrimin,1% /45 gm,Cream,3,18
+golytely,3350 gm/4000 ml,Solution,1,14
+glynaseglynaseprestab,1.5 mg,Tablet,30,4
+glynaseglynaseprestab,1.5 mg,Tablet,60,7
+glynaseglynaseprestab,1.5 mg,Tablet,90,9
+glynaseglynaseprestab,1.5 mg,Tablet,120,11
+glynaseglynaseprestab,3 mg,Tablet,30,7
+glynaseglynaseprestab,3 mg,Tablet,60,12
+glynaseglynaseprestab,3 mg,Tablet,90,18
+glynaseglynaseprestab,3 mg,Tablet,120,23
+glynaseglynaseprestab,3 mg,Tablet,180,34
+glynaseglynaseprestab,6 mg,Tablet,30,6
+glynaseglynaseprestab,6 mg,Tablet,60,12
+glynaseglynaseprestab,6 mg,Tablet,90,17
+glynaseglynaseprestab,6 mg,Tablet,120,23
+glynaseglynaseprestab,6 mg,Tablet,180,34
+glucovance,1.25 mg/250 mg,Tablet,30,5
+glucovance,1.25 mg/250 mg,Tablet,60,8
+glucovance,1.25 mg/250 mg,Tablet,90,10
+glucovance,1.25 mg/250 mg,Tablet,120,12
+glucovance,1.25 mg/250 mg,Tablet,180,16
+glucovance,2.5 mg/500 mg,Tablet,30,5
+glucovance,2.5 mg/500 mg,Tablet,60,8
+glucovance,2.5 mg/500 mg,Tablet,90,10
+glucovance,2.5 mg/500 mg,Tablet,120,12
+glucovance,2.5 mg/500 mg,Tablet,180,16
+glucovance,2.5 mg/500 mg,Tablet,360,30
+glucovance,5 mg/500 mg,Tablet,30,4
+glucovance,5 mg/500 mg,Tablet,60,7
+glucovance,5 mg/500 mg,Tablet,90,9
+glucovance,5 mg/500 mg,Tablet,120,11
+glucovance,5 mg/500 mg,Tablet,180,15
+glucovance,5 mg/500 mg,Tablet,360,29
+gucotrolxl,2.5 mg,Tablet Er,30,6
+gucotrolxl,2.5 mg,Tablet Er,60,11
+gucotrolxl,2.5 mg,Tablet Er,90,17
+gucotrolxl,2.5 mg,Tablet Er,180,33
+gucotrolxl,5 mg,Tablet Er,30,6
+gucotrolxl,5 mg,Tablet Er,60,11
+gucotrolxl,5 mg,Tablet Er,90,16
+gucotrolxl,5 mg,Tablet Er,120,21
+gucotrolxl,5 mg,Tablet Er,180,31
+gucotrolxl,10 mg,Tablet Er,30,8
+gucotrolxl,10 mg,Tablet Er,60,15
+gucotrolxl,10 mg,Tablet Er,90,22
+gucotrolxl,10 mg,Tablet Er,180,44
+glucotrol,5 mg,Tablet,30,4
+glucotrol,5 mg,Tablet,60,7
+glucotrol,5 mg,Tablet,90,9
+glucotrol,5 mg,Tablet,120,11
+glucotrol,5 mg,Tablet,180,15
+glucotrol,10 mg,Tablet,30,4
+glucotrol,10 mg,Tablet,60,7
+glucotrol,10 mg,Tablet,90,9
+glucotrol,10 mg,Tablet,120,11
+glucotrol,10 mg,Tablet,180,15
+glucophagexr,500 mg,Tablet Er,30,2
+glucophagexr,500 mg,Tablet Er,60,3
+glucophagexr,500 mg,Tablet Er,90,4
+glucophagexr,500 mg,Tablet Er,120,5
+glucophagexr,500 mg,Tablet Er,180,8
+glucophagexr,500 mg,Tablet Er,360,15
+glucophagexr,750 mg,Tablet Er,30,3
+glucophagexr,750 mg,Tablet Er,60,5
+glucophagexr,750 mg,Tablet Er,90,7
+glucophagexr,750 mg,Tablet Er,120,9
+glucophagexr,750 mg,Tablet Er,180,13
+glucophagexr,750 mg,Tablet Er,360,26
+glucophage,500 mg,Tablet,30,2
+glucophage,500 mg,Tablet,60,3
+glucophage,500 mg,Tablet,90,4
+glucophage,500 mg,Tablet,120,7
+glucophage,500 mg,Tablet,180,8
+glucophage,850 mg,Tablet,30,2
+glucophage,850 mg,Tablet,60,3
+glucophage,850 mg,Tablet,90,4
+glucophage,850 mg,Tablet,180,7
+glucophage,850 mg,Tablet,270,15
+glucophage,1000 mg,Tablet,30,2
+glucophage,1000 mg,Tablet,60,3
+glucophage,1000 mg,Tablet,90,4
+glucophage,1000 mg,Tablet,180,7
+glucophage,750 mg,Tablet,150,10.5
+geodon,20 mg,Capsule,30,10
+geodon,20 mg,Capsule,60,19
+geodon,20 mg,Capsule,90,29
+geodon,20 mg,Capsule,180,57
+geodon,40 mg,Capsule,30,11
+geodon,40 mg,Capsule,60,21
+geodon,40 mg,Capsule,90,32
+geodon,40 mg,Capsule,180,63
+geodon,60 mg,Capsule,30,14
+geodon,60 mg,Capsule,60,28
+geodon,60 mg,Capsule,90,42
+geodon,60 mg,Capsule,180,84
+geodon,80 mg,Capsule,30,13
+geodon,80 mg,Capsule,60,25
+geodon,80 mg,Capsule,90,38
+geodon,80 mg,Capsule,180,75
+geodon,20 mg,Capsule,270,81
+gentak,0.3%/5 ml,Solution,1,7
+gentak,0.3%/5 ml,Solution,3,21
+garamycin,0.1%/15 gm,Cream,1,42
+garamycin,0.1%/15 gm,Cream,3,124
+garamycin,0.1%/30 gm,Cream,1,74
+garamycin,0.1%/30 gm,Cream,3,220
+garamycin,0.1%/15 gm,Ointment,1,35
+garamycin,0.1%/15 gm,Ointment,3,105
+garamycin,0.1%/30 gm,Ointment,1,74
+garamycin,0.1%/30 gm,Ointment,3,220
+gablofenlioresal,10 mg,Tablet,30,5
+gablofenlioresal,10 mg,Tablet,60,9
+gablofenlioresal,10 mg,Tablet,90,12
+gablofenlioresal,10 mg,Tablet,120,15
+gablofenlioresal,10 mg,Tablet,180,18
+gablofenlioresal,20 mg,Tablet,30,8
+gablofenlioresal,20 mg,Tablet,60,14
+gablofenlioresal,20 mg,Tablet,90,20
+gablofenlioresal,20 mg,Tablet,120,24
+gablofenlioresal,20 mg,Tablet,180,35
+gablofenlioresal,20 mg,Tablet,270,52
+fosamax,5 mg,Tablet,30,5
+fosamax,5 mg,Tablet,60,10
+fosamax,5 mg,Tablet,90,15
+fosamax,10 mg,Tablet,30,6
+fosamax,10 mg,Tablet,90,16
+fosamax,35 mg,Tablet,4,4
+fosamax,35 mg,Tablet,12,10
+fosamax,70 mg,Tablet,4,3
+fosamax,70 mg,Tablet,12,8
+fortical,200U/3.7 ml,Nasal Spray,1,42
+fortical,200U/3.7 ml,Nasal Spray,3,124
+floxinotic,0.3%/5 ml,Solution,1,12
+floxinotic,0.3%/5 ml,Solution,3,35
+floxinotic,0.3%/10 ml,Solution,1,22
+floxinotic,0.3%/10 ml,Solution,3,64
+flomax,0.4 mg,Capsule Er,30,6
+flomax,0.4 mg,Capsule Er,60,11
+flomax,0.4 mg,Capsule Er,90,17
+flomax,0.4 mg,Capsule Er,180,33
+flexeril,5 mg,Tablet,30,6
+flexeril,5 mg,Tablet,60,11
+flexeril,5 mg,Tablet,90,16
+flexeril,10 mg,Tablet,30,6
+flexeril,10 mg,Tablet,60,11
+flexeril,10 mg,Tablet,90,16
+flagyl,375 mg,Capsule,30,290
+flagyl,375 mg,Capsule,60,580
+flagyl,250 mg,Tablet,30,6
+flagyl,250 mg,Tablet,56,11
+flagyl,250 mg,Tablet,60,12
+flagyl,250 mg,Tablet,100,19
+flagyl,500 mg,Tablet,30,5
+flagyl,500 mg,Tablet,60,10
+flagyl,500 mg,Tablet,100,16
+flagyl,500 mg,Tablet,14,3
+feverall,80 mg,Suppository,6,5
+feverall,120 mg,Suppository,6,7.9
+feverall,325 mg,Suppository,6,7.9
+feverall,120 mg,Suppository,12,4
+feverall,325 mg,Suppository,12,7
+feosol,325 mg,Tablet,30,5
+feosol,325 mg,Tablet,60,8
+feosol,325 mg,Tablet,90,10
+feosol,325 mg,Tablet,180,18
+femara,2.5 mg,Tablet,30,6
+femara,2.5 mg,Tablet,90,18
+feldene,10 mg,Capsule,30,11
+feldene,10 mg,Capsule,60,22
+feldene,10 mg,Capsule,90,33
+feldene,20 mg,Capsule,30,16
+feldene,20 mg,Capsule,60,32
+feldene,20 mg,Capsule,90,47
+fayosim,0.15 mg/20 mcg-25 mcg-30 mcg-10 mcg,Tablet,91,257
+famvir,125 mg,Tablet,30,32
+famvir,125 mg,Tablet,42,44
+famvir,125 mg,Tablet,60,63
+famvir,125 mg,Tablet,90,94
+famvir,250 mg,Tablet,30,19
+famvir,250 mg,Tablet,60,37
+famvir,250 mg,Tablet,90,56
+famvir,500 mg,Tablet,30,22
+famvir,500 mg,Tablet,60,43
+famvir,500 mg,Tablet,90,64
+exforgehct,5 mg/160 mg/12.5 mg,Tablet,30,33
+exforgehct,5 mg/160 mg/12.5 mg,Tablet,60,66
+exforgehct,5 mg/160 mg/12.5 mg,Tablet,90,98
+exforgehct,5 mg/160 mg/25 mg,Tablet,30,41
+exforgehct,5 mg/160 mg/25 mg,Tablet,60,82
+exforgehct,5 mg/160 mg/25 mg,Tablet,90,123
+exforgehct,10 mg/160 mg/12.5 mg,Tablet,30,48
+exforgehct,10 mg/160 mg/12.5 mg,Tablet,60,95
+exforgehct,10 mg/160 mg/12.5 mg,Tablet,90,149
+exforgehct,10 mg/160 mg/25 mg,Tablet,30,44
+exforgehct,10 mg/160 mg/25 mg,Tablet,60,87
+exforgehct,10 mg/160 mg/25 mg,Tablet,90,237
+exforgehct,10 mg/320 mg/25 mg,Tablet,30,55
+exforgehct,10 mg/320 mg/25 mg,Tablet,60,110
+exforgehct,10 mg/320 mg/25 mg,Tablet,90,173
+exforge,5 mg/160 mg,Tablet,30,17
+exforge,5 mg/160 mg,Tablet,60,34
+exforge,5 mg/160 mg,Tablet,90,51
+exforge,5 mg/320 mg,Tablet,30,22
+exforge,5 mg/320 mg,Tablet,60,44
+exforge,5 mg/320 mg,Tablet,90,66
+exforge,10 mg/160 mg,Tablet,30,21
+exforge,10 mg/160 mg,Tablet,60,42
+exforge,10 mg/160 mg,Tablet,90,62
+exforge,10 mg/320 mg,Tablet,30,22
+exforge,10 mg/320 mg,Tablet,60,43
+exforge,10 mg/320 mg,Tablet,90,65
+exelon,1.5 mg,Capsule,30,17
+exelon,1.5 mg,Capsule,60,33
+exelon,1.5 mg,Capsule,90,50
+exelon,1.5 mg,Capsule,120,66
+exelon,1.5 mg,Capsule,180,99
+exelon,3 mg,Capsule,30,12
+exelon,3 mg,Capsule,60,23
+exelon,3 mg,Capsule,90,35
+exelon,3 mg,Capsule,120,46
+exelon,3 mg,Capsule,180,69
+exelon,4.5 mg,Capsule,30,23
+exelon,4.5 mg,Capsule,60,46
+exelon,4.5 mg,Capsule,90,69
+exelon,4.5 mg,Capsule,120,91
+exelon,4.5 mg,Capsule,180,137
+exelon,6 mg,Capsule,30,23
+exelon,6 mg,Capsule,60,46
+exelon,6 mg,Capsule,90,69
+exelon,6 mg,Capsule,120,91
+exelon,4.6 mg/24 hours,Patch,30,114
+exelon,4.6 mg/24 hours,Patch,60,210
+exelon,4.6 mg/24 hours,Patch,90,288
+exelon,9.5 mg/24 hours,Patch,30,190
+exelon,9.5 mg/24 hours,Patch,60,379
+exelon,9.5 mg/24 hours,Patch,90,569
+exelon,13.3 mg/24 hours,Patch,30,237
+exelon,13.3 mg/24 hours,Patch,60,473
+exelon,13.3 mg/24 hours,Patch,90,709
+estraderm,0.05 mg/24 hr,Patch,4,58.84
+estraderm,0.05 mg/24 hr,Patch,8,73
+estraderm,0.1 mg/24 hr,Patch,4,54.91
+estraderm,0.1 mg/24 hr,Patch,8,182
+estrace,0.5 mg,Tablet,30,5
+estrace,0.5 mg,Tablet,45,7
+estrace,0.5 mg,Tablet,60,8
+estrace,0.5 mg,Tablet,90,11
+estrace,1 mg,Tablet,30,5
+estrace,1 mg,Tablet,45,7
+estrace,1 mg,Tablet,60,8
+estrace,1 mg,Tablet,90,11
+estrace,2 mg,Tablet,30,5
+estrace,2 mg,Tablet,45,7
+estrace,2 mg,Tablet,60,8
+estrace,2 mg,Tablet,90,11
+estrace,0.01%/42.5 gm,Cream,1,120
+estrace,0.01%/42.5 gm,Cream,3,300
+eskalith,150 mg,Capsule,30,4
+eskalith,150 mg,Capsule,60,7
+eskalith,150 mg,Capsule,90,9
+eskalith,150 mg,Capsule,120,11
+eskalith,150 mg,Capsule,180,15
+eskalith,300 mg,Capsule,30,4
+eskalith,300 mg,Capsule,60,7
+eskalith,300 mg,Capsule,90,9
+eskalith,300 mg,Capsule,120,11
+eskalith,300 mg,Capsule,180,15
+eskalith,600 mg,Capsule,30,4
+eskalith,600 mg,Capsule,60,7
+eskalith,600 mg,Capsule,90,9
+eskalith,600 mg,Capsule,120,11
+eskalith,600 mg,Capsule,180,15
+erygel,2%/30 gm,Gel,1,94
+erygel,2%/30 gm,Gel,3,280
+erygel,2%/60 gm,Gel,1,107
+erygel,2%/60 gm,Gel,3,320
+epipen,0.3 mg/0.3 ml/2 pens,Auto Injector,1,275
+epipen,0.3 mg/0.3 ml/2 pens,Auto Injector,3,800
+epiduo,0.1%/2.5%/45 gm,Gel Pump,1,45
+epiduo,0.1%/2.5%/45 gm,Gel Pump,3,135
+entocortec,3 mg,Capsule Ec,30,49
+entocortec,3 mg,Capsule Ec,60,98
+entocortec,3 mg,Capsule Ec,90,147
+enablex,7.5 mg,Tablet Er,30,108
+enablex,7.5 mg,Tablet Er,60,216
+enablex,7.5 mg,Tablet Er,90,323
+enablex,15 mg,Tablet Er,30,180
+enablex,15 mg,Tablet Er,60,359
+enablex,15 mg,Tablet Er,90,539
+elocon,0.1%/15 gm,Cream,1,6
+elocon,0.1%/15 gm,Cream,3,18
+elocon,0.1%/45 mg,Cream,1,12
+elocon,0.1%/45 mg,Cream,3,36
+elocon,0.1%/15 gm,Ointment,1,10
+elocon,0.1%/15 gm,Ointment,3,29
+elocon,0.1%/45 gm,Ointment,1,13
+elocon,0.1%/45 gm,Ointment,3,37
+elocon,0.1%/30 ml,Solution,1,7
+elocon,0.1%/30 ml,Solution,3,21
+elocon,0.1%/60 ml,Solution,1,12
+elocon,0.1%/60 ml,Solution,3,36
+elocon,0.1%/30 ml,Lotion,1,9
+elocon,0.1%/30 ml,Lotion,3,25
+elocon,0.1%/60 ml,Lotion,1,16
+elocon,0.1%/60 ml,Lotion,3,47
+elimite,5%/60 gm,Cream,1,45
+elimite,5%/60 gm,Cream,3,134
+eldoquin,4%/28.35 gm,Cream,1,96
+eldoquin,4%/28.35 gm,Cream,3,286
+eldoquin,4%/30 gm,Cream,1,85
+eldoquin,4%/30 gm,Cream,3,254
+eldepryl,5 mg,Capsule,30,35
+eldepryl,5 mg,Capsule,60,70
+eldepryl,5 mg,Capsule,90,104
+eldepryl,5 mg,Capsule,120,139
+eldepryl,5 mg,Capsule,180,208
+eldepryl,5 mg,Tablet,30,78
+eldepryl,5 mg,Tablet,60,155
+eldepryl,5 mg,Tablet,90,232
+eldepryl,5 mg,Tablet,180,464
+elavil,10 mg,Tablet,30,5
+elavil,10 mg,Tablet,60,9
+elavil,10 mg,Tablet,90,13
+elavil,10 mg,Tablet,120,16
+elavil,10 mg,Tablet,180,24
+elavil,25 mg,Tablet,30,5
+elavil,25 mg,Tablet,60,9
+elavil,25 mg,Tablet,90,12
+elavil,25 mg,Tablet,120,16
+elavil,25 mg,Tablet,180,23
+elavil,50 mg,Tablet,30,8
+elavil,50 mg,Tablet,60,15
+elavil,50 mg,Tablet,90,22
+elavil,50 mg,Tablet,120,29
+elavil,50 mg,Tablet,180,43
+elavil,75 mg,Tablet,30,23
+elavil,75 mg,Tablet,60,45
+elavil,75 mg,Tablet,90,67
+elavil,75 mg,Tablet,120,88
+elavil,75 mg,Tablet,180,132
+elavil,100 mg,Tablet,30,16
+elavil,100 mg,Tablet,60,31
+elavil,100 mg,Tablet,90,45
+elavil,100 mg,Tablet,120,60
+elavil,100 mg,Tablet,180,89
+elavil,150 mg,Tablet,30,21
+elavil,150 mg,Tablet,60,42
+elavil,150 mg,Tablet,90,62
+elavil,150 mg,Tablet,120,83
+elavil,150 mg,Tablet,180,124
+efudex,0.5%/30 gm,Cream,1,1480.21
+efudex,0.5%/30 gm,Cream,3,4440.63
+efudex,5%/40 gm,Cream,1,75
+efudex,5%/40 gm,Cream,3,225
+efudex,2%/10 ml,Solution,1,38
+efudex,2%/10 ml,Solution,3,114
+efudex,5%/10 ml,Solution,1,42
+efudex,5%/10 ml,Solution,3,126
+effexorxr,37.5 mg,Capsule Er,30,5
+effexorxr,37.5 mg,Capsule Er,60,9
+effexorxr,37.5 mg,Capsule Er,90,16
+effexorxr,37.5 mg,Capsule Er,180,31
+effexorxr,75 mg,Capsule Er,30,6
+effexorxr,75 mg,Capsule Er,60,11
+effexorxr,75 mg,Capsule Er,90,15
+effexorxr,75 mg,Capsule Er,180,29
+effexorxr,150 mg,Capsule Er,30,5
+effexorxr,150 mg,Capsule Er,60,10
+effexorxr,150 mg,Capsule Er,90,15
+effexorxr,150 mg,Capsule Er,180,30
+effexor,25 mg,Tablet,30,9
+effexor,25 mg,Tablet,60,18
+effexor,25 mg,Tablet,90,27
+effexor,25 mg,Tablet,120,36
+effexor,25 mg,Tablet,180,54
+effexor,37.5 mg,Tablet,30,10
+effexor,37.5 mg,Tablet,60,19
+effexor,37.5 mg,Tablet,90,28
+effexor,37.5 mg,Tablet,120,37
+effexor,37.5 mg,Tablet,180,55
+effexor,50 mg,Tablet,30,10
+effexor,50 mg,Tablet,60,19
+effexor,50 mg,Tablet,90,29
+effexor,50 mg,Tablet,120,38
+effexor,50 mg,Tablet,180,57
+effexor,75 mg,Tablet,30,8
+effexor,75 mg,Tablet,60,16
+effexor,75 mg,Tablet,90,24
+effexor,75 mg,Tablet,120,31
+effexor,75 mg,Tablet,180,47
+effexor,75 mg,Tablet,270,70
+effexor,100 mg,Tablet,30,11
+effexor,100 mg,Tablet,60,22
+effexor,100 mg,Tablet,90,32
+effexor,100 mg,Tablet,120,43
+effexor,100 mg,Tablet,180,64
+ecnaprosyn,375 mg,Tablet Dr,30,4
+ecnaprosyn,375 mg,Tablet Dr,60,7
+ecnaprosyn,375 mg,Tablet Dr,100,10
+ecnaprosyn,500 mg,Tablet Dr,30,9
+ecnaprosyn,500 mg,Tablet Dr,60,17
+ecnaprosyn,500 mg,Tablet Dr,100,27
+duoneb,0.5 mg-3 mg/3 ml,Inhalation Solution,30,5
+duoneb,0.5 mg-3 mg/3 ml,Inhalation Solution,60,10
+duoneb,0.5 mg-3 mg/3 ml,Inhalation Solution,90,15
+duoneb,0.5 mg-3 mg/3 ml,Inhalation Solution,120,23
+duoneb,0.5 mg-3 mg/3 ml,Inhalation Solution,180,34
+dulcolax,10 mg,Suppository,100,10
+dulcolax,5 mg,Tablet Dr,4,3
+duac,1.2%/5%/45 gm,Gel,1,51
+duac,1.2%/5%/45 gm,Gel,3,151
+dovonex,0.005%/60 gm,Cream,1,129
+dovonex,0.005%/60 gm,Cream,3,385
+dovonex,0.005%/120 gm,Cream,1,240
+dovonex,0.005%/120 gm,Cream,3,720
+dovonex,0.005%/60 gm,Ointment,1,144
+dovonex,0.005%/60 gm,Ointment,3,430
+dovonex,0.005%/120 gm,Ointment,1,359
+dovonex,0.005%/120 gm,Ointment,3,1076
+ditropanxl,5 mg,Tablet Er,30,14
+ditropanxl,5 mg,Tablet Er,60,27
+ditropanxl,5 mg,Tablet Er,90,40
+ditropanxl,5 mg,Tablet Er,180,80
+ditropanxl,10 mg,Tablet Er,30,9
+ditropanxl,10 mg,Tablet Er,60,18
+ditropanxl,10 mg,Tablet Er,90,27
+ditropanxl,10 mg,Tablet Er,180,54
+ditropanxl,15 mg,Tablet Er,30,16
+ditropanxl,15 mg,Tablet Er,60,32
+ditropanxl,15 mg,Tablet Er,90,48
+ditropanxl,15 mg,Tablet Er,180,96
+ditropan,5 mg,Tablet,30,6
+ditropan,5 mg,Tablet,60,12
+ditropan,5 mg,Tablet,90,18
+ditropan,5 mg,Tablet,180,36
+ditropan,5 mg,Tablet,270,54
+diovanhct,80 mg/12.5 mg,Tablet,30,6
+diovanhct,80 mg/12.5 mg,Tablet,60,11
+diovanhct,80 mg/12.5 mg,Tablet,90,15
+diovanhct,80 mg/12.5 mg,Tablet,180,27
+diovanhct,160 mg/12.5 mg,Tablet,30,7
+diovanhct,160 mg/12.5 mg,Tablet,60,12
+diovanhct,160 mg/12.5 mg,Tablet,90,18
+diovanhct,160 mg/12.5 mg,Tablet,180,33
+diovanhct,160 mg/25 mg,Tablet,30,7
+diovanhct,160 mg/25 mg,Tablet,60,13
+diovanhct,160 mg/25 mg,Tablet,90,18
+diovanhct,160 mg/25 mg,Tablet,180,35
+diovanhct,320 mg/12.5 mg,Tablet,30,11
+diovanhct,320 mg/12.5 mg,Tablet,60,21
+diovanhct,320 mg/12.5 mg,Tablet,90,30
+diovanhct,320 mg/12.5 mg,Tablet,180,58
+diovanhct,320 mg/ 25 mg,Tablet,30,11
+diovanhct,320 mg/ 25 mg,Tablet,60,21
+diovanhct,320 mg/ 25 mg,Tablet,90,30
+diovanhct,320 mg/ 25 mg,Tablet,180,58
+diovan,40 mg,Tablet,30,15
+diovan,40 mg,Tablet,60,28
+diovan,40 mg,Tablet,90,41
+diovan,40 mg,Tablet,180,80
+diovan,80 mg,Tablet,30,13
+diovan,80 mg,Tablet,60,24
+diovan,80 mg,Tablet,90,35
+diovan,80 mg,Tablet,180,66
+diovan,160 mg,Tablet,30,16
+diovan,160 mg,Tablet,60,29
+diovan,160 mg,Tablet,90,42
+diovan,160 mg,Tablet,180,81
+diovan,320 mg,Tablet,30,18
+diovan,320 mg,Tablet,60,35
+diovan,320 mg,Tablet,90,51
+diovan,320 mg,Tablet,180,99
+dilantin,100 mg,Capsule Er,30,7
+dilantin,100 mg,Capsule Er,60,14
+dilantin,100 mg,Capsule Er,90,20
+dilantin,100 mg,Capsule Er,120,27
+dilantin,100 mg,Capsule Er,150,33
+dilantin,100 mg,Capsule Er,180,40
+dilantin,100 mg,Capsule Er,270,59
+dilantin,50 mg,Tablets Chewable Er,30,15
+dilantin,50 mg,Tablets Chewable Er,60,30
+dilantin,50 mg,Tablets Chewable Er,90,44
+dilantin,50 mg,Tablets Chewable Er,180,88
+dilantin,50 mg,Tablets Chewable Er,240,117
+diflucan,50 mg,Tablet,30,24
+diflucan,50 mg,Tablet,60,47
+diflucan,50 mg,Tablet,90,70
+diflucan,100 mg,Tablet,30,4
+diflucan,100 mg,Tablet,60,7
+diflucan,100 mg,Tablet,90,9
+diflucan,150 mg,Tablet,1,5
+diflucan,150 mg,Tablet,2,10
+diflucan,150 mg,Tablet,3,15
+diflucan,150 mg,Tablet,4,20
+diflucan,150 mg,Tablet,5,25
+diflucan,150 mg,Tablet,12,60
+diflucan,200 mg,Tablet,30,18
+diflucan,200 mg,Tablet,60,36
+diflucan,200 mg,Tablet,90,54
+differin,0.1%/45 gm,Cream,1,168
+differin,0.1%/45 gm,Cream,3,504
+differin,0.1%/45 gm,Gel,1,67
+differin,0.1%/45 gm,Gel,3,199
+differin,0.3%/45 gm,Gel,1,132
+differin,0.3%/45 gm,Gel,3,396
+diamox,125 mg,Tablet,30,23
+diamox,125 mg,Tablet,60,45
+diamox,125 mg,Tablet,90,65
+diamox,125 mg,Tablet,120,191
+diamox,125 mg,Tablet,180,286
+diamox,250 mg,Tablet,30,29
+diamox,250 mg,Tablet,60,56
+diamox,250 mg,Tablet,90,81
+diamox,250 mg,Tablet,120,159
+diamox,250 mg,Tablet,180,239
+detrolla,2 mg,Capsule Er,30,53
+detrolla,2 mg,Capsule Er,60,105
+detrolla,2 mg,Capsule Er,90,158
+detrolla,2 mg,Capsule Er,180,315
+detrolla,4 mg,Capsule Er,30,47
+detrolla,4 mg,Capsule Er,60,94
+detrolla,4 mg,Capsule Er,90,140
+detrolla,4 mg,Capsule Er,180,280
+detrol,1 mg,Tablet,30,18
+detrol,1 mg,Tablet,60,35
+detrol,1 mg,Tablet,90,49
+detrol,1 mg,Tablet,180,94
+detrol,2 mg,Tablet,30,18
+detrol,2 mg,Tablet,60,35
+detrol,2 mg,Tablet,90,49
+detrol,2 mg,Tablet,180,94
+desyrel,50 mg,Tablet,30,5
+desyrel,50 mg,Tablet,45,6
+desyrel,50 mg,Tablet,60,8
+desyrel,50 mg,Tablet,90,10
+desyrel,50 mg,Tablet,180,18
+desyrel,100 mg,Tablet,30,5
+desyrel,100 mg,Tablet,45,6
+desyrel,100 mg,Tablet,60,8
+desyrel,100 mg,Tablet,90,10
+desyrel,100 mg,Tablet,180,18
+desyrel,150 mg,Tablet,30,6
+desyrel,150 mg,Tablet,45,9
+desyrel,150 mg,Tablet,60,12
+desyrel,150 mg,Tablet,90,18
+desyrel,150 mg,Tablet,180,35
+desyrel,300 mg,Tablet,30,83
+desyrel,300 mg,Tablet,45,124
+desyrel,300 mg,Tablet,60,165
+desyrel,300 mg,Tablet,90,248
+desyrel,300 mg,Tablet,120,330
+desowen,0.05%/15 gm,Cream,1,46
+desowen,0.05%/15 gm,Cream,3,138
+desowen,0.05%/60 gm,Cream,1,85
+desowen,0.05%/60 gm,Cream,3,253
+desowen,0.05%/59 ml,Lotion,1,98
+desowen,0.05%/59 ml,Lotion,3,292
+desowen,0.05%/118 ml,Lotion,1,126
+desowen,0.05%/118 ml,Lotion,3,377
+desowen,0.05%/15 gm,Ointment,1,47
+desowen,0.05%/15 gm,Ointment,3,141
+desowen,0.05%/60 gm,Ointment,1,94
+desowen,0.05%/60 gm,Ointment,3,282
+dermasmoothefs,0.01%/118.28 ml,Oil,1,120.81
+depoprovera,150 mg/1 ml,Multi Dose Vial,1,59
+depakoteer,250 mg,Tablet Er,30,10
+depakoteer,250 mg,Tablet Er,60,20
+depakoteer,250 mg,Tablet Er,90,30
+depakoteer,250 mg,Tablet Er,120,40
+depakoteer,250 mg,Tablet Er,180,59
+depakoteer,500 mg,Tablet Er,30,10
+depakoteer,500 mg,Tablet Er,60,20
+depakoteer,500 mg,Tablet Er,90,30
+depakoteer,500 mg,Tablet Er,120,40
+depakoteer,500 mg,Tablet Er,180,59
+depakote,125 mg,Tablet Dr,30,6
+depakote,125 mg,Tablet Dr,60,12
+depakote,125 mg,Tablet Dr,90,18
+depakote,125 mg,Tablet Dr,120,24
+depakote,125 mg,Tablet Dr,180,36
+depakote,250 mg,Tablet Dr,30,6
+depakote,250 mg,Tablet Dr,60,12
+depakote,250 mg,Tablet Dr,90,18
+depakote,250 mg,Tablet Dr,120,24
+depakote,250 mg,Tablet Dr,180,36
+depakote,500 mg,Tablet Dr,30,6
+depakote,500 mg,Tablet Dr,60,12
+depakote,500 mg,Tablet Dr,90,18
+depakote,500 mg,Tablet Dr,120,24
+depakote,500 mg,Tablet Dr,180,36
+depakene,250 mg,Capsule,30,6
+depakene,250 mg,Capsule,60,11
+depakene,250 mg,Capsule,90,15
+depakene,250 mg,Capsule,120,18
+depakene,250 mg,Capsule,150,21
+depakene,250 mg,Capsule,180,24
+demadex,5 mg,Tablet,30,6
+demadex,5 mg,Tablet,45,9
+demadex,5 mg,Tablet,60,12
+demadex,5 mg,Tablet,90,18
+demadex,10 mg,Tablet,30,4
+demadex,10 mg,Tablet,45,5
+demadex,10 mg,Tablet,60,6
+demadex,10 mg,Tablet,90,9
+demadex,20 mg,Tablet,30,4
+demadex,20 mg,Tablet,60,7
+demadex,20 mg,Tablet,90,10
+demadex,20 mg,Tablet,120,13
+demadex,20 mg,Tablet,180,20
+demadex,100 mg,Tablet,30,13
+demadex,100 mg,Tablet,45,19
+demadex,100 mg,Tablet,60,25
+demadex,100 mg,Tablet,90,38
+deltasone,1 mg,Tablet,30,4
+deltasone,1 mg,Tablet,60,8
+deltasone,1 mg,Tablet,90,10
+deltasone,1 mg,Tablet,120,12
+deltasone,2.5 mg,Tablet,30,4
+deltasone,2.5 mg,Tablet,60,8
+deltasone,2.5 mg,Tablet,90,10
+deltasone,2.5 mg,Tablet,120,12
+deltasone,5 mg,Tablet,30,4
+deltasone,5 mg,Tablet,60,8
+deltasone,5 mg,Tablet,90,10
+deltasone,5 mg,Tablet,120,12
+deltasone,10 mg,Tablet,30,4
+deltasone,10 mg,Tablet,60,8
+deltasone,10 mg,Tablet,90,10
+deltasone,20 mg,Tablet,30,6
+deltasone,20 mg,Tablet,100,19
+deltasone,50 mg,Tablet,30,9
+deltasone,50 mg,Tablet,100,28
+decadron,0.5 mg,Tablet,30,4
+decadron,0.5 mg,Tablet,60,7
+decadron,0.5 mg,Tablet,90,10
+decadron,0.75 mg,Tablet,30,6
+decadron,0.75 mg,Tablet,60,12
+decadron,0.75 mg,Tablet,90,18
+decadron,1 mg,Tablet,30,9
+decadron,1 mg,Tablet,60,18
+decadron,1 mg,Tablet,90,27
+decadron,1.5 mg,Tablet,30,4
+decadron,1.5 mg,Tablet,60,8
+decadron,1.5 mg,Tablet,90,11
+decadron,2 mg,Tablet,30,18
+decadron,2 mg,Tablet,60,35
+decadron,2 mg,Tablet,90,52
+decadron,4 mg,Tablet,30,11
+decadron,4 mg,Tablet,60,22
+decadron,4 mg,Tablet,90,33
+decadron,6 mg,Tablet,30,37
+decadron,6 mg,Tablet,60,74
+decadron,6 mg,Tablet,90,111
+ddavp,0.1mg/ml/5 ml,Spray,1,72
+ddavp,0.1mg/ml/5 ml,Spray,2,144
+ddavp,0.1mg/ml/5 ml,Spray,3,215
+ddavp,0.1 mg,Tablet,30,23
+ddavp,0.1 mg,Tablet,45,34
+ddavp,0.1 mg,Tablet,60,46
+ddavp,0.1 mg,Tablet,90,68
+ddavp,0.1 mg,Tablet,180,136
+ddavp,0.2 mg,Tablet,30,23
+ddavp,0.2 mg,Tablet,45,35
+ddavp,0.2 mg,Tablet,60,46
+ddavp,0.2 mg,Tablet,90,69
+ddavp,0.2 mg,Tablet,180,137
+daysee,0.15 mg/30 mcg-10 mcg,Tablet,91,141
+cytotec,100 mcg,Tablet,30,11
+cytotec,100 mcg,Tablet,60,22
+cytotec,100 mcg,Tablet,120,44
+cytotec,200 mcg,Tablet,30,17
+cytotec,200 mcg,Tablet,60,34
+cytotec,200 mcg,Tablet,120,68
+cytomel,5 mcg,Tablet,30,13
+cytomel,5 mcg,Tablet,60,26
+cytomel,5 mcg,Tablet,90,39
+cytomel,5 mcg,Tablet,120,52
+cytomel,5 mcg,Tablet,180,78
+cytomel,25 mcg,Tablet,30,18
+cytomel,25 mcg,Tablet,60,35
+cytomel,25 mcg,Tablet,90,53
+cytomel,25 mcg,Tablet,120,70
+cytomel,25 mcg,Tablet,180,105
+cytomel,50 mcg,Tablet,30,21
+cytomel,50 mcg,Tablet,60,41
+cytomel,50 mcg,Tablet,90,62
+cytomel,50 mcg,Tablet,120,82
+cytomel,50 mcg,Tablet,180,123
+cymbalta,20 mg,Capsule Dr,30,11
+cymbalta,20 mg,Capsule Dr,60,21
+cymbalta,20 mg,Capsule Dr,90,30
+cymbalta,20 mg,Capsule Dr,180,58
+cymbalta,30 mg,Capsule Dr,30,6
+cymbalta,30 mg,Capsule Dr,60,11
+cymbalta,30 mg,Capsule Dr,90,15
+cymbalta,30 mg,Capsule Dr,180,27
+cymbalta,60 mg,Capsule Dr,30,6
+cymbalta,60 mg,Capsule Dr,60,11
+cymbalta,60 mg,Capsule Dr,90,15
+cymbalta,60 mg,Capsule Dr,180,27
+cutivate,0.05%/15 gm,Cream,1,8
+cutivate,0.05%/30 gm,Cream,1,13
+cutivate,0.05%/60 gm,Cream,1,23
+cutivate,0.05%/60 ml,Lotion,1,224
+cutivate,0.05%/120 ml,Lotion,1,760
+cutivate,0.005%/15 gm,Ointment,1,8
+cutivate,0.005%/30 gm,Ointment,1,13
+cutivate,0.005%/60 gm,Ointment,1,28
+cryselle,0.3 mg/0.03 mg,Tablet,28,14
+cryselle,0.3 mg/0.03 mg,Tablet,84,41
+crestor,5 mg,Tablet,30,5
+crestor,5 mg,Tablet,45,7
+crestor,5 mg,Tablet,60,9
+crestor,5 mg,Tablet,90,13
+crestor,10 mg,Tablet,30,4
+crestor,10 mg,Tablet,45,6
+crestor,10 mg,Tablet,60,7
+crestor,10 mg,Tablet,90,10
+crestor,20 mg,Tablet,30,4
+crestor,20 mg,Tablet,45,6
+crestor,20 mg,Tablet,60,7
+crestor,20 mg,Tablet,90,10
+crestor,40 mg,Tablet,30,5
+crestor,40 mg,Tablet,45,8
+crestor,40 mg,Tablet,60,10
+crestor,40 mg,Tablet,90,15
+cozaar,25 mg,Tablet,30,7
+cozaar,25 mg,Tablet,60,13
+cozaar,25 mg,Tablet,90,18
+cozaar,25 mg,Tablet,180,32
+cozaar,50 mg,Tablet,30,7
+cozaar,50 mg,Tablet,60,13
+cozaar,50 mg,Tablet,90,18
+cozaar,50 mg,Tablet,180,32
+cozaar,100 mg,Tablet,30,7
+cozaar,100 mg,Tablet,60,13
+cozaar,100 mg,Tablet,90,18
+cozaar,100 mg,Tablet,180,32
+coumadin,1 mg,Tablet,30,4
+coumadin,1 mg,Tablet,60,7
+coumadin,1 mg,Tablet,90,9
+coumadin,1 mg,Tablet,120,11
+coumadin,1 mg,Tablet,180,15
+coumadin,2 mg,Tablet,30,4
+coumadin,2 mg,Tablet,45,5
+coumadin,2 mg,Tablet,60,6
+coumadin,2 mg,Tablet,90,9
+coumadin,2 mg,Tablet,180,15
+coumadin,2.5 mg,Tablet,30,4
+coumadin,2.5 mg,Tablet,45,5
+coumadin,2.5 mg,Tablet,60,6
+coumadin,2.5 mg,Tablet,90,9
+coumadin,2.5 mg,Tablet,180,15
+coumadin,3 mg,Tablet,30,4
+coumadin,3 mg,Tablet,45,5
+coumadin,3 mg,Tablet,60,6
+coumadin,3 mg,Tablet,90,9
+coumadin,3 mg,Tablet,180,15
+coumadin,4 mg,Tablet,30,4
+coumadin,4 mg,Tablet,45,5
+coumadin,4 mg,Tablet,60,6
+coumadin,4 mg,Tablet,90,9
+coumadin,4 mg,Tablet,180,15
+coumadin,5 mg,Tablet,30,4
+coumadin,5 mg,Tablet,45,5
+coumadin,5 mg,Tablet,60,6
+coumadin,5 mg,Tablet,90,9
+coumadin,5 mg,Tablet,180,15
+coumadin,6 mg,Tablet,30,4
+coumadin,6 mg,Tablet,45,5
+coumadin,6 mg,Tablet,60,6
+coumadin,6 mg,Tablet,90,9
+coumadin,6 mg,Tablet,180,15
+coumadin,7.5 mg,Tablet,30,4
+coumadin,7.5 mg,Tablet,45,5
+coumadin,7.5 mg,Tablet,60,6
+coumadin,7.5 mg,Tablet,90,9
+coumadin,10 mg,Tablet,30,4
+coumadin,10 mg,Tablet,45,5
+coumadin,10 mg,Tablet,60,6
+coumadin,10 mg,Tablet,90,9
+coumadin,10 mg,Tablet,180,15
+cortisporinotic,1%/10 ml,Solution Ear Drop,1,43
+cortisporinotic,1%/10 ml,Suspension Ear Drop,1,44
+corgard,20 mg,Tablet,30,33
+corgard,20 mg,Tablet,45,49
+corgard,20 mg,Tablet,60,65
+corgard,20 mg,Tablet,90,97
+corgard,20 mg,Tablet,180,194
+corgard,40 mg,Tablet,30,40
+corgard,40 mg,Tablet,45,59
+corgard,40 mg,Tablet,60,79
+corgard,40 mg,Tablet,90,118
+corgard,40 mg,Tablet,180,236
+corgard,80 mg,Tablet,30,80
+corgard,80 mg,Tablet,45,120
+corgard,80 mg,Tablet,60,160
+corgard,80 mg,Tablet,90,240
+corgard,80 mg,Tablet,180,480
+coreg,3.125 mg,Tablet,30,3
+coreg,3.125 mg,Tablet,60,6
+coreg,3.125 mg,Tablet,90,9
+coreg,3.125 mg,Tablet,180,18
+coreg,6.25 mg,Tablet,30,3
+coreg,6.25 mg,Tablet,60,6
+coreg,6.25 mg,Tablet,90,9
+coreg,6.25 mg,Tablet,180,18
+coreg,12.5 mg,Tablet,30,3
+coreg,12.5 mg,Tablet,60,6
+coreg,12.5 mg,Tablet,90,9
+coreg,12.5 mg,Tablet,180,18
+coreg,25 mg,Tablet,30,3
+coreg,25 mg,Tablet,60,6
+coreg,25 mg,Tablet,90,9
+coreg,25 mg,Tablet,120,12
+coreg,25 mg,Tablet,180,18
+colestid,1 gm,Tablet,30,20
+colestid,1 gm,Tablet,60,40
+colestid,1 gm,Tablet,90,60
+colestid,1 gm,Tablet,120,80
+colestid,1 gm,Tablet,180,119
+colcrys,0.6 mg,Capsule,30,159
+colcrys,0.6 mg,Capsule,60,318
+colcrys,0.6 mg,Capsule,100,530
+colcrys,0.6 mg,Tablet,30,128
+colcrys,0.6 mg,Tablet,60,255
+colcrys,0.6 mg,Tablet,100,424
+colace,100 mg,Capsule,30,4
+colace,100 mg,Capsule,60,9
+colace,100 mg,Capsule,90,12
+colace,100 mg,Capsule,180,23
+cogentin,0.5 mg,Tablet,30,5
+cogentin,0.5 mg,Tablet,60,8
+cogentin,0.5 mg,Tablet,90,11
+cogentin,0.5 mg,Tablet,180,21
+cogentin,1 mg,Tablet,30,5
+cogentin,1 mg,Tablet,60,8
+cogentin,1 mg,Tablet,90,11
+cogentin,1 mg,Tablet,180,20
+cogentin,2 mg,Tablet,30,6
+cogentin,2 mg,Tablet,60,10
+cogentin,2 mg,Tablet,90,14
+cogentin,2 mg,Tablet,180,26
+climara,0.025 mg,Weekly Patch,4,52
+climara,0.025 mg,Weekly Patch,12,155
+climara,0.0375 mg,Weekly Patch,4,59
+climara,0.0375 mg,Weekly Patch,12,175
+climara,0.05 mg,Weekly Patch,4,59
+climara,0.05 mg,Weekly Patch,12,177
+climara,0.06 mg,Weekly Patch,4,62
+climara,0.06 mg,Weekly Patch,12,185
+climara,0.075 mg,Weekly Patch,4,64
+climara,0.075 mg,Weekly Patch,12,191
+climara,0.1 mg,Weekly Patch,4,62
+climara,0.1 mg,Weekly Patch,12,185
+cleocint,1%/30 gm,Gel,1,34
+cleocint,1%/30 gm,Gel,2,68
+cleocint,1%/30 gm,Gel,3,102
+cleocint,1%/60 gm,Gel,1,65
+cleocint,1%/60 gm,Gel,2,129
+cleocint,1%/60 gm,Gel,3,193
+cleocint,1%/60 gm,Lotion,1,96
+cleocint,1%/60 gm,Lotion,2,192
+cleocint,1%/60 gm,Lotion,3,287
+cleocint,1%/30 gm,Solution,1,9
+cleocint,1%/30 gm,Solution,2,18
+cleocint,1%/30 gm,Solution,3,26
+cleocint,1%/60 gm,Solution,1,19
+cleocint,1%/60 gm,Solution,2,37
+cleocint,1%/60 gm,Solution,3,55
+cleocin,75 mg,Capsule,30,19
+cleocin,75 mg,Capsule,60,38
+cleocin,75 mg,Capsule,100,64
+cleocin,150 mg,Capsule,30,4
+cleocin,150 mg,Capsule,60,7
+cleocin,150 mg,Capsule,80,9
+cleocin,300 mg,Capsule,30,14
+cleocin,300 mg,Capsule,60,28
+cleocin,300 mg,Capsule,80,37
+cleocin,2%/40 gm,Cream,1,80
+cleocin,2%/40 gm,Cream,2,160
+cleocin,2%/40 gm,Cream,3,240
+cleocin,300 mg,Capsule,40,19
+claritin,10 mg,Tablet,100,8
+claritin,10 mg,Tablet,1000,70
+claritin,10 mg,Tablet,30,4
+claritin,10 mg,Tablet,60,5
+claritin,10 mg,Tablet,90,7
+clarinex,5 mg,Tablet,30,18
+clarinex,5 mg,Tablet,60,36
+clarinex,5 mg,Tablet,90,53
+cipro,250 mg,Tablet,20,5
+cipro,250 mg,Tablet,28,7
+cipro,250 mg,Tablet,30,8
+cipro,250 mg,Tablet,100,25
+cipro,500 mg,Tablet,20,4
+cipro,500 mg,Tablet,28,5
+cipro,500 mg,Tablet,30,5
+cipro,500 mg,Tablet,100,16
+cipro,750 mg,Tablet,20,8
+cipro,750 mg,Tablet,28,11
+cipro,750 mg,Tablet,30,12
+cipro,750 mg,Tablet,100,38
+cipro,500 mg,Tablet,10,2
+ciloxan,0.3%/2.5 ml,Solution,1,5
+ciloxan,0.3%/2.5 ml,Solution,3,15
+ciloxan,0.3%/5 ml,Solution,1,5
+ciloxan,0.3%/5 ml,Solution,3,15
+ciloxan,0.3%/10 ml,Solution,1,10
+ciloxan,0.3%/10 ml,Solution,3,29
+cellcept,250 mg,Capsule,30,8
+cellcept,250 mg,Capsule,60,15
+cellcept,250 mg,Capsule,120,30
+cellcept,250 mg,Capsule,180,45
+cellcept,250 mg,Capsule,240,60
+cellcept,500 mg,Tablet,30,35
+cellcept,500 mg,Tablet,60,69
+cellcept,500 mg,Tablet,90,103
+cellcept,500 mg,Tablet,120,138
+cellcept,500 mg,Tablet,180,206
+celexa,10 mg,Tablet,30,4
+celexa,10 mg,Tablet,45,5
+celexa,10 mg,Tablet,60,6
+celexa,10 mg,Tablet,90,9
+celexa,20 mg,Tablet,30,4
+celexa,20 mg,Tablet,45,5
+celexa,20 mg,Tablet,60,6
+celexa,20 mg,Tablet,90,9
+celexa,20 mg,Tablet,120,10
+celexa,40 mg,Tablet,30,4
+celexa,40 mg,Tablet,45,5
+celexa,40 mg,Tablet,60,6
+celexa,40 mg,Tablet,90,9
+celebrex,50 mg,Capsule,30,9
+celebrex,50 mg,Capsule,60,17
+celebrex,50 mg,Capsule,90,24
+celebrex,50 mg,Capsule,120,32
+celebrex,100 mg,Capsule,30,4
+celebrex,100 mg,Capsule,60,6
+celebrex,100 mg,Capsule,90,9
+celebrex,100 mg,Capsule,180,18
+celebrex,200 mg,Capsule,30,5
+celebrex,200 mg,Capsule,60,9
+celebrex,200 mg,Capsule,90,12
+celebrex,200 mg,Capsule,180,22
+celebrex,400 mg,Capsule,30,36
+celebrex,400 mg,Capsule,60,72
+celebrex,400 mg,Capsule,90,108
+ceftin,250 mg,Tablet,20,11
+ceftin,250 mg,Tablet,28,16
+ceftin,250 mg,Tablet,60,33
+ceftin,500 mg,Tablet,20,19
+ceftin,500 mg,Tablet,28,27
+ceftin,500 mg,Tablet,60,52
+ceclor,250 mg,Capsule,30,38
+ceclor,250 mg,Capsule,42,53
+ceclor,250 mg,Capsule,60,75
+ceclor,250 mg,Capsule,100,125
+ceclor,500 mg,Capsule,30,49
+ceclor,500 mg,Capsule,42,68
+ceclor,500 mg,Capsule,60,97
+ceclor,500 mg,Capsule,100,162
+caziant,0.1 mg-0.125 mg-0.15 mg/25 mcg,Tablet,28,27
+caziant,0.1 mg-0.125 mg-0.15 mg/25 mcg,Tablet,84,80
+cataprestts,0.1 mg/4 patches,Patch,1,50
+cataprestts,0.1 mg/4 patches,Patch,3,148
+cataprestts,0.2 mg/4 patches,Patch,1,72
+cataprestts,0.2 mg/4 patches,Patch,3,214
+cataprestts,0.3 mg/4 patches,Patch,1,88
+cataprestts,0.3 mg/4 patches,Patch,3,262
+catapres,0.1 mg,Tablet,30,4
+catapres,0.1 mg,Tablet,60,7
+catapres,0.1 mg,Tablet,90,9
+catapres,0.1 mg,Tablet,120,11
+catapres,0.1 mg,Tablet,180,15
+catapres,0.2 mg,Tablet,30,4
+catapres,0.2 mg,Tablet,60,7
+catapres,0.2 mg,Tablet,90,9
+catapres,0.2 mg,Tablet,180,15
+catapres,0.2 mg,Tablet,270,20
+catapres,0.3 mg,Tablet,30,4
+catapres,0.3 mg,Tablet,60,7
+catapres,0.3 mg,Tablet,90,9
+catapres,0.3 mg,Tablet,180,15
+catapres,0.3 mg,Tablet,270,20
+cardura,1 mg,Tablet,30,9
+cardura,1 mg,Tablet,60,17
+cardura,1 mg,Tablet,90,26
+cardura,1 mg,Tablet,180,51
+cardura,2 mg,Tablet,30,5
+cardura,2 mg,Tablet,60,10
+cardura,2 mg,Tablet,90,15
+cardura,2 mg,Tablet,180,29
+cardura,4 mg,Tablet,30,10
+cardura,4 mg,Tablet,60,19
+cardura,4 mg,Tablet,90,29
+cardura,4 mg,Tablet,180,57
+cardura,8 mg,Tablet,30,10
+cardura,8 mg,Tablet,45,15
+cardura,8 mg,Tablet,60,19
+cardura,8 mg,Tablet,90,29
+cardura,8 mg,Tablet,180,57
+cardizemla,180 mg,Tablet Er,30,71
+cardizemla,180 mg,Tablet Er,60,141
+cardizemla,180 mg,Tablet Er,90,212
+cardizemla,180 mg,Tablet Er,180,423
+cardizemla,240 mg,Tablet Er,30,75
+cardizemla,240 mg,Tablet Er,60,149
+cardizemla,240 mg,Tablet Er,90,223
+cardizemla,240 mg,Tablet Er,180,445
+cardizemla,300 mg,Tablet Er,30,94
+cardizemla,300 mg,Tablet Er,60,187
+cardizemla,300 mg,Tablet Er,90,280
+cardizemla,360 mg,Tablet Er,30,109
+cardizemla,360 mg,Tablet Er,90,327
+cardizemla,420 mg,Tablet Er,30,109
+cardizemla,420 mg,Tablet Er,60,218
+cardizemla,420 mg,Tablet Er,90,327
+cardizemcd,120 mg,Capsule Er,30,8
+cardizemcd,120 mg,Capsule Er,60,16
+cardizemcd,120 mg,Capsule Er,90,23
+cardizemcd,120 mg,Capsule Er,180,46
+cardizemcd,180 mg,Capsule Er,30,11
+cardizemcd,180 mg,Capsule Er,60,21
+cardizemcd,180 mg,Capsule Er,90,31
+cardizemcd,180 mg,Capsule Er,180,61
+cardizemcd,240 mg,Capsule Er,30,13
+cardizemcd,240 mg,Capsule Er,60,26
+cardizemcd,240 mg,Capsule Er,90,39
+cardizemcd,240 mg,Capsule Er,180,77
+cardizemcd,300 mg,Capsule Er,30,15
+cardizemcd,300 mg,Capsule Er,90,44
+cardizemcd,360 mg,Capsule Er,30,29
+cardizemcd,360 mg,Capsule Er,90,87
+cardizem,30 mg,Tablet,30,4
+cardizem,30 mg,Tablet,60,8
+cardizem,30 mg,Tablet,90,12
+cardizem,30 mg,Tablet,120,16
+cardizem,30 mg,Tablet,180,23
+cardizem,60 mg,Tablet,30,7
+cardizem,60 mg,Tablet,60,13
+cardizem,60 mg,Tablet,90,19
+cardizem,60 mg,Tablet,120,26
+cardizem,60 mg,Tablet,180,38
+cardizem,90 mg,Tablet,30,6
+cardizem,90 mg,Tablet,60,11
+cardizem,90 mg,Tablet,90,16
+cardizem,90 mg,Tablet,120,21
+cardizem,90 mg,Tablet,180,31
+cardizem,120 mg,Tablet,30,14
+cardizem,120 mg,Tablet,60,28
+cardizem,120 mg,Tablet,90,42
+cardizem,120 mg,Tablet,180,83
+cardizem,120 mg,Tablet,270,124
+carbatrol,100 mg,Capsule Er,30,22
+carbatrol,100 mg,Capsule Er,60,44
+carbatrol,100 mg,Capsule Er,90,66
+carbatrol,100 mg,Capsule Er,120,88
+carbatrol,100 mg,Capsule Er,180,132
+carbatrol,200 mg,Capsule Er,30,28
+carbatrol,200 mg,Capsule Er,60,55
+carbatrol,200 mg,Capsule Er,90,82
+carbatrol,200 mg,Capsule Er,120,109
+carbatrol,200 mg,Capsule Er,150,136
+carbatrol,200 mg,Capsule Er,180,163
+carbatrol,300 mg,Capsule Er,30,22
+carbatrol,300 mg,Capsule Er,60,43
+carbatrol,300 mg,Capsule Er,90,64
+carbatrol,300 mg,Capsule Er,120,85
+carbatrol,300 mg,Capsule Er,180,127
+carafate,1 gm,Tablet,30,9
+carafate,1 gm,Tablet,40,12
+carafate,1 gm,Tablet,56,16
+carafate,1 gm,Tablet,60,17
+carafate,1 gm,Tablet,90,26
+carafate,1 gm,Tablet,120,34
+capoten,12.5 mg,Tablet,30,27
+capoten,12.5 mg,Tablet,60,53
+capoten,12.5 mg,Tablet,90,79
+capoten,12.5 mg,Tablet,180,157
+capoten,12.5 mg,Tablet,270,235
+capoten,25 mg,Tablet,30,28
+capoten,25 mg,Tablet,60,55
+capoten,25 mg,Tablet,90,82
+capoten,25 mg,Tablet,180,164
+capoten,25 mg,Tablet,270,246
+capoten,50 mg,Tablet,30,43
+capoten,50 mg,Tablet,60,85
+capoten,50 mg,Tablet,90,127
+capoten,50 mg,Tablet,180,254
+capoten,50 mg,Tablet,270,380
+capoten,100 mg,Tablet,30,69
+capoten,100 mg,Tablet,60,138
+capoten,100 mg,Tablet,90,207
+capoten,100 mg,Tablet,180,414
+capoten,100 mg,Tablet,270,621
+capex,0.01%/15 gm,Cream,1,30
+capex,0.01%/15 gm,Cream,3,88
+capex,0.01%/60 gm,Cream,1,80
+capex,0.01%/60 gm,Cream,3,238
+capex,0.025%/15 gm,Cream,1,34
+capex,0.025%/15 gm,Cream,3,100
+capex,0.025%/60 gm,Cream,1,125
+capex,0.025%/60 gm,Cream,3,374
+capex,0.025%/15 gm,Ointment,1,24
+capex,0.025%/15 gm,Ointment,3,70
+capex,0.025%/60 gm,Ointment,1,66
+capex,0.025%/60 gm,Ointment,3,198
+capex,0.01%/60 gm,Solution,1,93
+capex,0.01%/60 gm,Solution,3,278
+calansr,120 mg,Tablet Er,30,8
+calansr,120 mg,Tablet Er,60,16
+calansr,120 mg,Tablet Er,90,24
+calansr,120 mg,Tablet Er,180,47
+calansr,180 mg,Tablet Er,30,6
+calansr,180 mg,Tablet Er,60,12
+calansr,180 mg,Tablet Er,90,17
+calansr,180 mg,Tablet Er,180,34
+calansr,240 mg,Tablet Er,30,7
+calansr,240 mg,Tablet Er,45,10
+calansr,240 mg,Tablet Er,60,13
+calansr,240 mg,Tablet Er,90,19
+calansr,240 mg,Tablet Er,180,37
+calan,40 mg,Tablet,30,5
+calan,40 mg,Tablet,60,10
+calan,40 mg,Tablet,90,15
+calan,40 mg,Tablet,180,29
+calan,80 mg,Tablet,30,4
+calan,80 mg,Tablet,60,6
+calan,80 mg,Tablet,90,8
+calan,80 mg,Tablet,180,14
+calan,80 mg,Tablet,270,20
+calan,120 mg,Tablet,30,4
+calan,120 mg,Tablet,60,7
+calan,120 mg,Tablet,90,10
+calan,120 mg,Tablet,180,19
+calan,120 mg,Tablet,270,28
+caduet,5 mg/10 mg,Tablet,30,80
+caduet,5 mg/10 mg,Tablet,90,239
+caduet,5 mg/10 mg,Tablet,120,318
+caduet,5 mg/20 mg,Tablet,30,97
+caduet,5 mg/20 mg,Tablet,90,289
+caduet,5 mg/40 mg,Tablet,30,143
+caduet,5 mg/40 mg,Tablet,60,285
+caduet,5 mg/40 mg,Tablet,90,428
+caduet,5 mg/80 mg,Tablet,30,148
+caduet,5 mg/80 mg,Tablet,90,443
+caduet,10 mg/10 mg,Tablet,30,99
+caduet,10 mg/10 mg,Tablet,90,296
+caduet,10 mg/20 mg,Tablet,30,95
+caduet,10 mg/20 mg,Tablet,90,283
+caduet,10 mg/40 mg,Tablet,30,164
+caduet,10 mg/40 mg,Tablet,90,491
+buspar,5 mg,Tablet,30,4
+buspar,5 mg,Tablet,60,7
+buspar,5 mg,Tablet,90,10
+buspar,5 mg,Tablet,180,19
+buspar,5 mg,Tablet,270,28
+buspar,7.5 mg,Tablet,30,14
+buspar,7.5 mg,Tablet,60,27
+buspar,7.5 mg,Tablet,90,41
+buspar,7.5 mg,Tablet,120,54
+buspar,7.5 mg,Tablet,180,81
+buspar,10 mg,Tablet,30,4
+buspar,10 mg,Tablet,60,7
+buspar,10 mg,Tablet,90,10
+buspar,10 mg,Tablet,120,13
+buspar,10 mg,Tablet,180,18
+buspar,15 mg,Tablet,30,9
+buspar,15 mg,Tablet,60,16
+buspar,15 mg,Tablet,90,24
+buspar,15 mg,Tablet,120,31
+buspar,15 mg,Tablet,180,46
+buspar,30 mg,Tablet,30,12
+buspar,30 mg,Tablet,45,18
+buspar,30 mg,Tablet,60,24
+buspar,30 mg,Tablet,90,36
+buspar,30 mg,Tablet,180,72
+bumex,0.5 mg,Tablet,30,22
+bumex,0.5 mg,Tablet,60,43
+bumex,0.5 mg,Tablet,90,64
+bumex,0.5 mg,Tablet,180,127
+bumex,1 mg,Tablet,30,15
+bumex,1 mg,Tablet,60,30
+bumex,1 mg,Tablet,90,45
+bumex,1 mg,Tablet,120,59
+bumex,1 mg,Tablet,180,89
+bumex,2 mg,Tablet,30,25
+bumex,2 mg,Tablet,60,50
+bumex,2 mg,Tablet,90,75
+bumex,2 mg,Tablet,120,99
+bumex,2 mg,Tablet,180,149
+boniva,150 mg,Tablet,3,23
+boniva,150 mg,Tablet,9,67
+bleph10,10%/5 ml,Solution,1,33
+bleph10,10%/5 ml,Solution,3,98
+bleph10,10%/15 ml,Solution,1,45
+bleph10,10%/15 ml,Solution,3,134
+biaxin,250 mg,Tablet,30,26
+biaxin,250 mg,Tablet,60,52
+biaxin,500 mg,Tablet,30,19
+biaxin,500 mg,Tablet,60,38
+beyaz,3 mg/0.02 mg/0.451 mg,Tablet,28,148
+beyaz,3 mg/0.02 mg/0.451 mg,Tablet,84,443
+beyaz,4 mg/0.02 mg/0.451 mg,Tablet,84,341.88
+betapace,80 mg,Tablet,30,4
+betapace,80 mg,Tablet,60,8
+betapace,80 mg,Tablet,90,11
+betapace,80 mg,Tablet,180,22
+betapace,80 mg,Tablet,270,33
+betapace,120 mg,Tablet,30,6
+betapace,120 mg,Tablet,60,12
+betapace,120 mg,Tablet,90,17
+betapace,120 mg,Tablet,180,34
+betapace,160 mg,Tablet,30,6
+betapace,160 mg,Tablet,60,12
+betapace,160 mg,Tablet,90,18
+betapace,160 mg,Tablet,180,36
+betapace,240 mg,Tablet,30,9
+betapace,240 mg,Tablet,60,17
+betapace,240 mg,Tablet,90,25
+betapace,240 mg,Tablet,180,49
+benzamycintopicalgel,3%/5%/23.3 gm,Gel,1,135
+benzamycintopicalgel,3%/5%/23.3 gm,Gel,3,405
+benzamycintopicalgel,3%/5%/46.6 gm,Gel,1,117
+benzamycintopicalgel,3%/5%/46.6 gm,Gel,3,349
+benzacac,2.5%/60 gm,Gel,1,18
+benzacac,5%/42.5 gm,Gel,1,6
+benzacac,5%/60 gm,Gel,1,13
+benzacac,5%/90 gm,Gel,1,22
+benzacac,10%/28 gm,Gel,1,7.47
+benzacac,10%/60 gm,Gel,1,16
+benzacac,10%/90 gm,Gel,1,21
+benzacac,10%/48 gm,Gel,1,7
+benicar,5 mg,Tablet,30,11
+benicar,5 mg,Tablet,60,21
+benicar,5 mg,Tablet,90,30
+benicar,5 mg,Tablet,180,58
+benicar,20 mg,Tablet,30,11
+benicar,20 mg,Tablet,45,17
+benicar,20 mg,Tablet,60,21
+benicar,20 mg,Tablet,90,30
+benicar,40 mg,Tablet,30,11
+benicar,40 mg,Tablet,60,21
+benicar,40 mg,Tablet,90,30
+benemid,500 mg,Tablet,30,16
+benemid,500 mg,Tablet,60,31
+benemid,500 mg,Tablet,90,46
+benemid,500 mg,Tablet,120,62
+benemid,500 mg,Tablet,180,92
+benadryl,25 mg,Capsule,100,4
+benadryl,50 mg,Capsule,100,4
+benadryl,25 mg,Tablet,100,4
+bactroban,2%/15 gm,Cream,1,182
+bactroban,2%/30 gm,Cream,1,311
+bactroban,2%/22 gm,Ointment,1,7
+bactroban,2%/22 gm,Ointment,3,21
+azulfidineentabs,500 mg,Tablet Dr,60,14
+azulfidineentabs,500 mg,Tablet Dr,120,28
+azulfidineentabs,500 mg,Tablet Dr,180,42
+azulfidineentabs,500 mg,Tablet Dr,240,56
+azulfidineentabs,500 mg,Tablet Dr,360,84
+azulfidine,500 mg,Tablet,60,13
+azulfidine,500 mg,Tablet,120,25
+azulfidine,500 mg,Tablet,180,37
+azulfidine,500 mg,Tablet,240,50
+azulfidine,500 mg,Tablet,360,74
+aygestin,5 mg,Tablet,30,31
+aygestin,5 mg,Tablet,60,62
+aygestin,5 mg,Tablet,90,93
+aygestin,5 mg,Tablet,56,60
+avodart,0.5 mg,Capsule,30,8
+avodart,0.5 mg,Capsule,60,16
+avodart,0.5 mg,Capsule,90,21
+avelox,400 mg,Tablet,30,55
+avapro,75 mg,Tablet,30,7
+avapro,75 mg,Tablet,60,13
+avapro,75 mg,Tablet,90,19
+avapro,75 mg,Tablet,180,37
+avapro,150 mg,Tablet,30,7
+avapro,150 mg,Tablet,60,14
+avapro,150 mg,Tablet,90,21
+avapro,150 mg,Tablet,180,42
+avapro,300 mg,Tablet,30,7
+avapro,300 mg,Tablet,60,14
+avapro,300 mg,Tablet,90,21
+avalide,150 mg/12.5 mg,Tablet,30,9
+avalide,150 mg/12.5 mg,Tablet,60,18
+avalide,150 mg/12.5 mg,Tablet,90,27
+avalide,150 mg/12.5 mg,Tablet,180,53
+avalide,300 mg/12.5 mg,Tablet,30,8
+avalide,300 mg/12.5 mg,Tablet,60,15
+avalide,300 mg/12.5 mg,Tablet,90,22
+augmentin,250 mg/125 mg,Tablet,30,38
+augmentin,500 mg/125 mg,Tablet,20,10
+augmentin,875 mg/125 mg,Tablet,20,7
+atrovent,0.02%/2.5 ml,Solution,25,5
+atrovent,0.02%/2.5 ml,Solution,30,4
+atrovent,0.02%/2.5 ml,Solution,60,7
+atrovent,0.03%/30 ml,Spray,1,27
+atrovent,0.06%/15 ml,Spray,1,23
+atrovent,0.02%/2.5 ml,Solution,50,7
+atrovent,0.02%/2.5 ml,Solution,75,10
+atacandhct,16 mg/12.5 mg,Tablet,30,47
+atacandhct,16 mg/12.5 mg,Tablet,45,70
+atacandhct,16 mg/12.5 mg,Tablet,60,92
+atacandhct,16 mg/12.5 mg,Tablet,90,132
+atacandhct,32 mg/12.5 mg,Tablet,30,107
+atacandhct,32 mg/12.5 mg,Tablet,60,214
+atacandhct,32 mg/12.5 mg,Tablet,90,321
+atacandhct,32 mg/25 mg,Tablet,30,111
+atacandhct,32 mg/25 mg,Tablet,45,166
+atacandhct,32 mg/25 mg,Tablet,60,221
+atacandhct,32 mg/25 mg,Tablet,90,331
+atacand,4 mg,Tablet,30,52
+atacand,4 mg,Tablet,60,103
+atacand,4 mg,Tablet,90,155
+atacand,4 mg,Tablet,180,309
+atacand,8 mg,Tablet,30,55
+atacand,8 mg,Tablet,45,82
+atacand,8 mg,Tablet,60,109
+atacand,8 mg,Tablet,90,163
+atacand,16 mg,Tablet,30,59
+atacand,16 mg,Tablet,60,118
+atacand,16 mg,Tablet,90,176
+atacand,16 mg,Tablet,180,352
+atacand,32 mg,Tablet,30,48
+atacand,32 mg,Tablet,45,71
+atacand,32 mg,Tablet,60,95
+atacand,32 mg,Tablet,90,142
+astelinastepro,137 mcg/30 ml,Nasal Spray,1,12
+astelinastepro,205.5 mcg/30 ml,Nasal Spray,1,36
+asacolhd,800 mg,Tablet Dr,60,285
+asacolhd,800 mg,Tablet Dr,90,428
+asacolhd,800 mg,Tablet Dr,120,570
+asacolhd,800 mg,Tablet Dr,180,855
+arthrotec,50 mg/.02 mg,Tablet,30,36
+arthrotec,50 mg/.02 mg,Tablet,60,72
+arthrotec,50 mg/.02 mg,Tablet,90,108
+arthrotec,50 mg/.02 mg,Tablet,180,216
+arthrotec,75 mg/.02 mg,Tablet,30,36
+arthrotec,75 mg/.02 mg,Tablet,60,72
+arthrotec,75 mg/.02 mg,Tablet,90,108
+arthrotec,75 mg/.02 mg,Tablet,180,216
+arimidex,1 mg,Tablet,30,5
+arimidex,1 mg,Tablet,90,14
+ariceptodt,5 mg,Tablet Odt,30,9
+ariceptodt,5 mg,Tablet Odt,90,27
+ariceptodt,10 mg,Tablet Odt,30,10
+ariceptodt,10 mg,Tablet Odt,60,20
+ariceptodt,10 mg,Tablet Odt,90,30
+ariceptodt,10 mg,Tablet Odt,180,60
+aricept,5 mg,Tablet,30,7
+aricept,5 mg,Tablet,60,12
+aricept,5 mg,Tablet,90,18
+aricept,5 mg,Tablet,180,34
+aricept,10 mg,Tablet,30,7
+aricept,10 mg,Tablet,60,12
+aricept,10 mg,Tablet,90,18
+aricept,10 mg,Tablet,180,34
+aricept,23 mg,Tablet,30,30
+aricept,23 mg,Tablet,90,89
+arava,10 mg,Tablet,30,57
+arava,10 mg,Tablet,60,114
+arava,10 mg,Tablet,90,171
+arava,20 mg,Tablet,30,66
+arava,20 mg,Tablet,45,99
+arava,20 mg,Tablet,60,132
+arava,20 mg,Tablet,90,198
+apri,0.15 mg/0.03 mg,Tablet,28,11
+apri,0.15 mg/0.03 mg,Tablet,84,31
+antivert,12.5 mg,Tablet,30,4
+antivert,12.5 mg,Tablet,60,8
+antivert,12.5 mg,Tablet,90,11
+antivert,25 mg,Tablet,30,4
+antivert,25 mg,Tablet,60,8
+antivert,25 mg,Tablet,90,11
+antara,43 mg,Capsule Micronized,30,43
+antara,43 mg,Capsule Micronized,60,85
+antara,43 mg,Capsule Micronized,90,127
+antara,130 mg,Capsule Micronized,30,89
+antara,130 mg,Capsule Micronized,90,266
+ansaid,50 mg,Tablet,30,5
+ansaid,50 mg,Tablet,60,10
+ansaid,50 mg,Tablet,90,15
+ansaid,50 mg,Tablet,120,20
+ansaid,100 mg,Tablet,30,10
+ansaid,100 mg,Tablet,60,20
+ansaid,100 mg,Tablet,90,30
+ansaid,100 mg,Tablet,180,60
+amoxil,250 mg,Capsule,30,4
+amoxil,250 mg,Capsule,40,5
+amoxil,250 mg,Capsule,60,8
+amoxil,250 mg,Capsule,100,12
+amoxil,500 mg,Capsule,30,4
+amoxil,500 mg,Capsule,40,5
+amoxil,500 mg,Capsule,60,8
+amoxil,500 mg,Capsule,100,12
+amoxil,500 mg,Tablet,30,4
+amoxil,500 mg,Tablet,40,5
+amoxil,500 mg,Tablet,60,8
+amoxil,500 mg,Tablet,100,12
+amoxil,875 mg,Tablet,20,4
+amoxil,875 mg,Tablet,30,6
+amoxil,875 mg,Tablet,100,20
+amaryl,1 mg,Tablet,30,4
+amaryl,1 mg,Tablet,60,8
+amaryl,1 mg,Tablet,90,11
+amaryl,1 mg,Tablet,180,22
+amaryl,2 mg,Tablet,30,4
+amaryl,2 mg,Tablet,60,8
+amaryl,2 mg,Tablet,90,11
+amaryl,2 mg,Tablet,180,22
+amaryl,4 mg,Tablet,30,4
+amaryl,4 mg,Tablet,60,8
+amaryl,4 mg,Tablet,90,11
+amaryl,4 mg,Tablet,180,22
+altace,1.25 mg,Capsule,30,10
+altace,1.25 mg,Capsule,60,19
+altace,1.25 mg,Capsule,90,29
+altace,1.25 mg,Capsule,180,57
+altace,2.5 mg,Capsule,30,4
+altace,2.5 mg,Capsule,60,8
+altace,2.5 mg,Capsule,90,11
+altace,2.5 mg,Capsule,180,22
+altace,5 mg,Capsule,30,4
+altace,5 mg,Capsule,60,8
+altace,5 mg,Capsule,90,11
+altace,5 mg,Capsule,180,22
+altace,10 mg,Capsule,30,4
+altace,10 mg,Capsule,60,8
+altace,10 mg,Capsule,90,11
+altace,10 mg,Capsule,180,22
+alphaganp,0.15%/5 ml,Solution Ophthalmic,1,115
+alphaganp,0.15%/10 ml,Solution Ophthalmic,1,226
+alphaganp,0.15%/15 ml,Solution Ophthalmic,1,329
+alphaganp,0.2%/5 ml,Solution Ophthalmic,1,3
+alphaganp,0.2%/5 ml,Solution Ophthalmic,3,9
+alphaganp,0.2%/10 ml,Solution Ophthalmic,1,6
+alphaganp,0.2%/10 ml,Solution Ophthalmic,3,17
+alphaganp,0.2%/15 ml,Solution Ophthalmic,1,9
+alphaganp,0.2%/15 ml,Solution Ophthalmic,3,26
+alphaganp,0.1%/5 ml,Solution Ophthalmic,1,156
+alphaganp,0.1%/10 ml,Solution Ophthalmic,1,311
+aldomet,250 mg,Tablet,30,5
+aldomet,250 mg,Tablet,60,8
+aldomet,250 mg,Tablet,90,11
+aldomet,250 mg,Tablet,120,14
+aldomet,250 mg,Tablet,180,20
+aldomet,500 mg,Tablet,60,11
+aldomet,500 mg,Tablet,90,16
+aldomet,500 mg,Tablet,120,21
+aldomet,500 mg,Tablet,180,31
+aldomet,500 mg,Tablet,270,46
+aldara,5%/24 packets,Cream,1,50
+aldara,5%/12packets,Cream,1,25
+aldactone,25 mg,Tablet,30,5
+aldactone,25 mg,Tablet,60,9
+aldactone,25 mg,Tablet,90,11
+aldactone,25 mg,Tablet,180,19
+aldactone,50 mg,Tablet,30,5
+aldactone,50 mg,Tablet,60,10
+aldactone,50 mg,Tablet,90,15
+aldactone,50 mg,Tablet,120,20
+aldactone,50 mg,Tablet,180,29
+aldactone,100 mg,Tablet,30,9
+aldactone,100 mg,Tablet,45,13
+aldactone,100 mg,Tablet,60,17
+aldactone,100 mg,Tablet,90,25
+aldactone,100 mg,Tablet,180,50
+aldactazide,25 mg/25 mg,Tablet,30,22
+aldactazide,25 mg/25 mg,Tablet,45,33
+aldactazide,25 mg/25 mg,Tablet,60,44
+aldactazide,25 mg/25 mg,Tablet,90,66
+aldactazide,25 mg/25 mg,Tablet,180,131
+adalatcc,30 mg,Tablet Er,30,8
+adalatcc,30 mg,Tablet Er,60,15
+adalatcc,30 mg,Tablet Er,90,22
+adalatcc,30 mg,Tablet Er,180,43
+adalatcc,60 mg,Tablet Er,30,8
+adalatcc,60 mg,Tablet Er,60,15
+adalatcc,60 mg,Tablet Er,90,23
+adalatcc,60 mg,Tablet Er,180,45
+adalatcc,90 mg,Tablet Er,30,16
+adalatcc,90 mg,Tablet Er,60,31
+adalatcc,90 mg,Tablet Er,90,45
+aczone,25 mg,Tablet,30,45
+aczone,25 mg,Tablet,60,90
+aczone,25 mg,Tablet,90,135
+aczone,25 mg,Tablet,120,180
+aczone,25 mg,Tablet,180,269
+aczone,100 mg,Tablet,30,57
+aczone,100 mg,Tablet,60,113
+aczone,100 mg,Tablet,90,169
+aczone,5%/60 gm,Gel,1,227
+aczone,5%/90 gm,Gel,1,363
+aczone,7.5%/60 gm,Gel,1,573
+aczone,7.5%/90 gm,Gel,1,752
+acular,0.5%/5 ml,Solution Opthhalmic,1,10
+acular,0.5%/5 ml,Solution Opthhalmic,3,29
+acular,0.5%/10 ml,Solution Opthhalmic,1,19
+acular,0.5%/10 ml,Solution Opthhalmic,3,56
+actos,15 mg,Tablet,30,8
+actos,15 mg,Tablet,60,15
+actos,15 mg,Tablet,90,23
+actos,15 mg,Tablet,180,45
+actos,30 mg,Tablet,30,8
+actos,30 mg,Tablet,60,15
+actos,30 mg,Tablet,90,23
+actos,45 mg,Tablet,30,8
+actos,45 mg,Tablet,60,15
+actos,45 mg,Tablet,90,23
+actoplusmet,15 mg/500 mg,Tablet,30,28
+actoplusmet,15 mg/500 mg,Tablet,60,56
+actoplusmet,15 mg/500 mg,Tablet,90,83
+actoplusmet,15 mg/500 mg,Tablet,180,166
+actoplusmet,15 mg/850 mg,Tablet,30,24
+actoplusmet,15 mg/850 mg,Tablet,60,48
+actoplusmet,15 mg/850 mg,Tablet,90,71
+actoplusmet,15 mg/850 mg,Tablet,180,142
+actonel,5 mg,Tablet,30,112
+actonel,30 mg,Tablet,30,1294
+actonel,35 mg,Tablet,4,37
+actonel,35 mg,Tablet,12,109
+actonel,150 mg,Tablet,1,41
+actonel,150 mg,Tablet,3,121
+actonel,35 mg,Tablet Dr,4,37
+actonel,35 mg,Tablet Dr,12,132
+aciphex,20 mg,Tablet Dr,30,12
+aciphex,20 mg,Tablet Dr,60,24
+aciphex,20 mg,Tablet Dr,90,35
+aciphex,20 mg,Tablet Dr,180,70
+accuretic,10 mg/12.5 mg,Tablet,30,20
+accuretic,10 mg/12.5 mg,Tablet,60,40
+accuretic,10 mg/12.5 mg,Tablet,90,60
+accuretic,10 mg/12.5 mg,Tablet,180,120
+accuretic,20 mg/12.5 mg,Tablet,30,19
+accuretic,20 mg/12.5 mg,Tablet,60,38
+accuretic,20 mg/12.5 mg,Tablet,90,57
+accuretic,20 mg/12.5 mg,Tablet,180,114
+accuretic,20 mg/25 mg,Tablet,30,18
+accuretic,20 mg/25 mg,Tablet,60,36
+accuretic,20 mg/25 mg,Tablet,90,54
+accuretic,20 mg/25 mg,Tablet,180,108
+accupril,5 mg,Tablet,30,4
+accupril,5 mg,Tablet,45,5
+accupril,5 mg,Tablet,60,6
+accupril,5 mg,Tablet,90,9
+accupril,5 mg,Tablet,180,17
+accupril,10 mg,Tablet,30,4
+accupril,10 mg,Tablet,60,8
+accupril,10 mg,Tablet,90,12
+accupril,10 mg,Tablet,180,23
+accupril,20 mg,Tablet,30,5
+accupril,20 mg,Tablet,60,10
+accupril,20 mg,Tablet,90,14
+accupril,20 mg,Tablet,180,28
+accupril,40 mg,Tablet,30,4
+accupril,40 mg,Tablet,60,8
+accupril,40 mg,Tablet,90,12
+accupril,40 mg,Tablet,180,23
+abilify,2 mg,Tablet,30,13
+abilify,2 mg,Tablet,60,22
+abilify,2 mg,Tablet,90,31
+abilify,5 mg,Tablet,30,14
+abilify,5 mg,Tablet,45,19
+abilify,5 mg,Tablet,60,25
+abilify,5 mg,Tablet,90,35
+abilify,10 mg,Tablet,60,25
+abilify,10 mg,Tablet,90,35
+abilify,15 mg,Tablet,30,14
+abilify,15 mg,Tablet,90,35
+abilify,20 mg,Tablet,30,28
+abilify,20 mg,Tablet,45,39
+abilify,20 mg,Tablet,90,75
+abilify,30 mg,Tablet,30,25
+abilify,30 mg,Tablet,90,68
+abilify,2 mg,Tablet,45,18
+abilify,10 mg,Tablet,30,14
+abilify,10 mg,Tablet,45,19
+abilify,15 mg,Tablet,45,20
+abilify,15 mg,Tablet,60,25
+abilify,20 mg,Tablet,60,52
+abilify,30 mg,Tablet,45,0
+abilify,30 mg,Tablet,60,0
