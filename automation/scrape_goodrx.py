@@ -1,17 +1,6 @@
-import requests
-import urllib.request
-
-from selenium.webdriver.support.wait import WebDriverWait
-
-from utilities.read_write_utilities import read_list_from_file
-import time
-from bs4 import BeautifulSoup
-import pickledb
-import json
-from selenium import webdriver
-import sys
-import six
-
+from utilities.scrapping_utilities import Scraper
+import string
+from utilities.read_write_utilities import write_set_to_txt
 # def get_links(i):
 #     url = 'https://honeybeehealth.com/online-pharmacy?p=' + str(i)
 #     response = requests.get(url)
@@ -90,28 +79,28 @@ import six
 
 
 
-def get_json_data(url):
-    PROXY = "12.345.678.910:8080"
-    chrome_options = WebDriverWait.ChromeOptions()
-    chrome_options.add_argument('--proxy-server=%s' % PROXY)
-    executable_path = "/Users/sandeep.dey/src/r-repo/automation/chromedriver"
+def parse_urls_from_index(soup):
+    urls = soup.find_all(id='desktop-all-drugs-container')[0]
+    return [k.get('href')[1:] for k in urls.find_all('a')]
 
-    browser = webdriver.Chrome(executable_path=executable_path)
-    browser.get(url)
-    soup = BeautifulSoup(browser.page_source, 'html.parser')
-    content = [x for x in soup.find_all('script') if 'abTestData' in x.text]
-    cd = content[0].getText()[17:-1].replace('undefined', '"undefined"')
-    home_delivery_data = json.loads(cd)
 
-def parse_json_data(json_data):
-    pass
+
+# def parse_json_data(soup):
+#     content = [x for x in soup.find_all('script') if 'abTestData' in x.text]
+#     cd = content[0].getText()[17:-1].replace('undefined', '"undefined"')
+#     home_delivery_data = json.loads(cd)
+
 
 def main():
-    url = 'https://www.goodrx.com/spiriva?dosage=60-doses-of-2.5mcg-per-actuation&form=respimat-inhaler&label_override=Spiriva&quantity=1'
-    json_data = get_json_data(url)
-    parse_json_data(json_data)
-
-    pass
+    for character in string.ascii_lowercase[0:3]:
+        sc = Scraper(useFirefox=False)
+        url = 'https://www.goodrx.com/drugs/%c'%character
+        print(url)
+        soup = sc.get_url_data_in_soup(url)
+        drugs = parse_urls_from_index(soup)
+        print(drugs)
+        write_set_to_txt('goodrx_drug_directory.txt',drugs,append=True)
+        sc.stop_scrape()
 
 if __name__== "__main__":
     main()

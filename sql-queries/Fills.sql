@@ -1,9 +1,10 @@
 with fills as (
 	SELECT
 		foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
--- 		foi.med_id,
--- 		f_gcn.gcn,
--- 		f_gcn.gcn_seqno,
+		foi.order_id,
+		foi.med_id,
+		f_gcn.gcn,
+		f_gcn.gcn_seqno,
 		foi.pharmacy_network_name, -- blink , supersaver or delivery 
 		foi.last_claim_pharmacy_name_approved as pharmacy_name,
 		sum(1) as fills,
@@ -20,21 +21,31 @@ with fills as (
 		LEFT JOIN dwh.dim_gcn_seqno_hierarchy f_gcn ON foi.last_claim_gcn_seqno_approved = f_gcn.gcn_seqno
 		LEFT JOIN dwh.dim_medid_hierarchy p_medid ON foi.med_id = p_medid.medid -- medid for the med purchased in the order (e.g. med name)
 		LEFT JOIN dwh.dim_medid_hierarchy f_medid ON foi.last_claim_medid_approved = f_medid.medid -- info for the med actually filled (e.g. med name)
-	WHERE (
-		foi.fill_sequence IS NOT NULL)
+	WHERE foi.fill_sequence IS NOT NULL
 	AND foi.is_fraud = FALSE
-	AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '90 day' >= CURRENT_DATE
+	AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '10 day' >= CURRENT_DATE
+	AND f_gcn.gcn_seqno = 16879na
 	GROUP BY
-		1,2,3
-), med_prices as (
-	SELECT
-		order_id,
-		unit_price_bsd
-
+		1,2,3,4,5,6,7
 )
 
 
 
+SELECT
+	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
+	foi.order_id,
+	foi.med_id,
+	foi.pharmacy_network_name, -- blink , supersaver or delivery 
+	foi.last_claim_pharmacy_name_approved as pharmacy_name,
+	quantity,
+	coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float AS revenue,	
+	coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float AS cogs
+FROM
+	dwh.fact_order_item foi
+WHERE
+	foi.order_id = 5304315940095380907
+
+select * from api_scraper_external.goodrx_price_raw;
 
 
 select * from transactional.available_med limit 100;
@@ -97,3 +108,26 @@ WHERE
 	AND foi.quantity != foi.last_claim_quantity_approved
 	AND foi.gcn != foi.last_claim_gcn_approved
 	AND fill_date > '2019-10-01'
+	
+	
+	
+SELECT
+	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
+	foi.order_id,
+	foi.dw_user_id,
+	foi.med_id,
+	foi.account_id,
+	quantity,
+	coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float AS revenue,	
+	coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float AS cogs
+FROM
+	dwh.fact_order_item foi
+	LEFT JOIN dwh.dim_user AS du ON foi.account_id = du.account_id
+		AND du.is_internal = FALSE
+		AND du.is_phantom = FALSE
+WHERE foi.fill_sequence IS NOT NULL
+AND foi.is_fraud = FALSE
+AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '180 day' >= CURRENT_DATE
+AND foi.med_id in (579341,587566)
+
+	
