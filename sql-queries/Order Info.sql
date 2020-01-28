@@ -72,7 +72,7 @@ WHERE
 	AND du.is_phantom = FALSE
 	AND foi.is_fraud = FALSE
 	AND foi.last_pbm_adjudication_timestamp_approved IS NOT NULL
-	AND foi.order_id = 5305717137339412479
+	AND foi.order_id = 5305793903809334193
 ORDER BY
 	1 DESC
 LIMIT 5

@@ -1,4 +1,4 @@
-select count(*) from dwh.pharmacy_network_ledger where termination_date is null ;
+select pharmacy_network_id, count(*) from dwh.pharmacy_network_ledger where termination_date is null group by 1;
 
 
 
@@ -301,11 +301,12 @@ GROUP BY
 SELECT
 	pharmacy_network_id,
 	unit_price,
-	dispensing_fee_margin
+	dispensing_fee_margin,
+	branded
 FROM
 	transactional.med_price
 WHERE
-	medid = 157529
+	medid = 251749
 	AND ended_on IS NULL;
 
 SELECT
@@ -314,7 +315,9 @@ FROM
 	transactional.network_pricing_mac
 WHERE
 	end_date IS NULL
-	AND gcn_seqno = 6655;
+	AND gcn_seqno = 364;
+
+
 
 GRANT SELECT ON mktg_dev.sdey_privia_utilization_data TO "public";
 

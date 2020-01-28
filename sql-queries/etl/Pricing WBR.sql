@@ -198,7 +198,7 @@ with_drug_list AS (
 	ON
 		dd.gcn = wci.gcn
 		AND default_quantity = wci.quantity
-		AND scrape_date = '2020-01-03'	
+		AND scrape_date = '2020-01-16'	
 ) SELECT * from with_drug_list;
 
 
