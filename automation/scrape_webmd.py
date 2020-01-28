@@ -1,4 +1,6 @@
 from utilities.scrapping_utilities import ScraperRequest
+from os import path
+
 from http import cookies
 from utilities.logging_setup import logger
 import time
@@ -98,19 +100,18 @@ def main():
         'timestamp': 'Mon, 27 Jan 2020 20:36:06 GMT'
     }
     sc = ScraperRequest(base_url='https://www.webmd.com/',extra_headers=extra_headers)
-    input_file = '/Users/sandeep.dey/Downloads/webmdrx_sitemap/wedmdrx_mapping.csv'
+    input_file = './data/wedmdrx_mapping.csv'
     meds = read_csv(input_file)
-    # for i in meds[1:2]:
-    ndc = '71800015631'
-    # print(i['ndc'])
-    url = 'https://www.webmd.com/search/2/api/rx/forms/v3/%s?app_id=web'%ndc
-    data = sc.get_parsed_json(url)
-    print(data)
-    output_file = '/Users/sandeep.dey/Downloads/webmdrx_sitemap/json_dump/%s'%ndc
-    with open(output_file, "w") as write_file:
-        json.dump(data, write_file)
-
-
+    for i in meds:
+        ndc = i['ndc']
+        output_file = './data/webmdrx_json_data/%s'%ndc
+        url = 'https://www.webmd.com/search/2/api/rx/forms/v3/%s?app_id=web'%ndc
+        if path.exists(output_file):
+            continue
+        data = sc.get_parsed_json(url)
+        print(data)
+        with open(output_file, "w") as write_file:
+            json.dump(data, write_file)
 
 #curl --location --request GET 'https://www.webmd.com/search/2/api/rx/forms/v3/71800015631?app_id=web' \
 #--header 'Accept: application/json' \
