@@ -102,17 +102,23 @@ def main():
     sc = ScraperRequest(base_url='https://www.webmd.com/',extra_headers=extra_headers)
     input_file = './data/wedmdrx_mapping.csv'
     meds = read_csv(input_file)
+    number_meds = len(meds)
+    meds_processed = 0
     for i in meds:
+        meds_processed += 1
+        logger.info('Processing %d/%d => %s'%(meds_processed,number_meds,i['webmd_slug']))
         ndc = i['ndc']
         output_file = './data/webmdrx_json_data/%s'%ndc
         url = 'https://www.webmd.com/search/2/api/rx/forms/v3/%s?app_id=web'%ndc
         if path.exists(output_file):
             continue
-        data = sc.get_parsed_json(url)
-        print(data)
-        with open(output_file, "w") as write_file:
-            json.dump(data, write_file)
-
+        try:
+            data = sc.get_parsed_json(url)
+            print(data)
+            with open(output_file, "w") as write_file:
+                json.dump(data, write_file)
+        except:
+            logger.error('Error in Getting Data for %s'%i['webmd_slug'])
 #curl --location --request GET 'https://www.webmd.com/search/2/api/rx/forms/v3/71800015631?app_id=web' \
 #--header 'Accept: application/json' \
 #--header 'timestamp: Mon, 27 Jan 2020 20:36:06 GMT' \
