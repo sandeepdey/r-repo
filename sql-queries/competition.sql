@@ -19,6 +19,8 @@ group BY
 
 
 
+
+
 -- select * from mktg_dev.sdey_weighted_competitive_index limit 10;
 
 -- select * from mktg_dev.sdey_magic_card_pricing_top_300_20191121;

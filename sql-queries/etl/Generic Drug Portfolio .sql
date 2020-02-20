@@ -145,8 +145,7 @@ select distinct gcn,quantity as default_quantity_2 from default_qty_blink_2 wher
 select distinct gcn,30 as default_quantity_3 from api_scraper_external.competitor_pricing where default_quantity is null)
 
 , default_quantity_mega_list_1 as (
-select distinct gcn from api_scraper_external.competitor_pricing)
-
+select distinct gcn from api_scraper_external.competitor_pricing UNION SELECT DISTINCT gcn FROM default_qty_blink_3)
 , default_quantity_mega_list_2 as (
 select a.gcn
 ,coalesce(b.default_quantity_1,c.default_quantity_2,d.default_quantity_3) as quantity

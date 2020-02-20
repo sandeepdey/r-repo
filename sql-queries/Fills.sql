@@ -23,13 +23,34 @@ with fills as (
 		LEFT JOIN dwh.dim_medid_hierarchy f_medid ON foi.last_claim_medid_approved = f_medid.medid -- info for the med actually filled (e.g. med name)
 	WHERE foi.fill_sequence IS NOT NULL
 	AND foi.is_fraud = FALSE
-	AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '10 day' >= CURRENT_DATE
-	AND f_gcn.gcn_seqno = 16879na
+	AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '180 day' >= CURRENT_DATE
 	GROUP BY
 		1,2,3,4,5,6,7
 )
 
-
+SELECT
+	fills.gcn,
+	dim_gcn_seqno_hierarchy.generic_name_short,
+	dim_gcn_seqno_hierarchy.strength_long_desc,
+	quantities,
+	sum(fills) as fills,
+	sum(revenue) as revenue,
+	sum(cogs) as cogs	
+FROM
+	fills
+JOIN
+	dwh.dim_gcn_seqno_hierarchy on fills.gcn = dim_gcn_seqno_hierarchy.gcn
+WHERE
+	order_date >= '2019-11-01'
+	AND order_date <= '2020-01-31'
+	AND pharmacy_network_name = 'delivery'
+group BY
+	1,2,3,4
+order BY
+	sum(revenue) desc
+	
+	
+;
 
 SELECT
 	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
@@ -131,3 +152,8 @@ AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '18
 AND foi.med_id in (579341,587566)
 
 	
+
+
+
+
+

@@ -58,10 +58,16 @@ FROM
 WHERE
 	default_quantity IS NULL
 ),
-default_quantity_mega_list_1 AS ( SELECT DISTINCT
+default_quantity_mega_list_1 AS ( 
+SELECT DISTINCT
 	gcn
 FROM
 	api_scraper_external.competitor_pricing
+UNION
+SELECT DISTINCT
+	gcn
+FROM
+	default_qty_blink_3
 ),
 default_quantity_mega_list_2 AS (
 SELECT
@@ -80,5 +86,3 @@ FROM
 
 GRANT SELECT ON mktg_dev.sdey_gcn_default_quantity_mapping TO "public";
 select count(*),count(distinct(gcn)),count(distinct(quantity)) from mktg_dev.sdey_gcn_default_quantity_mapping;
-
-	

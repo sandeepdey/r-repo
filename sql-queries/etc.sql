@@ -1,3 +1,398 @@
+
+
+
+select * from transactional.med_price where pharmacy_network_id=2 
+and started_on!=ended_on and date_range_filter(started_on::date,'2019-12-01'::date,'2019-12-31'::date);
+
+
+select * from transactional.available_med inner join transactional.med_price
+on available_med.gcn = med_price.gcn and available_med.medid = med_price.medid
+ where gcn_seqno=4490 and pharmacy_network_id=1 and ended_on is null and branded=1;
+
+select * from transactional.available_med where medid = 206813;
+
+
+
+select medid,gcn from transactional.med_price where 
+
+
+select gcn,gcn_seqno,routed_generic_desc,strength,strength_unit,dosage_form_desc,route_desc,
+generic_name_short,generic_name_long from dwh.dim_gcn_seqno_hierarchy;
+
+
+
+select date, count( distinct gcn) from api_scraper_external.competitor_pricing  where date > '2019-08-01' group by 1 ;
+
+
+select distinct gcn from transactional.network_pricing_mac join dwh.dim_gcn_seqno_hierarchy on network_pricing_mac.gcn_seqno = dim_gcn_seqno_hierarchy.gcn_seqno
+where mac_list='BLINKSYRx01' and end_date is null;
+
+
+SELECT
+	gcn,
+	gcn_seqno,
+	generic_name_short,
+	routed_generic_desc,
+	strength,
+	dosage_form_desc,
+	gcn_symphony_2017_rank
+FROM
+	dwh.dim_gcn_seqno_hierarchy
+WHERE
+	gcn = ;
+
+
+select * from transactional.med where medid = 206813;
+select * from dwh.dim_medid_hierarchy where medid=206813
+
+
+select gcn,med_id,gpi,orange_book_code,repackager_indicator,obsolete_date,multi_source_code from dwh.dim_ndc_current_price_data where gcn = 4695;
+
+select gcn,pac_unit,pac_low_unit,pac_high_unit,pac_retail_unit from dwh.dim_gcn_seqno_hierarchy
+
+select * from mktg_dev.oshner_gcn;
+
+
+select gcn::integer,unit_price from transactional.network_pricing_mac INNER join dwh.dim_gcn_seqno_hierarchy ON network_pricing_mac.gcn_seqno = dim_gcn_seqno_hierarchy.gcn_seqno where end_date is NULL and mac_list = 'BLINK02'
+
+select * from transactional.network_pricing_mac where end_date is NULL and gcn_seqno=1645
+
+select * from transactional.med_price where ended_on is null and gcn=4695 and medid=239813
+
+
+select gcn,gcn_seqno,gcn_seqno_source_ind,gcn_symphony_2017_rank from dwh.dim_gcn_seqno_hierarchy;
+
+select gcn,gcn_seqno_source_ind from dwh.dim_gcn_seqno_hierarchy;
+
+
+
+
+
+------ Get Info on Changes by Planned Data
+with fills as (
+	SELECT
+		foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
+		foi.med_id,
+		f_gcn.gcn,
+		case 
+			when foi.pharmacy_network_name = 'blink' then 1
+			when foi.pharmacy_network_name = 'supersaver' then 2
+			when foi.pharmacy_network_name = 'delivery' then 3
+			else -1
+		end as pharmacy_network_id,
+		sum(1) as fills,
+		sum(quantity) as quantities,
+		sum(coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float) AS revenue,	
+		sum(coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float) AS cogs
+	FROM
+		dwh.fact_order_item foi
+		LEFT JOIN dwh.dim_user AS du ON foi.account_id = du.account_id
+			AND du.is_internal = FALSE
+			AND du.is_phantom = FALSE
+		LEFT JOIN dwh.dim_medid_hierarchy dmh ON foi.generic_medid = dmh.medid
+		LEFT JOIN dwh.dim_gcn_seqno_hierarchy p_gcn ON foi.gcn_seqno = p_gcn.gcn_seqno
+		LEFT JOIN dwh.dim_gcn_seqno_hierarchy f_gcn ON foi.last_claim_gcn_seqno_approved = f_gcn.gcn_seqno
+		LEFT JOIN dwh.dim_medid_hierarchy p_medid ON foi.med_id = p_medid.medid -- medid for the med purchased in the order (e.g. med name)
+		LEFT JOIN dwh.dim_medid_hierarchy f_medid ON foi.last_claim_medid_approved = f_medid.medid -- info for the med actually filled (e.g. med name)
+	WHERE foi.fill_sequence IS NOT NULL
+	AND foi.is_fraud = FALSE
+	AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '90 day' >= CURRENT_DATE
+	GROUP BY
+		1,2,3,4), 
+changes as (SELECT 
+				medid
+						FROM
+				transactional.retail_package_v2
+			WHERE
+				status = 'active'
+				AND deleted = 0
+				AND created_on::date >= '2020-01-01') 
+SELECT
+	
+	fills.*	
+FROM
+	changes INNER join fills 
+	ON fills.med_id = changes.medid
+
+
+
+
+select 	
+gcn	
+,quantity	
+,gcn||quantity::varchar as gcn_qty
+,min(price) as min_heb_price
+from api_scraper_external.competitor_pricing 
+where site != 'all' and geo != 'all' and site = 'goodrx' and pharmacy = 'h_e_b' and date = '2020-02-06'
+group by 1,2,3;
+
+
+
+
+
+SELECT
+	*
+FROM
+	dwh.dim_medid_hierarchy dmh
+WHERE
+	lower(dmh.med_medid_desc)
+	LIKE '%nortel%';
+
+
+
+select * from transactional.med_price 
+join dwh.dim_medid_hierarchy on med_price.medid = dim_medid_hierarchy.medid
+where pharmacy_network_id=3 
+and med_name_id=674 -- and med_price.medid=159747
+
+-- select count(*) from dwh.dim_medid_hierarchy;
+-- select count(*) from dwh.dim_gcn_seqno_hierarchy;
+
+SELECT
+	*
+FROM
+	api_scraper_external.competitor_pricing
+WHERE
+	scrape_filter (geo, pharmacy, site)
+	AND geo='houston'
+	AND date = '2020-02-06'
+	AND gcn=33935; -- 94200 , 3512 , 28897 , 33935
+	
+	
+	
+select * from d
+
+with drug_info AS (
+	SELECT
+		gcn_symphony_2017_rank,
+		dim_gcn_seqno_hierarchy.gcn,
+		strength,
+		gcn_seqno,
+		generic_name_short,
+		dim_gcn_seqno_hierarchy.medid,
+		dosage_form_desc,
+		gcn_symphony_2017_rank,
+		quantity,
+		MAX(iif_(pharmacy_network_id=1,unit_price*quantity+dispensing_fee_margin+1.75,-1)) as edlp_price,
+		MAX(iif_(pharmacy_network_id=3,unit_price*quantity+dispensing_fee_margin+1.75,-1)) as hd_price
+	FROM
+		dwh.dim_gcn_seqno_hierarchy
+	LEFT OUTER JOIN
+		mktg_dev.sdey_gcn_default_quantity_mapping ON dim_gcn_seqno_hierarchy.gcn = sdey_gcn_default_quantity_mapping.gcn
+	LEFT OUTER JOIN
+		transactional.med_price ON dim_gcn_seqno_hierarchy.gcn = med_price.gcn and dim_gcn_seqno_hierarchy.medid = med_price.medid AND med_price.ended_on is NULL
+	WHERE
+		gcn_symphony_2017_rank <= 100
+	GROUP BY
+		1,2,3,4,5,6,7,8,9
+	ORDER BY
+		1 ), 
+competitor_pricing as (
+	SELECT
+		gcn,
+		quantity,
+		min(iif_(pharmacy='walmart',price,1000000)) as walmart_price,
+		min(iif_(pharmacy='h_e_b',price,1000000)) as heb_price
+	FROM
+		api_scraper_external.competitor_pricing
+	WHERE
+		date = '2020-02-28'
+		AND geo = 'houston'
+		AND pharmacy in('walmart', 'h_e_b')
+	GROUP BY
+		1,
+		2
+)
+SELECT
+	drug_info.*,
+	iif_(walmart_price is null or walmart_price = 1000000 , -1  , walmart_price) as walmart_price,
+	iif_(heb_price is null or heb_price = 1000000 , -1  , heb_price) as heb_price
+FROM
+	drug_info
+	LEFT OUTER JOIN competitor_pricing ON drug_info.gcn = competitor_pricing.gcn AND drug_info.quantity = competitor_pricing.quantity
+
+
+
+SELECT
+	date,count(distinct(gcn))
+FROM
+	api_scraper_external.competitor_pricing
+WHERE
+	pharmacy = 'h_e_b'
+	AND date >= '2019-10-01'
+	AND geo = 'houston'
+	AND site = 'goodrx'
+GROUP by 1 
+
+
+SELECT
+	cp.gcn,
+	cp.quantity,
+	min(price) AS price
+FROM
+	api_scraper_external.competitor_pricing cp 
+	INNER JOIN mktg_dev.sdey_tmp_gcns_with_default_quantity dq  
+		ON cp.gcn = dq.gcn
+		AND cp.quantity = dq.quantity
+WHERE
+	scrape_filter (geo, pharmacy, site)
+	AND pharmacy = 'h_e_b'
+	AND date = '2020-02-06'
+	AND geo = 'houston'
+GROUP BY
+	1,
+	2;
+
+select distinct(gcn) from dwh.dim_gcn_seqno_hierarchy INNER join dwh.dim_medid_hierarchy 
+on  dim_gcn_seqno_hierarchy.gcn_seqno = dim_medid_hierarchy.gcn_seqno
+where is_branded_price
+
+SELECT
+	dgsh.gcn_symphony_2017_rank,
+	dgsh.strength,
+	dgsh.generic_name_short,
+	dgsh.dosage_form_desc,	
+	competitor_pricing.gcn,
+	competitor_pricing.quantity,
+	max(iif_(date='2019-10-15',price,-1)) as price_20191015,
+	max(iif_(date='2019-10-31',price,-1)) as price_20191031,
+	max(iif_(date='2019-11-05',price,-1)) as price_20191105,
+	max(iif_(date='2019-12-02',price,-1)) as price_20191202,
+	max(iif_(date='2019-12-05',price,-1)) as price_20191205,
+	max(iif_(date='2020-01-03',price,-1)) as price_20200103,
+	max(iif_(date='2020-01-08',price,-1)) as price_20200108,
+	max(iif_(date='2020-01-16',price,-1)) as price_20200116,
+	max(iif_(date='2020-01-28',price,-1)) as price_20200128
+FROM
+	api_scraper_external.competitor_pricing
+inner JOIN
+	mktg_dev.sdey_gcn_default_quantity_mapping ON competitor_pricing.gcn = sdey_gcn_default_quantity_mapping.gcn AND competitor_pricing.quantity = sdey_gcn_default_quantity_mapping.quantity
+inner JOIN
+	dwh.dim_gcn_seqno_hierarchy dgsh ON dgsh.gcn = competitor_pricing.gcn  
+WHERE
+	pharmacy = 'h_e_b'
+	AND date >= '2019-10-01'
+	AND geo = 'houston'
+	AND site = 'goodrx'
+group BY
+	1,2,3,4,5,6 
+ORDER by 1 
+
+
+
+
+SELECT
+	action_timestamp::date, count(*)
+FROM
+	fifo.magic_fact_order_claim
+WHERE
+	action_timestamp::date + 90 > CURRENT_DATE
+-- 	and action_sequence = 1 
+-- 	and action_type in ('reversal','denied')
+group by 1
+order by 1
+;
+
+
+select * from transactional.pharmacy_network;
+
+
+select * from fifo.privia_orders limit 100;
+
+
+select * from transactional."order" order by "order".created_on desc limit 100
+
+select * from transactional.account_medication_purchase order by account_medication_purchase.created_on desc limit 100
+
+
+select * from backend_prod.transactional_completed_order limit 10
+
+select * from journey_staging.backend_orders limit 10;
+
+SELECT
+	am.medid,
+	dnh.*
+from
+	transactional.available_med am
+inner JOIN
+	(select
+		ndc.ndc
+		,ndc.*
+		,medid.med_name_slug
+		,medid.medid as medid_1
+		,gcn_seqno.gcn_seqno as gcn_seqno_1
+		from dwh.dim_ndc_hierarchy ndc
+		inner join dwh.dim_medid_hierarchy medid on ndc.branded_medid=medid.medid
+		inner join dwh.dim_gcn_seqno_hierarchy gcn_seqno on ndc.gcn_seqno=gcn_seqno.gcn_seqno) dnh
+ON
+	am.medid = dnh.medid_1
+where am.billing_unit != 'each'
+;
+
+select * from dwh.dim_gcn_seqno_hierarchy where gcn_seqno=5145;
+
+
+select * from transactional.
+
+with x as (SELECT distinct
+	dmh.generic_medid
+from
+	transactional.available_med am
+inner JOIN
+	dwh.dim_medid_hierarchy dmh
+ON
+	am.medid = dmh.medid
+where billing_unit != 'each' )
+select x.*, dnh.*
+from x
+inner JOIN
+	fifo.dim_ndc_hierarchy dnh
+ON
+	x.generic_medid = dnh.medid
+;
+
+select * from dwh.dim_medid_hierarchy where generic_medid=162779
+
+
+SELECT
+	count(distinct(am.medid))
+from
+	transactional.available_med am
+where billing_unit != 'each'
+
+
+SELECT
+	DISTINCT
+	med.medid,
+	available_med.type_description,
+	dim_medid_hierarchy.med_name_slug
+-- 	med.description,
+-- 	med.billing_unit,
+-- 	med.dosage_form,
+-- 	med.strength,
+-- 	med.strength_uom,
+-- 	med.gcn,
+-- 	med.gcn_seqno,
+-- 	dim_gcn_seqno_hierarchy.gcn_symphony_2017_rank,
+-- 	case when rp2.medid is null then False else True end as with_modified_retail_package
+-- 	med_package.package_description,
+-- 	med_package.package_size,
+FROM
+	transactional.available_med
+
+	INNER JOIN api_scraper.medid_drug_id_mapping mdim ON uu.drug_id = mdim.drug_id
+	INNER JOIN transactional.med ON med.medid = mdim.medid
+	INNER JOIN transactional.available_med ON med.medid = available_med.medid
+	INNER JOIN dwh.dim_gcn_seqno_hierarchy ON med.gcn = dim_gcn_seqno_hierarchy.gcn AND med.gcn_seqno = dim_gcn_seqno_hierarchy.gcn_seqno
+	LEFT JOIN (select distinct(medid) from transactional.retail_package_v2 )  rp2 on rp2.medid = mdim.medid
+	LEFT JOIN dwh.dim_medid_hierarchy ON dim_medid_hierarchy.medid = med.medid
+	LEFT JOIN (select distinct medid, package_description, package_size from transactional.med_package) as med_package on med_package.medid = mdim.medid
+-- ORDER BY
+-- 	dim_gcn_seqno_hierarchy.gcn_symphony_2017_rank,med.medid
+
+
+
+
 select pharmacy_network_id, count(*) from dwh.pharmacy_network_ledger where termination_date is null group by 1;
 
 
@@ -18,9 +413,9 @@ ORDER BY
 	1 DESC;
 
 
-CREATE FUNCTION iif_(BOOLEAN, float, float) RETURNS float 
-stable 
-as $$ 
+CREATE FUNCTION iif_(BOOLEAN, float, float) RETURNS float
+stable
+as $$
 	SELECT CASE $1 WHEN TRUE THEN $2 ELSE $3 END
 $$ language sql;
 
@@ -63,11 +458,11 @@ FROM
 WHERE
 	drg_ndc.obsolete_date IS NULL AND awp_unit_price is not null
 ORDER BY
-	1 ASC; 
+	1 ASC;
 
 
 
-select * from dwh.dim_medid_hierarchy 
+select * from dwh.dim_medid_hierarchy
 join transactional.available_med
 on available_med.medid = dim_medid_hierarchy.medid
 where med_name_slug ='spiriva-respimat'
@@ -93,19 +488,6 @@ ORDER BY
 LIMIT 100;
 
 
-SELECT 
-	pharmacy_network_id,
-	count(DISTINCT(med_price.medid)) count_of_common_drugs,
-	sum("count") as sum_of_matched_fills
- FROM 
-	mktg_dev.sdey_privia_utilization_data
-INNER JOIN
-transactional.med_price 
-ON
-	sdey_privia_utilization_data.medid = med_price.medid
-WHERE
-	ended_on is null
-group by 1 
 
 SELECT
 	DISTINCT
@@ -139,7 +521,7 @@ FROM
 	LEFT JOIN dwh.dim_medid_hierarchy ON dim_medid_hierarchy.medid = med.medid
 -- 	LEFT JOIN (select distinct medid, package_description, package_size from transactional.med_package) as med_package on med_package.medid = mdim.medid
 -- ORDER BY
--- 	dim_gcn_seqno_hierarchy.gcn_symphony_2017_rank,med.medid	
+-- 	dim_gcn_seqno_hierarchy.gcn_symphony_2017_rank,med.medid
 
 select * from transactional.retail_package_v2;
 
@@ -153,7 +535,7 @@ SELECT
 	count(DISTINCT med.medid)
 -- 	case when rp2.medid is null then False else True end as with_modified_retail_package
 FROM
-	transactional.available_med AS med 
+	transactional.available_med AS med
 	inner JOIN ( select distinct(medid) from transactional.retail_package_v2 )  rp2 on rp2.medid = med.medid
 group by 1,2
 order by 1,2
@@ -161,7 +543,7 @@ order by 1,2
 
 select * from transactional.med WHERE medid = 473030
 
-select * from drugs_etl.med_master where medid = 473030 limit 10;
+select * from drugs_etl.med_master where medid = 287430 limit 10;
 
 select distinct medid, package_description, package_size from transactional.med_package where medid = 473030;
 
@@ -194,20 +576,20 @@ FROM
 	transactional.available_med
 	INNER JOIN mktg_dev.units_of_use_raw_data ON lower(available_med.name) = lower(units_of_use_raw_data.slug)
 GROUP BY
-	1,2 
+	1,2
 ORDER BY
 	1,2
 ;
 
 
 SELECT
-	billing_unit, 
+	billing_unit,
 	available_med.type_description,
 	count(distinct(available_med.medid))
 FROM
 	transactional.available_med
-group by 1,2 
-order by 1,2 
+group by 1,2
+order by 1,2
 
 
 
@@ -297,7 +679,7 @@ GROUP BY
 	1,
 	2
 	;
-	
+
 SELECT
 	pharmacy_network_id,
 	unit_price,
@@ -319,43 +701,15 @@ WHERE
 
 
 
-GRANT SELECT ON mktg_dev.sdey_privia_utilization_data TO "public";
-
-select * from mktg_dev.sdey_privia_utilization_data limit 100;
 
 
 
-select * from 
-
-
+select count(*) from mktg_dev.sdey_automated_pricing_recommendations where change_label like '%0108%'
 
 -- select * from fifo.bsd_retirement_input order by fill_date desc;
 
 
-select * from mktg_dev.sdey_privia_temp_key_table limit 10;
-select count(*) from mktg_dev.sdey_privia_temp_key_table;
 
-insert into mktg_dev.sdey_privia_temp_key_table (med_desc) VALUES ('fluticasone propionate 50 mcg/actuation nasal spray:suspension');
-
-select
-	med_desc,medid,gcn_seqno
- from
- 	mktg_dev.sdey_privia_temp_key_table
- left outer JOIN
- 	dwh.dim_medid_hierarchy
- ON
- 	lower(sdey_privia_temp_key_table.med_desc) = replace(lower(dim_medid_hierarchy.med_medid_desc),',',':')
-
-SELECT
-	*
-FROM
-	dwh.dim_medid_hierarchy
-WHERE
-	lower(med_medid_desc)
-	LIKE 'ipratropium'
-
-
-select * from mktg_dev.sdey_privia_utilization_data left JOIN transactional.med on sdey_privia_utilization_data.medid = med.medid;
 
 
 select count(distinct(medid)) from transactional.retail_package_v2;
@@ -383,16 +737,16 @@ FROM
 	INNER JOIN api_scraper.medid_drug_id_mapping mdim ON uu.drug_id = mdim.drug_id
 	INNER JOIN transactional.med ON med.medid = mdim.medid
 	LEFT OUTER JOIN ( select distinct(medid) from transactional.retail_package_v2 )  rp2 on rp2.medid = mdim.medid;
-	
 
-select billing_unit,count(*) from transactional.med group by 1 
 
-select * from transactional.med_price where medid = 576527 and ended_on is null and pharmacy_network_id = 1 
+select billing_unit,count(*) from transactional.med group by 1
+
+select * from transactional.med_price where medid = 576527 and ended_on is null and pharmacy_network_id = 1
 
 select * from transactional.network_pricing_mac where network_pricing_mac.gcn_seqno = 16879 and end_date::date='2020-01-09';
 
 select * from transactional.med where lower(med.description) like '%abilify%'
-	
+
 select * from transactional.med_name where med_name."name" like '%auvi%';
 
 select * from transactional.medication_quantity where medication_quantity.medid = 473182;
@@ -411,7 +765,7 @@ select * from dwh.dim_gcn_seqno_hierarchy where gcn = 43017 or gcn_seqno = 43017
 select * from transactional.retail_package_v2 ;
 where medid = 576148;
 
-select * from transactional.med_package where medid = 152312; 
+select * from transactional.med_package where medid = 152312;
 
 select * from transactional.med_price where medid = 288897 and ended_on is null;
 select * from transactional.network_pricing_mac where gcn_seqno=21796 and end_date is null;
@@ -448,8 +802,8 @@ SELECT
 	sdey_generic_price_portfolio_datamart.default_quantity,
 	sdey_generic_price_portfolio_datamart.top_30ds_quantity,
 	sdey_generic_price_portfolio_datamart.top_90ds_quantity
-from 
-	dwh.dim_gcn_seqno_hierarchy	
+from
+	dwh.dim_gcn_seqno_hierarchy
 left outer join
 	mktg_dev.sdey_generic_price_portfolio_datamart
 ON
@@ -461,20 +815,20 @@ SELECT generic_name_short,strength from dwh.dim_gcn_seqno_hierarchy where gcn = 
 
 
 with gcns as (
-	select 
+	select
 		*
-	from 
+	from
 		mktg_dev.sdey_privia_utilization_data privia
 	left outer JOIN
-		(select DISTINCT gcn from transactional.med_price where pharmacy_network_id = 3) pr 
+		(select DISTINCT gcn from transactional.med_price where pharmacy_network_id = 3) pr
 	ON
 		pr.gcn = hd.gcn
-	where 
+	where
 		pr.gcn is NULL
 ), drug_details as (
 	SELECT
 		dgsh.gcn,
-		dgsh.gcn_seqno,	
+		dgsh.gcn_seqno,
 		dgsh.medid,
 		dgsh.generic_name_short,
 		dgsh.strength,
@@ -489,15 +843,15 @@ with gcns as (
 		MAX(case when mac.mac_list='BLINK01' then mac.unit_price else -10000000000 end ) AS bh01_mac_price,
 		MAX(case when mac.mac_list='BLINK02' then mac.unit_price else -10000000000 end ) AS bh02_mac_price,
 		MAX(case when mac.mac_list='BLINK03' then mac.unit_price else -10000000000 end ) AS bh03_mac_price,
-		MAX(case when mac.mac_list='BLINKWMT01' then mac.unit_price else -10000000000 end ) AS wmt_mac_price,	
+		MAX(case when mac.mac_list='BLINKWMT01' then mac.unit_price else -10000000000 end ) AS wmt_mac_price,
 		MAX(case when mac.mac_list='BLINKSYRx01' then mac.unit_price else -10000000000 end ) AS hd_mac_price,
 		1.0 AS edlp_dispensing_fee,
 		1.0 AS bsd_dispensing_fee,
-		1.5 AS hd_dispensing_fee	
+		1.5 AS hd_dispensing_fee
 	FROM
 		transactional.med_price mp
 	OUTER JOIN
-		dwh.dim_gcn_seqno_hierarchy dgsh 
+		dwh.dim_gcn_seqno_hierarchy dgsh
 	ON
 		dgsh.gcn = mp.gcn
 		AND dgsh.medid = mp.medid
@@ -505,9 +859,9 @@ with gcns as (
 		transactional.network_pricing_mac mac
 	ON
 		mac.gcn_seqno = dgsh.gcn_seqno
--- 	LEFT JOIN 
+-- 	LEFT JOIN
 -- 		dwh.dim_medid_hierarchy dmh
--- 	ON 
+-- 	ON
 -- 		 mp.medid = dmh.medid
 	WHERE
 		mp.ended_on is null
@@ -530,17 +884,17 @@ with gcns as (
 	FROM
 		transactional.med_price	mp
 	WHERE
-		gcn = 40720 OR gcn = 68030	
+		gcn = 40720 OR gcn = 68030
 		and ended_on is null
 	Group by 1
-	order by 1 
-		
-	select 
+	order by 1
+
+	select
 		gcn,
 		gcn_seqno
 	from dwh.dim_gcn_seqno_hierarchy
-	where	gcn = 40720 OR gcn = 68030	
-	
+	where	gcn = 40720 OR gcn = 68030
+
 	SELECT
 		gcn_seqno,
 -- 		gcn,
@@ -548,13 +902,13 @@ with gcns as (
 -- 		MAX(case when mac.mac_list='BLINK01' then mac.unit_price else -10000000000 end ) AS bh01_mac_price,
 -- 		MAX(case when mac.mac_list='BLINK02' then mac.unit_price else -10000000000 end ) AS bh02_mac_price,
 -- 		MAX(case when mac.mac_list='BLINK03' then mac.unit_price else -10000000000 end ) AS bh03_mac_price,
--- 		MAX(case when mac.mac_list='BLINKWMT01' then mac.unit_price else -10000000000 end ) AS wmt_mac_price,	
+-- 		MAX(case when mac.mac_list='BLINKWMT01' then mac.unit_price else -10000000000 end ) AS wmt_mac_price,
 -- 		MAX(case when mac.mac_list='BLINKSYRx01' then mac.unit_price else -10000000000 end ) AS hd_mac_price
 	FROM
 		transactional.network_pricing_mac
-	where 
+	where
 		end_date is null
-		AND gcn_seqno = 9260 -- 9260 : 40720 
+		AND gcn_seqno = 9260 -- 9260 : 40720
 		AND mac_list = 'BLINKSYRx01'
 
 
@@ -815,11 +1169,11 @@ group by 1,2,3
 -- 	dgsh.dosage_form_code_desc,
 -- 	route_desc
 -- FROM
--- 	mktg_dev.sdey_automated_pricing_recommendations  as apr 
+-- 	mktg_dev.sdey_automated_pricing_recommendations  as apr
 -- LEFT OUTER JOIN
 -- 	dwh.dim_gcn_seqno_hierarchy as dgsh
 -- ON
--- 	apr.gcn = dgsh.gcn 
+-- 	apr.gcn = dgsh.gcn
 -- 	AND apr.med_id = dgsh.medid
 -- ;
 
@@ -834,14 +1188,14 @@ group by 1,2,3
 -- 		transactional.med_price
 -- 	WHERE
 -- 		ended_on is NULL
--- 		AND branded = 0 
+-- 		AND branded = 0
 -- 	GROUP BY
 -- 		gcn,
 -- 		pharmacy_network_id
 -- 	HAVING
--- 		unit_prices > 2 or dfms >= 2 
+-- 		unit_prices > 2 or dfms >= 2
 -- )
--- select 
+-- select
 -- -- 	med_price.id,
 -- 	dgsh.generic_name_short,
 -- -- 	dmh.is_branded_price,
@@ -870,10 +1224,10 @@ group by 1,2,3
 -- -- INNER JOIN
 -- -- 	dwh.dim_medid_hierarchy AS dmh
 -- -- ON
--- -- 	dmh.medid = med_price.medid 
+-- -- 	dmh.medid = med_price.medid
 -- WHERE
 -- 	ended_on is NULL
--- 	AND branded = 0 
+-- 	AND branded = 0
 -- ORDER BY
 -- 	mps.gcn;
 
@@ -933,12 +1287,12 @@ group by 1,2,3
 -- 	AND mp.medid = dgsh.medid
 -- 	AND mp.pharmacy_network_id = 1
 -- 	AND ended_on is NULL
--- INNER JOIN 
+-- INNER JOIN
 -- 	fifo.generic_price_portfolio_datamart AS datamart
 -- ON
 -- 	dgsh.gcn = datamart.gcn
 -- 	AND dgsh.gcn_seqno = datamart.gcn_seqno
--- INNER JOIN 
+-- INNER JOIN
 -- 	(SELECT
 -- 		gcn,
 -- 		quantity,
@@ -949,7 +1303,7 @@ group by 1,2,3
 -- 		MIN(CASE WHEN pharmacy = 'rite_aid' THEN price ELSE 1000000000000 END) AS rite_aid_min,
 -- 		MIN(CASE WHEN pharmacy = 'kroger' THEN price ELSE 1000000000000 END) AS kroger_min
 -- 	FROM
--- 		api_scraper_external.competitor_pricing	
+-- 		api_scraper_external.competitor_pricing
 -- 	WHERE
 -- 		site != 'all'
 -- 		AND geo != 'all'
@@ -975,7 +1329,7 @@ group by 1,2,3
 -- 		MIN(CASE WHEN pharmacy = 'rite_aid' THEN price ELSE 1000000000000 END) AS rite_aid_min,
 -- 		MIN(CASE WHEN pharmacy = 'kroger' THEN price ELSE 1000000000000 END) AS kroger_min
 -- 	FROM
--- 		api_scraper_external.competitor_pricing	
+-- 		api_scraper_external.competitor_pricing
 -- 	WHERE
 -- 		site != 'all'
 -- 		AND geo != 'all'
@@ -986,9 +1340,9 @@ group by 1,2,3
 -- 		AND site = 'goodrx'
 -- 		AND date = '2019-10-31'
 -- 	GROUP BY
--- 		1,2) AS cmp2		
+-- 		1,2) AS cmp2
 -- ON
--- 	cmp1.gcn = cmp2.gcn	
+-- 	cmp1.gcn = cmp2.gcn
 -- 	AND cmp1.quantity = cmp2.quantity
 -- ;
 
@@ -1053,7 +1407,7 @@ group by 1,2,3
 -- 	AND CONVERT_TIMEZONE ('UTC', 'America/New_York', last_pbm_adjudication_timestamp_approved)::timestamp::date > '2019-12-20'
 -- GROUP BY
 -- 	1
--- order by 
+-- order by
 -- 	1 DESC
 -- 	;
 
@@ -1369,11 +1723,11 @@ group by 1,2,3
 -- 	dgsh.dosage_form_code_desc,
 -- 	route_desc
 -- FROM
--- 	mktg_dev.sdey_automated_pricing_recommendations  as apr 
+-- 	mktg_dev.sdey_automated_pricing_recommendations  as apr
 -- LEFT OUTER JOIN
 -- 	dwh.dim_gcn_seqno_hierarchy as dgsh
 -- ON
--- 	apr.gcn = dgsh.gcn 
+-- 	apr.gcn = dgsh.gcn
 -- 	AND apr.med_id = dgsh.medid
 -- ;
 
@@ -1388,14 +1742,14 @@ group by 1,2,3
 -- 		transactional.med_price
 -- 	WHERE
 -- 		ended_on is NULL
--- 		AND branded = 0 
+-- 		AND branded = 0
 -- 	GROUP BY
 -- 		gcn,
 -- 		pharmacy_network_id
 -- 	HAVING
--- 		unit_prices > 2 or dfms >= 2 
+-- 		unit_prices > 2 or dfms >= 2
 -- )
--- select 
+-- select
 -- -- 	med_price.id,
 -- 	dgsh.generic_name_short,
 -- -- 	dmh.is_branded_price,
@@ -1424,10 +1778,10 @@ group by 1,2,3
 -- -- INNER JOIN
 -- -- 	dwh.dim_medid_hierarchy AS dmh
 -- -- ON
--- -- 	dmh.medid = med_price.medid 
+-- -- 	dmh.medid = med_price.medid
 -- WHERE
 -- 	ended_on is NULL
--- 	AND branded = 0 
+-- 	AND branded = 0
 -- ORDER BY
 -- 	mps.gcn;
 
@@ -1487,12 +1841,12 @@ group by 1,2,3
 -- 	AND mp.medid = dgsh.medid
 -- 	AND mp.pharmacy_network_id = 1
 -- 	AND ended_on is NULL
--- INNER JOIN 
+-- INNER JOIN
 -- 	fifo.generic_price_portfolio_datamart AS datamart
 -- ON
 -- 	dgsh.gcn = datamart.gcn
 -- 	AND dgsh.gcn_seqno = datamart.gcn_seqno
--- INNER JOIN 
+-- INNER JOIN
 -- 	(SELECT
 -- 		gcn,
 -- 		quantity,
@@ -1503,7 +1857,7 @@ group by 1,2,3
 -- 		MIN(CASE WHEN pharmacy = 'rite_aid' THEN price ELSE 1000000000000 END) AS rite_aid_min,
 -- 		MIN(CASE WHEN pharmacy = 'kroger' THEN price ELSE 1000000000000 END) AS kroger_min
 -- 	FROM
--- 		api_scraper_external.competitor_pricing	
+-- 		api_scraper_external.competitor_pricing
 -- 	WHERE
 -- 		site != 'all'
 -- 		AND geo != 'all'
@@ -1529,7 +1883,7 @@ group by 1,2,3
 -- 		MIN(CASE WHEN pharmacy = 'rite_aid' THEN price ELSE 1000000000000 END) AS rite_aid_min,
 -- 		MIN(CASE WHEN pharmacy = 'kroger' THEN price ELSE 1000000000000 END) AS kroger_min
 -- 	FROM
--- 		api_scraper_external.competitor_pricing	
+-- 		api_scraper_external.competitor_pricing
 -- 	WHERE
 -- 		site != 'all'
 -- 		AND geo != 'all'
@@ -1540,9 +1894,9 @@ group by 1,2,3
 -- 		AND site = 'goodrx'
 -- 		AND date = '2019-10-31'
 -- 	GROUP BY
--- 		1,2) AS cmp2		
+-- 		1,2) AS cmp2
 -- ON
--- 	cmp1.gcn = cmp2.gcn	
+-- 	cmp1.gcn = cmp2.gcn
 -- 	AND cmp1.quantity = cmp2.quantity
 -- ;
 
@@ -1607,7 +1961,7 @@ group by 1,2,3
 -- 	AND CONVERT_TIMEZONE ('UTC', 'America/New_York', last_pbm_adjudication_timestamp_approved)::timestamp::date > '2019-12-20'
 -- GROUP BY
 -- 	1
--- order by 
+-- order by
 -- 	1 DESC
 -- 	;
 

@@ -1,4 +1,3 @@
-
 -- create table mktg_dev.sdey_filled_orders_2019_gcn as
 -- SELECT
 -- 	DATE_PART(year, CONVERT_TIMEZONE ('UTC', 'America/New_York', order_claim.ordered_timestamp))::integer AS ordered_timestamp_year,
