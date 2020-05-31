@@ -80,14 +80,15 @@ SELECT
 	fixed_price
 FROM
 	gcn_info
-	INNER JOIN (
-		SELECT
+	INNER JOIN 
+	(SELECT
 			gcn,
 			AVG(unit_price) AS unit_price,
 			AVG(dispensing_fee_margin) AS dispensing_fee_margin
 		FROM
 			transactional.med_price
 		WHERE
-			pharmacy_network_id = 1 & ended_on IS NULL
+			pharmacy_network_id = 1 
+			& ended_on IS NULL
 		GROUP BY 1) AS price ON price.gcn = gcn_info.gcn;
 	

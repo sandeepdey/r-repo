@@ -1,3 +1,52 @@
+with heb as (SELECT
+	gcn,quantity,min(price) as price	
+FROM
+	pricing_external_dev.goodrx_raw_data
+WHERE
+	date = '2020-05-12'
+	AND pharmacy in('h_e_b', 'heb_grocery')
+	AND geo in('houston') and site in ('goodrx')  group by 1,2),
+	
+bksh as (SELECT
+	gcn,quantity,min(price) as price	
+FROM
+	pricing_external_dev.goodrx_raw_data
+WHERE
+	date = '2020-05-12'
+	AND pharmacy in('brookshires', 'super_1')
+	AND geo in('tyler_tx') and site in ('goodrx')  group by 1,2), 
+	
+winn as (SELECT
+	gcn,quantity,min(price) as price	
+FROM
+	pricing_external_dev.goodrx_raw_data
+WHERE
+	date = '2020-05-12'
+	AND pharmacy in('winn_dixie')
+	AND geo in('jacksonville') and site in ('goodrx') group by 1,2)
+	
+select winn.gcn, winn.quantity, winn.price as winn_price, bksh.price as bksh_price, heb.price as heb_price FROM
+	winn INNER join bksh on winn.gcn = bksh.gcn and winn.quantity = bksh.quantity 
+	INNER join heb on winn.gcn = heb.gcn and winn.quantity = heb.quantity 
+;
+
+
+select
+	gcn,quantity,min(price) as price	
+FROM
+	pricing_external_dev.goodrx_raw_data
+WHERE
+	date::date = '2020-05-12'
+	AND pharmacy in ('h_e_b', 'heb_grocery')
+	AND geo in ('houston')
+	and site in ('goodrx')
+group by 1,2
+;
+
+
+SELECT * from api_scraper_external.competitor_pricing where date= '2020-05-12' and pharmacy in ('winn_dixie') limit 10;
+
+
 -- create table mktg_dev.sdey_filled_orders_2019_gcn as
 -- SELECT
 -- 	DATE_PART(year, CONVERT_TIMEZONE ('UTC', 'America/New_York', order_claim.ordered_timestamp))::integer AS ordered_timestamp_year,

@@ -17,7 +17,10 @@ group BY
 	1
 ;
 
+select * from pricing_external_dev.competitor_pricing_webmd ;
 
+
+select * from dwh.dim_medid_hierarchy limit 100;
 
 
 

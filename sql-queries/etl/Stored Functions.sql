@@ -5,6 +5,13 @@ as $$
 $$ language sql;
 
 
+CREATE FUNCTION if_varchar(BOOLEAN, VARCHAR, VARCHAR) RETURNS VARCHAR 
+stable 
+as $$ 
+	SELECT CASE $1 WHEN TRUE THEN $2 ELSE $3 END
+$$ language sql;
+
+
 CREATE FUNCTION scrape_filter(VARCHAR, VARCHAR, VARCHAR) RETURNS BOOLEAN 
 -- $1 : geo , $2 : pharmacy , $3 : site
 -- use like scrape_filter(geo,pharmacy,site)

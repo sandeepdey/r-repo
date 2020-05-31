@@ -28,50 +28,50 @@ with fills as (
 		1,2,3,4,5,6,7
 )
 
-SELECT
-	fills.gcn,
-	dim_gcn_seqno_hierarchy.generic_name_short,
-	dim_gcn_seqno_hierarchy.strength_long_desc,
-	quantities,
-	sum(fills) as fills,
-	sum(revenue) as revenue,
-	sum(cogs) as cogs	
-FROM
-	fills
-JOIN
-	dwh.dim_gcn_seqno_hierarchy on fills.gcn = dim_gcn_seqno_hierarchy.gcn
-WHERE
-	order_date >= '2019-11-01'
-	AND order_date <= '2020-01-31'
-	AND pharmacy_network_name = 'delivery'
-group BY
-	1,2,3,4
-order BY
-	sum(revenue) desc
-	
-	
-;
+-- SELECT
+-- 	fills.gcn,
+-- 	dim_gcn_seqno_hierarchy.generic_name_short,
+-- 	dim_gcn_seqno_hierarchy.strength_long_desc,
+-- 	quantities,
+-- 	sum(fills) as fills,
+-- 	sum(revenue) as revenue,
+-- 	sum(cogs) as cogs	
+-- FROM
+-- 	fills
+-- JOIN
+-- 	dwh.dim_gcn_seqno_hierarchy on fills.gcn = dim_gcn_seqno_hierarchy.gcn
+-- WHERE
+-- 	order_date >= '2019-11-01'
+-- 	AND order_date <= '2020-01-31'
+-- 	AND pharmacy_network_name = 'delivery'
+-- group BY
+-- 	1,2,3,4
+-- order BY
+-- 	sum(revenue) desc
+-- 	
+-- 	
+-- ;
 
-SELECT
-	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
-	foi.order_id,
-	foi.med_id,
-	foi.pharmacy_network_name, -- blink , supersaver or delivery 
-	foi.last_claim_pharmacy_name_approved as pharmacy_name,
-	quantity,
-	coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float AS revenue,	
-	coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float AS cogs
-FROM
-	dwh.fact_order_item foi
-WHERE
-	foi.order_id = 5304315940095380907
+-- SELECT
+-- 	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
+-- 	foi.order_id,
+-- 	foi.med_id,
+-- 	foi.pharmacy_network_name, -- blink , supersaver or delivery 
+-- 	foi.last_claim_pharmacy_name_approved as pharmacy_name,
+-- 	quantity,
+-- 	coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float AS revenue,	
+-- 	coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float AS cogs
+-- FROM
+-- 	dwh.fact_order_item foi
+-- WHERE
+-- 	foi.order_id = 5304315940095380907
 
-select * from api_scraper_external.goodrx_price_raw;
+-- select * from api_scraper_external.goodrx_price_raw;
 
 
-select * from transactional.available_med limit 100;
+-- select * from transactional.available_med limit 100;
 
-select mf2ndc.*,mf2prc.*  from medispan.mf2prc join medispan.mf2ndc on mf2ndc.ndc_upc_hri = mf2prc.ndc_upc_hri where mf2prc.last_change_date::TIMESTAMP::date > '2019-12-01' limit 100;
+-- select mf2ndc.*,mf2prc.*  from medispan.mf2prc join medispan.mf2ndc on mf2ndc.ndc_upc_hri = mf2prc.ndc_upc_hri where mf2prc.last_change_date::TIMESTAMP::date > '2019-12-01' limit 100;
 
 
 
@@ -129,27 +129,32 @@ WHERE
 	AND foi.quantity != foi.last_claim_quantity_approved
 	AND foi.gcn != foi.last_claim_gcn_approved
 	AND fill_date > '2019-10-01'
-	
+	;
 	
 	
 SELECT
-	foi.last_pbm_adjudication_timestamp_approved::timestamp::date as order_date,
-	foi.order_id,
-	foi.dw_user_id,
-	foi.med_id,
-	foi.account_id,
-	quantity,
-	coalesce(last_claim_med_price_approved, 0) ::float + coalesce(last_claim_reimburse_program_discount_amount_approved, 0) ::float AS revenue,	
-	coalesce(foi.last_pricing_total_cost_approved, 0)::float + coalesce(foi.last_claim_wmt_true_up_amount_approved, 0)::float AS cogs
+	f_gcn.gcn,
+	f_gcn.generic_name_short,
+	f_gcn.strength,
+	f_gcn.gcn_seqno,		
+	sum(1) as fills
 FROM
 	dwh.fact_order_item foi
 	LEFT JOIN dwh.dim_user AS du ON foi.account_id = du.account_id
 		AND du.is_internal = FALSE
 		AND du.is_phantom = FALSE
+	LEFT JOIN dwh.dim_medid_hierarchy dmh ON foi.generic_medid = dmh.medid
+	LEFT JOIN dwh.dim_gcn_seqno_hierarchy f_gcn ON foi.last_claim_gcn_seqno_approved = f_gcn.gcn_seqno
+	LEFT JOIN dwh.dim_pharmacy_hierarchy dph ON dph.ncpdp_relationship_npi = foi.last_claim_pharmacy_npi_approved
 WHERE foi.fill_sequence IS NOT NULL
+AND lower(dph.pharmacy_city) like '%baytown%' 
 AND foi.is_fraud = FALSE
-AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '180 day' >= CURRENT_DATE
-AND foi.med_id in (579341,587566)
+AND foi.last_pbm_adjudication_timestamp_approved::timestamp::date + INTERVAL '720 day' >= CURRENT_DATE
+GROUP BY
+	1,2,3,4
+ORDER BY
+	fills DESC;
+
 
 	
 

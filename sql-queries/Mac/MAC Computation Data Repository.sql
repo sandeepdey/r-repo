@@ -1,114 +1,119 @@
 -- Get Medispan Data At GCI Level
 
--- drop table if exists pricing_dev.mac_automation_gpi_medispan_list;
--- create table pricing_dev.mac_automation_gpi_medispan_list AS 
--- SELECT
--- 	gpi,
--- 	max(label_name) as label_name
--- FROM
--- 	dwh.dim_ndc_current_price_data
--- WHERE
--- 	orange_book_code IN('AA', 'AB', 'AN', 'AO', 'AP', 'AT', 'ZA', 'ZC')
--- 	AND repackager_indicator = '0'
--- 	AND (obsolete_date >= CURRENT_DATE - 730 OR obsolete_date IS NULL)
--- 	AND multi_source_code = 'Y'
--- 	AND NOT lower(gpi) like  '%e%'
--- GROUP BY
--- 	1
--- ;
--- GRANT SELECT ON pricing_dev.mac_automation_gpi_medispan_list TO "public";
--- select count(*) from pricing_dev.mac_automation_gpi_medispan_list;
+drop table if exists pricing_dev.mac_automation_gpi_medispan_list;
+create table pricing_dev.mac_automation_gpi_medispan_list AS 
+SELECT
+	gpi,
+	max(label_name) as label_name
+FROM
+	dwh.dim_ndc_current_price_data
+WHERE
+	orange_book_code IN('AA', 'AB', 'AN', 'AO', 'AP', 'AT', 'ZA', 'ZC')
+	AND repackager_indicator = '0'
+	AND (obsolete_date >= CURRENT_DATE - 730 OR obsolete_date IS NULL)
+	AND multi_source_code = 'Y'
+	AND NOT lower(gpi) like  '%e%'
+GROUP BY
+	1
+;
+GRANT SELECT ON pricing_dev.mac_automation_gpi_medispan_list TO "public";
+GRANT ALL ON pricing_dev.mac_automation_gpi_medispan_list TO scott, sandeepd;
+
+select count(*) from pricing_dev.mac_automation_gpi_medispan_list;
 
 
 -- Get PAC Data from Gold Standard / Glassbox
 
--- drop table if exists pricing_dev.mac_automation_pac_data_gpi;
--- create table pricing_dev.mac_automation_pac_data_gpi as 
--- SELECT
--- 	gpi,
--- 	label_name,
--- 	pac,
--- 	pac_low,
--- 	pac_high,
--- 	pac_retail
--- FROM pricing_dev.mac_automation_gpi_medispan_list  
--- INNER JOIN gold_standard.pac_ms 
--- 	ON pac_ms.drug_identifier = mac_automation_gpi_medispan_list.gpi 
--- 	AND brand_generic = 'Generic'
--- 	AND identifier_type = 'GPI'
--- 	AND downloaded_date = CURRENT_DATE-1
--- GROUP BY 1,2,3,4,5,6
--- ;
--- GRANT SELECT ON pricing_dev.mac_automation_pac_data_gpi TO "public";
--- select count(*) from pricing_dev.mac_automation_pac_data_gpi;
+drop table if exists pricing_dev.mac_automation_pac_data_gpi;
+create table pricing_dev.mac_automation_pac_data_gpi as 
+SELECT
+	gpi,
+	label_name,
+	pac,
+	pac_low,
+	pac_high,
+	pac_retail
+FROM pricing_dev.mac_automation_gpi_medispan_list  
+INNER JOIN gold_standard.pac_ms 
+	ON pac_ms.drug_identifier = mac_automation_gpi_medispan_list.gpi 
+	AND brand_generic = 'Generic'
+	AND identifier_type = 'GPI'
+	AND downloaded_date = CURRENT_DATE-1
+GROUP BY 1,2,3,4,5,6
+;
+GRANT SELECT ON pricing_dev.mac_automation_pac_data_gpi TO "public";
+GRANT ALL ON pricing_dev.mac_automation_pac_data_gpi TO scott, sandeepd;
+select count(*) from pricing_dev.mac_automation_pac_data_gpi;
 
 -- Get Initial Blended Mac Data for Generic Drugs
 
--- drop table if exists pricing_dev.mac_automation_init_mac_blended_weights;
--- create table pricing_dev.mac_automation_init_mac_blended_weights as 
--- SELECT 
--- 	gpi,
--- 	label_name,
--- 	pac,
--- 	pac_low,
--- 	pac_high,
--- 	pac_retail,
--- 	mac_list,
--- 	pac_low*pac_low_wt + pac*pac_wt + pac_high*pac_high_wt + pac_retail*pac_retail_wt  as initial_blend_mac
--- FROM
--- 	pricing_dev.mac_automation_pac_data_gpi
--- 	LEFT OUTER JOIN pricing_dev.mac_blended_weights ON 1=1 -- Makes a Full Outer Join
--- ;
--- GRANT SELECT ON pricing_dev.mac_automation_init_mac_blended_weights TO "public";
--- select count(*) from pricing_dev.mac_automation_init_mac_blended_weights;
+drop table if exists pricing_dev.mac_automation_init_mac_blended_weights;
+create table pricing_dev.mac_automation_init_mac_blended_weights as 
+SELECT 
+	gpi,
+	label_name,
+	pac,
+	pac_low,
+	pac_high,
+	pac_retail,
+	mac_list,
+	pac_low*pac_low_wt + pac*pac_wt + pac_high*pac_high_wt + pac_retail*pac_retail_wt  as initial_blend_mac
+FROM
+	pricing_dev.mac_automation_pac_data_gpi
+	LEFT OUTER JOIN pricing_dev.mac_blended_weights ON 1=1 -- Makes a Full Outer Join
+;
+GRANT SELECT ON pricing_dev.mac_automation_init_mac_blended_weights TO "public";
+GRANT ALL ON pricing_dev.mac_automation_init_mac_blended_weights TO scott, sandeepd;
+select count(*) from pricing_dev.mac_automation_init_mac_blended_weights;
 
 
 -- Get Utilization Data for Generic Drugs
 
--- drop table if exists pricing_dev.mac_automation_claim_data;
--- create table pricing_dev.mac_automation_claim_data as 
--- SELECT
--- -- 		transactional_claim_id,
--- -- 		last_pbm_adjudication_timestamp_approved::date,
--- -- 		last_claim_pharmacy_npi_approved,
--- -- 		ncpdp_relationship_id,
--- -- 		ncpdp_relationship_name,
--- 	dim_ndc_hierarchy.gpi as gpi,
--- 	last_claim_quantity_approved,
--- 	CASE 
--- 		WHEN last_claim_pharmacy_npi_approved=1811906720  THEN 'BLINKSYRx01'
--- 		WHEN drug_price_list is null THEN 'BLINK01'
--- 		ELSE drug_price_list
--- 	END AS mac_list,
--- 	last_claim_days_supply_approved,
--- 	last_pricing_total_cost_approved,
--- 	order_claim.last_claim_gcn_approved,
--- 	last_claim_awp_unit_price_approved,
--- 	last_claim_awp_amount_approved,
--- 	last_pricing_ingredient_cost_approved,
--- 	last_pricing_unc_cost_approved,
--- 	last_pricing_dispensing_fee_approved,
--- 	case when medispan_multi_source_code = 'Y' then 'Generic' else 'Brand' end  AS brand_generic_type,
--- 	CASE
--- 		WHEN COALESCE(last_pricing_ingredient_cost_approved,0)+COALESCE(last_pricing_dispensing_fee_approved,0)=COALESCE(last_pricing_unc_cost_approved,0) THEN TRUE
--- 		ELSE FALSE
--- 	END AS usual_and_customary,
--- 	NOT(mac_automation_gpi_medispan_list.gpi is NULL) AS is_mac_gpi
--- FROM dwh.fact_order_item  AS order_claim
--- LEFT JOIN dwh.dim_ndc_hierarchy  AS dim_ndc_hierarchy ON order_claim.last_claim_ndc_approved = dim_ndc_hierarchy.ndc
--- LEFT JOIN dwh.dim_user  AS dim_user ON order_claim.dw_user_id = dim_user.dw_user_id and order_claim.account_id = dim_user.account_id
--- LEFT JOIN dwh.dim_pharmacy_hierarchy  AS pharmacy ON order_claim.last_claim_pharmacy_npi_approved = pharmacy.pharmacy_npi
--- LEFT JOIN pricing_dev.blink_network_20200127v2 ON ncpdp_relationship_id = chain_code
--- LEFT JOIN pricing_dev.mac_automation_gpi_medispan_list ON mac_automation_gpi_medispan_list.gpi = dim_ndc_hierarchy.gpi
--- WHERE order_claim.last_pbm_adjudication_timestamp_approved::date > CURRENT_DATE - 90 
---  	AND dim_user.is_internal = false 
---  	AND dim_user.is_phantom = false 
---  	AND order_claim.is_fraud = FALSE
--- ;
--- GRANT SELECT ON pricing_dev.mac_automation_claim_data TO "public";
--- select count(*) from pricing_dev.mac_automation_claim_data;
+drop table if exists pricing_dev.mac_automation_claim_data;
+create table pricing_dev.mac_automation_claim_data as 
+SELECT
+	transactional_claim_id,
+	last_pbm_adjudication_timestamp_approved::date,
+	last_claim_pharmacy_npi_approved,
+	ncpdp_relationship_id,
+	ncpdp_relationship_name,
+	dim_ndc_hierarchy.gpi as gpi,
+	last_claim_quantity_approved,
+	CASE 
+		WHEN last_claim_pharmacy_npi_approved=1811906720  THEN 'BLINKSYRx01'
+		WHEN drug_price_list is null THEN 'BLINK01'
+		ELSE drug_price_list
+	END AS mac_list,
+	last_claim_days_supply_approved,
+	last_pricing_total_cost_approved,
+	order_claim.last_claim_gcn_approved,
+	last_claim_awp_unit_price_approved,
+	last_claim_awp_amount_approved,
+	last_pricing_ingredient_cost_approved,
+	last_pricing_unc_cost_approved,
+	last_pricing_dispensing_fee_approved,
+	case when medispan_multi_source_code = 'Y' then 'Generic' else 'Brand' end  AS brand_generic_type,
+	CASE
+		WHEN COALESCE(last_pricing_ingredient_cost_approved,0)+COALESCE(last_pricing_dispensing_fee_approved,0)=COALESCE(last_pricing_unc_cost_approved,0) THEN TRUE
+		ELSE FALSE
+	END AS usual_and_customary,
+	NOT(mac_automation_gpi_medispan_list.gpi is NULL) AS is_mac_gpi
+FROM dwh.fact_order_item  AS order_claim
+LEFT JOIN dwh.dim_ndc_hierarchy  AS dim_ndc_hierarchy ON order_claim.last_claim_ndc_approved = dim_ndc_hierarchy.ndc
+LEFT JOIN dwh.dim_user  AS dim_user ON order_claim.dw_user_id = dim_user.dw_user_id and order_claim.account_id = dim_user.account_id
+LEFT JOIN dwh.dim_pharmacy_hierarchy  AS pharmacy ON order_claim.last_claim_pharmacy_npi_approved = pharmacy.pharmacy_npi
+LEFT JOIN pricing_dev.blink_network_20200127v2 ON ncpdp_relationship_id = chain_code
+LEFT JOIN pricing_dev.mac_automation_gpi_medispan_list ON mac_automation_gpi_medispan_list.gpi = dim_ndc_hierarchy.gpi
+WHERE order_claim.last_pbm_adjudication_timestamp_approved::date >= '2019-01-01' --CURRENT_DATE - 180 
+ 	AND dim_user.is_internal = false 
+ 	AND dim_user.is_phantom = false 
+ 	AND order_claim.is_fraud = FALSE
+;
+GRANT SELECT ON pricing_dev.mac_automation_claim_data TO "public";
+GRANT ALL ON pricing_dev.mac_automation_claim_data TO scott, sandeepd;
+select count(*) from pricing_dev.mac_automation_claim_data;
 
-
+select last_pbm_adjudication_timestamp_approved::date, count(*) from pricing_dev.mac_automation_claim_data group by 1 order by 1 desc;
 
 
 -- For each Network get Sum AWP, GER Perf Target , Frozen _ Blended Init Macs, None Frozen _ Blended Init Macs, 
@@ -163,9 +168,6 @@ FROM
 ;
 GRANT SELECT ON pricing_dev.mac_automation_applicable_utilization TO "public";
 select count(*) from pricing_dev.mac_automation_applicable_utilization;
-
-
-
 
 
 with data as (
@@ -285,5 +287,21 @@ from
 -- GRANT SELECT ON pricing_dev.mac_computation_utilization_info TO "public";
 -- select count(*) from pricing_dev.mac_computation_utilization_info;
 
+SELECT
+	gpi,orange_book_code,repackager_indicator,obsolete_date,multi_source_code
+	FROM
+	dwh.dim_ndc_current_price_data
+WHERE
+	gpi=82300010000630
+	
+;
+-- 	orange_book_code IN('AA', 'AB', 'AN', 'AO', 'AP', 'AT', 'ZA', 'ZC')
+-- 	AND repackager_indicator = '0'
+-- 	AND (obsolete_date >= CURRENT_DATE - 730 OR obsolete_date IS NULL)
+-- 	AND multi_source_code = 'Y'
+-- 	AND NOT lower(gpi) like  '%e%'
+-- GROUP BY
+-- 	1
 
+select * from api_scraper_external.competitor_pricing where gcn=18126 and date > '2020-01-01' 
 
