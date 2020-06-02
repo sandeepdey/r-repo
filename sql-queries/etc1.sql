@@ -1,3 +1,90 @@
+select * from dwh.dim_pharmacy_hierarchy where pharmacy_npi=1346883881 limit 10;
+
+
+select coupon_network,date,count(*) from pricing_external_dev.goodrx_raw_data
+WHERE
+    date >= '2020-01-01' 
+    AND gcn IS NOT NULL AND geo='houston' group by 1,2
+    
+;
+
+SELECT
+    gcn,
+    quantity,quantity*uou_multiplier,
+    min(iif_(pharmacy='brookshires',price,10000000)) brookshires_prices,
+    max(iif_(pharmacy='other_pharmacies',price,-1)) independents_prices
+FROM
+    pricing_external_dev.goodrx_raw_data
+WHERE
+    date > '2020-05-01'
+    AND geo = 'tyler_tx'
+    AND gcn in ('1772',
+'2363',
+'4750',
+'10194',
+'10194',
+'10194',
+'10194',
+'14007',
+'14280',
+'14853',
+'20736',
+'22880',
+'22913',
+'23831',
+'26322',
+'26322',
+'26323',
+'26323',
+'26324',
+'26324',
+'26587',
+'31630',
+'31640',
+'31640',
+'50272',
+'68811',
+'95347')
+GROUP BY
+    1,
+    2,
+    3
+ORDER BY
+    1,
+    2,
+    3;
+	
+select gcn,quantity,uou_multiplier,min(price) from pricing_external_dev.goodrx_raw_data where date > '2020-05-01'
+    AND geo = 'tyler_tx' and pharmacy='brookshires'
+    AND gcn in ('26324',
+'10194',
+'26322',
+'10194',
+'22913',
+'26322',
+'14007',
+'31640',
+'26324',
+'23831',
+'13975',
+'1772',
+'54201',
+'22880',
+'86211',
+'32480',
+'32481',
+'31630',
+'14280',
+'26587') group by 1,2,3;
+
+
+
+(select distinct gcn,quantity
+	FROM
+		fifo.magic_fact_order_claim where quantity> 0)
+		
+
+
 
 
 select * from 
