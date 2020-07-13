@@ -66,26 +66,29 @@ class ScraperRequest:
             'https': super_proxy_url,
         }
 
-    def __init__(self, base_url, extra_headers=None, extra_cookies=None):
+    def __init__(self, base_url, extra_headers=None, extra_cookies=None,useProxy=False):
         logger.info('Initiating Scraper')
         if extra_headers is not None:
             self._headers.update(extra_headers)
         if extra_cookies is not None:
             self._cookie_jar.update(extra_cookies)
-        logger.info(str(self._headers))
+        self._useProxy = useProxy
         self._get_response(base_url)
         self._session.headers.update(self._headers)
         return
 
     def _get_response(self, url):
-        logger.info(str(self._cookie_jar.items()))
+        # logger.info(str(self._cookie_jar.items()))
         self._requests_made += 1
-        if self._proxies is None or self._requests_made % 5 == 0:
+        if self._useProxy and (self._proxies is None or self._requests_made % 5 == 0):
+            logger.info('Setting Up Proxy')
             self._proxies = self.get_proxy_url()
             time.sleep(1)
-            logger.info('Setting Up Proxy')
-        response = self._session.get(url, cookies=self._cookie_jar, headers=self._headers, proxies=self._proxies)
-        logger.info('Url Response : %s : %s ' % (response.status_code, url))
+        if self._useProxy :
+            response = self._session.get(url, cookies=self._cookie_jar, headers=self._headers, proxies=self._proxies)
+        else :
+            response = self._session.get(url, cookies=self._cookie_jar, headers=self._headers)
+        # logger.info('Url Response : %s : %s ' % (response.status_code, url))
         return response
 
     def get_parsed_html(self, url):

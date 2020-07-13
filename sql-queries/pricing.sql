@@ -30,6 +30,8 @@ select winn.gcn, winn.quantity, winn.price as winn_price, bksh.price as bksh_pri
 	INNER join heb on winn.gcn = heb.gcn and winn.quantity = heb.quantity 
 ;
 
+select geo,count(*) from pricing_external_dev.goodrx_raw_data where date > '2020-05-01' group by 1;
+
 
 select
 	gcn,quantity,min(price) as price	
@@ -43,6 +45,7 @@ WHERE
 group by 1,2
 ;
 
+select adjustment, mac_list, update_id from mac_pricing.mac_list_metrics where mac_list in ('BLINKWMT01') order by 2,3;
 
 SELECT * from api_scraper_external.competitor_pricing where date= '2020-05-12' and pharmacy in ('winn_dixie') limit 10;
 

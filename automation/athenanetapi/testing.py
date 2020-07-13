@@ -3,16 +3,29 @@
 import athenahealthapi
 import pprint
 import datetime
-# from utilities.read_write_utilities import write_to_csv, read_csv
+from utilities.read_write_utilities import write_to_csv, read_csv
 
 ####################################################################################################
 # Setup
 ####################################################################################################
-key = 'ycxghhrqecd35qyhk7eurrmt'
-secret = 'B4JbfXHQGsjhUx3'
-version = 'preview1'
-practiceid = 195900 #sandbox practiceid
+# Sandbox
+# key = 'ycxghhrqecd35qyhk7eurrmt'
+# secret = 'B4JbfXHQGsjhUx3'
+# practiceid = 195900 #sandbox practiceid
+# version = 'preview1'
+
+# dev / staging
+# key = 'js92kc6r7e4bs2wsm3x4bbz9'
+# secret = 'VfgwSnKfFHhvCf5'
 # practiceid = 1959388
+# version = 'preview1'
+
+#prod
+key = 'u9jae89mya5fvpdhs6pxqtth'
+secret = 'g5Eqsk63Wc3K5tE'
+practiceid = 8042
+version = 'v1'
+
 write_out_dir = '/Users/sandeep.dey/Documents/data/athenanetapi'
 today = datetime.date.today()
 lastyear = datetime.date.today() - datetime.timedelta(days=30)
@@ -36,7 +49,7 @@ def get_departments():
         'showalldepartments': True
     })
     print_response(departments)
-    # write_to_csv(write_out_dir+'/departments.csv',departments['departments'])
+    write_to_csv(write_out_dir+'/departments.csv',departments['departments'])
     return departments['departments']
 
 
@@ -86,13 +99,15 @@ def get_patient_medications(patientid,departmentid):
         'departmentid' : departmentid
     })
     header = ['clinicalordertypeid','fdbmedicationid','issafetorenew','medication','medicationentryid','medicationid','source','therapeuticclass','unstructuredsig']
-    # print_response(medications)
+    print_response(medications)
     flattened_med_list = [item for sublist in  medications['medications'] for item in sublist]
     # write_to_csv(filename=write_out_dir+'/medications.csv', data=flattened_med_list, header=header)
     return flattened_med_list
 
-
-
+def get_patient_information(patientid):
+    patients = api.GET('/patients/%s'%patientid,{
+    })
+    print_response(patients)
 
 
 ####################################################################################################
@@ -107,13 +122,19 @@ def get_patient_medications(patientid,departmentid):
 # GET with parameters
 ####################################################################################################
 
+# get_patient_information(6335)
 
-# departments = get_departments()
+# get_patient_medications(6335,150)
+departments = get_departments()
 # appointments = [item for department in departments for item in get_appointments(department)]
 # write_to_csv(write_out_dir + '/appointments.csv', appointments)
+# dep = get_appointments()
 
-# data = read_csv(write_out_dir + '/appointments.csv')
-
+# data = read_csv(write_out_dir + 'archive/appointments.csv')
+# print_response(data)
+# patient_map =  {d['patientid'] : d['departmentid'] for d in data}
+#for i in patient_map.keys():
+#    print(i + "\t-\t" + patient_map[i])
 # get_patient_default_pharmacy(1,21)
 
 # put_patient_default_pharmacy(1,21)
